@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Monitoreo/MasterMonitoreo.master" AutoEventWireup="false" CodeBehind="MasterMonitoreo1.master.vb" Inherits="SistFoncreagro.WebSite.MasterMonitoreo1" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+
+    <style type="text/css">
+        .style4
+        {
+            height: 19px;
+        }
+          
+    </style>
+
+    </asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+   
+    <table cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+            <td class="style4">
+            
+             <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+           
+               
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                    ShowStartingNode="False" SiteMapProvider="Contabilidad" />
+            </td>
+        </tr>
+        </table>
+  
+</asp:Content>

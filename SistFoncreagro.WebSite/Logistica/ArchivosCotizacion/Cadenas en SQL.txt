@@ -1,0 +1,43 @@
+CREATE TRIGGER AfterInsertPersonal
+ON [dbo].[PERSONAL]
+AFTER INSERT
+AS
+BEGIN
+	DECLARE @IdPersonal int,
+			@ApePaterno varchar(30),
+			@Nombres varchar(30),
+			@NuevoNombreUsuario varchar(20),
+			@NombreRegistrado varchar(20)
+			
+			
+	SELECT 	@IdPersonal = [i].[IdPersonal],
+			@ApePaterno = [i].[ApePaterno],
+			@Nombres = [i].[Nombres]
+	FROM	[inserted] [i]
+	
+	SELECT @NuevoNombreUsuario = LOWER(LEFT(Nombres,1) + REPLACE(@ApePaterno, ' ',''))
+	FROM dbo.PERSONAL WHERE IdPersonal = @IdPersonal
+	
+	SELECT LOWER(LEFT(Nombres,1) + REPLACE(ApePaterno, ' ',''))
+	FROM dbo.PERSONAL WHERE IdPersonal = @IdPersonal
+	
+	SELECT @NombreRegistrado = TOP 1 (NombreUsuario) FROM dbo.PERSONAL
+	
+	IF (REPLACE(@NuevoNombreUsuario, ' ','') = REPLACE(@NombreRegistrado, ' ',''))
+		BEGIN
+		
+			SELECT CONVERT(INT,RIGHT(NombreUsuario,1)) FROM dbo.PERSONAL
+			
+			SELECT ISNULL(CONVERT(INT,RIGHT(Nombres,1)),0) FROM dbo.PERSONAL
+			
+			SELECT	@Numero = RIGHT('0000000000' + 	
+			CONVERT(VARCHAR,ISNULL(MAX(CONVERT(Int,Numero)),0) + 1),10)	
+			FROM	dbo.REQUERIMIENTO
+			WHERE	Tipo = @Tipo
+			isnumb	
+		END
+	ELSE
+		BEGIN
+		END
+			
+END

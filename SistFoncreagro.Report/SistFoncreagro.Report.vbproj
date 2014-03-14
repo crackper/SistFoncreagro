@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{698B49D6-314C-4D43-91C6-CD19A2A1CCE6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SistFoncreagro.Report</RootNamespace>
+    <AssemblyName>SistFoncreagro.Report</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SistFoncreagro.Report.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SistFoncreagro.Report.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Telerik.Reporting, Version=5.0.11.316, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegistroCompras.Designer.vb">
+      <DependentUpon>RegistroCompras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroCompras.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RegistroHonorarios.Designer.vb">
+      <DependentUpon>RegistroHonorarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroHonorarios.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RegistroVentas.Designer.vb">
+      <DependentUpon>RegistroVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroVentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepActividadesXCaserio.Designer.vb">
+      <DependentUpon>RepActividadesXCaserio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepActividadesXCaserio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepActivo.Designer.vb">
+      <DependentUpon>RepActivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepActivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepAdquisicionesPry.Designer.vb">
+      <DependentUpon>RepAdquisicionesPry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepAdquisicionesPry.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepAnaliticoCCosto.designer.vb">
+      <DependentUpon>RepAnaliticoCCosto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepAnaliticoCCosto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepAnaliticoCCosto1.Designer.vb">
+      <DependentUpon>RepAnaliticoCCosto1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepAnaliticoCCosto1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepAnaliticoCuenta.Designer.vb">
+      <DependentUpon>RepAnaliticoCuenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepAnaliticoCuenta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepAnticiposRendiciones.Designer.vb">
+      <DependentUpon>RepAnticiposRendiciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepAnticiposRendiciones.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBajaBienes.Designer.vb">
+      <DependentUpon>RepBajaBienes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBajaBienes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceCombrobacionXareaSubDivisionaria.Designer.vb">
+      <DependentUpon>RepBalanceCombrobacionXareaSubDivisionaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceCombrobacionXareaSubDivisionaria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceComprobacion.Designer.vb">
+      <DependentUpon>RepBalanceComprobacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceComprobacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionAcumuladoNivelDetalle.Designer.vb">
+      <DependentUpon>RepBalanceComprobacionAcumuladoNivelDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionAcumuladoNivelDetalle.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionAcumuladoNivelMayor.Designer.vb">
+      <DependentUpon>RepBalanceComprobacionAcumuladoNivelMayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionAcumuladoNivelMayor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionAcumuladoNivelSubDivisionaria.Designer.vb">
+      <DependentUpon>RepBalanceComprobacionAcumuladoNivelSubDivisionaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionAcumuladoNivelSubDivisionaria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionXarea.Designer.vb">
+      <DependentUpon>RepBalanceComprobacionXarea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionXarea.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionXareaMayor.Designer.vb">
+      <DependentUpon>RepBalanceComprobacionXareaMayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceComprobacionXareaMayor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceFlujoEfectivoMayor.Designer.vb">
+      <DependentUpon>RepBalanceFlujoEfectivoMayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceFlujoEfectivoMayor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceFlujoEfectivoSubDivisionaria.Designer.vb">
+      <DependentUpon>RepBalanceFlujoEfectivoSubDivisionaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceFlujoEfectivoSubDivisionaria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceFlujoEfectivoSubdivisionaria1.Designer.vb">
+      <DependentUpon>RepBalanceFlujoEfectivoSubdivisionaria1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceFlujoEfectivoSubdivisionaria1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBalanceGeneral.Designer.vb">
+      <DependentUpon>RepBalanceGeneral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBalanceGeneral.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBeneficiariosActividad.Designer.vb">
+      <DependentUpon>RepBeneficiariosActividad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBeneficiariosActividad.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBienesInmuebles.Designer.vb">
+      <DependentUpon>RepBienesInmuebles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBienesInmuebles.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBienesMuebles.Designer.vb">
+      <DependentUpon>RepBienesMuebles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBienesMuebles.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBienesMueblesArea.Designer.vb">
+      <DependentUpon>RepBienesMueblesArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBienesMueblesArea.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepBoletaVenta.Designer.vb">
+      <DependentUpon>RepBoletaVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepBoletaVenta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepCajaBancos.Designer.vb">
+      <DependentUpon>RepCajaBancos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepCajaBancos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepCajaBancos1.Designer.vb">
+      <DependentUpon>RepCajaBancos1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepCajaBancos1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepCCostoXProyecto.Designer.vb">
+      <DependentUpon>RepCCostoXProyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepCCostoXProyecto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepClimaSocial.Designer.vb">
+      <DependentUpon>RepClimaSocial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepClimaSocial.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepConciliacionBancaria.Designer.vb">
+      <DependentUpon>RepConciliacionBancaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepConciliacionBancaria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepConsolidadoGastos.Designer.vb">
+      <DependentUpon>RepConsolidadoGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepConsolidadoGastos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepContabilizacionFondoFijo.Designer.vb">
+      <DependentUpon>RepContabilizacionFondoFijo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepContabilizacionFondoFijo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepCopiasSunat.Designer.vb">
+      <DependentUpon>RepCopiasSunat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepCopiasSunat.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepCuentasPagarCobrar.Designer.vb">
+      <DependentUpon>RepCuentasPagarCobrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepCuentasPagarCobrar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepDepreciacionActivo.Designer.vb">
+      <DependentUpon>RepDepreciacionActivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepDepreciacionActivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepDetracciones.Designer.vb">
+      <DependentUpon>RepDetracciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepDetracciones.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepDocFondoFijo.Designer.vb">
+      <DependentUpon>RepDocFondoFijo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepDocFondoFijo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepEstadoCompromisos.Designer.vb">
+      <DependentUpon>RepEstadoCompromisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepEstadoCompromisos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepEstadoIngresosGastos.Designer.vb">
+      <DependentUpon>RepEstadoIngresosGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepEstadoIngresosGastos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepExistencias.Designer.vb">
+      <DependentUpon>RepExistencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepExistencias.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepFacturaVenta.Designer.vb">
+      <DependentUpon>RepFacturaVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepFacturaVenta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepFlujoEfectivo.Designer.vb">
+      <DependentUpon>RepFlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepFlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepFlujoEfectivo1.Designer.vb">
+      <DependentUpon>RepFlujoEfectivo1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepFlujoEfectivo1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepGastos.Designer.vb">
+      <DependentUpon>RepGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepGastos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepGastosXCaserio.Designer.vb">
+      <DependentUpon>RepGastosXCaserio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepGastosXCaserio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepGeneracionEmpleo.Designer.vb">
+      <DependentUpon>RepGeneracionEmpleo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepGeneracionEmpleo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repkardex.Designer.vb">
+      <DependentUpon>Repkardex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repkardex.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepKardexDetallado.Designer.vb">
+      <DependentUpon>RepKardexDetallado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepKardexDetallado.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepLibroCajaBanco.Designer.vb">
+      <DependentUpon>RepLibroCajaBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepLibroCajaBanco.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepLibroDiario.Designer.vb">
+      <DependentUpon>RepLibroDiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepLibroDiario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepLibroMayor.Designer.vb">
+      <DependentUpon>RepLibroMayor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepLibroMayor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepListaRetencionesCuarta.Designer.vb">
+      <DependentUpon>RepListaRetencionesCuarta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepListaRetencionesCuarta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepMovCtaProveedores.Designer.vb">
+      <DependentUpon>RepMovCtaProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepMovCtaProveedores.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepMovCuentas.Designer.vb">
+      <DependentUpon>RepMovCuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepMovCuentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepMovSemovientes.Designer.vb">
+      <DependentUpon>RepMovSemovientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepMovSemovientes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota10.Designer.vb">
+      <DependentUpon>RepNota10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota10.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota11.Designer.vb">
+      <DependentUpon>RepNota11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota11.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota12.Designer.vb">
+      <DependentUpon>RepNota12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota12.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota13.Designer.vb">
+      <DependentUpon>RepNota13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota13.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota14.Designer.vb">
+      <DependentUpon>RepNota14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota14.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota15.Designer.vb">
+      <DependentUpon>RepNota15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota15.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota16.Designer.vb">
+      <DependentUpon>RepNota16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota16.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota17.Designer.vb">
+      <DependentUpon>RepNota17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota17.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota18.Designer.vb">
+      <DependentUpon>RepNota18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota18.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota19.Designer.vb">
+      <DependentUpon>RepNota19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota19.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota20.Designer.vb">
+      <DependentUpon>RepNota20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota20.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota21.Designer.vb">
+      <DependentUpon>RepNota21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota21.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota22.Designer.vb">
+      <DependentUpon>RepNota22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota22.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota23.Designer.vb">
+      <DependentUpon>RepNota23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota23.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota24.Designer.vb">
+      <DependentUpon>RepNota24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota24.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota25.Designer.vb">
+      <DependentUpon>RepNota25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota25.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota26.Designer.vb">
+      <DependentUpon>RepNota26.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota26.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota27.Designer.vb">
+      <DependentUpon>RepNota27.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota27.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota28.Designer.vb">
+      <DependentUpon>RepNota28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota28.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota29.Designer.vb">
+      <DependentUpon>RepNota29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota29.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota3.Designer.vb">
+      <DependentUpon>RepNota3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota30.Designer.vb">
+      <DependentUpon>RepNota30.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota30.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota31.Designer.vb">
+      <DependentUpon>RepNota31.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota31.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota32.Designer.vb">
+      <DependentUpon>RepNota32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota32.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota33.Designer.vb">
+      <DependentUpon>RepNota33.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota33.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota34.Designer.vb">
+      <DependentUpon>RepNota34.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota34.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota3FlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNota3FlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota3FlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota4.Designer.vb">
+      <DependentUpon>RepNota4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota4.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota4FlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNota4FlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota4FlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota5.Designer.vb">
+      <DependentUpon>RepNota5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota5FlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNota5FlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota5FlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota6.Designer.vb">
+      <DependentUpon>RepNota6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota6.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota6FlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNota6FlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota6FlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota7.Designer.vb">
+      <DependentUpon>RepNota7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota7.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota7FlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNota7FlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota7FlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota8.Designer.vb">
+      <DependentUpon>RepNota8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota8.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota8FlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNota8FlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota8FlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNota9.Designer.vb">
+      <DependentUpon>RepNota9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNota9.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNotasBalance.Designer.vb">
+      <DependentUpon>RepNotasBalance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNotasBalance.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepNotasFlujoEfectivo.Designer.vb">
+      <DependentUpon>RepNotasFlujoEfectivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepNotasFlujoEfectivo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report1.Designer.vb">
+      <DependentUpon>Report1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteCompras1.Designer.vb">
+      <DependentUpon>ReporteCompras1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCompras1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteComprobantesFinal.Designer.vb">
+      <DependentUpon>ReporteComprobantesFinal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteComprobantesFinal.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteCurvaSporProyecto.Designer.vb">
+      <DependentUpon>ReporteCurvaSporProyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCurvaSporProyecto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteEstadoOcComprobantes.Designer.vb">
+      <DependentUpon>ReporteEstadoOcComprobantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteEstadoOcComprobantes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepPlanContable.Designer.vb">
+      <DependentUpon>RepPlanContable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepPlanContable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepPoa.Designer.vb">
+      <DependentUpon>RepPoa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepPoa.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepPoaMeses.Designer.vb">
+      <DependentUpon>RepPoaMeses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepPoaMeses.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepPoaTareas.Designer.vb">
+      <DependentUpon>RepPoaTareas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepPoaTareas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepProgramacionActividades.Designer.vb">
+      <DependentUpon>RepProgramacionActividades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepProgramacionActividades.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepRendicionVentas.Designer.vb">
+      <DependentUpon>RepRendicionVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepRendicionVentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepReposicionFondoFijo.Designer.vb">
+      <DependentUpon>RepReposicionFondoFijo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepReposicionFondoFijo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportOdenCompraServicio.Designer.vb">
+      <DependentUpon>ReportOdenCompraServicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOdenCompraServicio.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportOrdenCompraProducto.Designer.vb">
+      <DependentUpon>ReportOrdenCompraProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOrdenCompraProducto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportSolicitudCotizacion.Designer.vb">
+      <DependentUpon>ReportSolicitudCotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSolicitudCotizacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportSoulSource.Designer.vb">
+      <DependentUpon>ReportSoulSource.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSoulSource.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepResumenBeneficiarios.Designer.vb">
+      <DependentUpon>RepResumenBeneficiarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepResumenBeneficiarios.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepRetencionesCuarta.Designer.vb">
+      <DependentUpon>RepRetencionesCuarta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepRetencionesCuarta.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta12.Designer.vb">
+      <DependentUpon>RepSaldoCuenta12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta12.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta10.Designer.vb">
+      <DependentUpon>RepSaldoCuenta10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta10.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta14.Designer.vb">
+      <DependentUpon>RepSaldoCuenta14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta14.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta16.Designer.vb">
+      <DependentUpon>RepSaldoCuenta16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta16.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta19.Designer.vb">
+      <DependentUpon>RepSaldoCuenta19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta19.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta20.Designer.vb">
+      <DependentUpon>RepSaldoCuenta20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta20.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta40.Designer.vb">
+      <DependentUpon>RepSaldoCuenta40.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta40.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta41.Designer.vb">
+      <DependentUpon>RepSaldoCuenta41.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta41.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta42.Designer.vb">
+      <DependentUpon>RepSaldoCuenta42.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta42.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldoCuenta46.Designer.vb">
+      <DependentUpon>RepSaldoCuenta46.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldoCuenta46.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSaldosCuentaBancaria.Designer.vb">
+      <DependentUpon>RepSaldosCuentaBancaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSaldosCuentaBancaria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepSemovientes.Designer.vb">
+      <DependentUpon>RepSemovientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepSemovientes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepTabuladoMes.Designer.vb">
+      <DependentUpon>RepTabuladoMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepTabuladoMes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepTabuladoMesDetalle.Designer.vb">
+      <DependentUpon>RepTabuladoMesDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepTabuladoMesDetalle.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepVentas.Designer.vb">
+      <DependentUpon>RepVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepVentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepVotacion.Designer.vb">
+      <DependentUpon>RepVotacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RepVotacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VoucherCompras.Designer.vb">
+      <DependentUpon>VoucherCompras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherCompras.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VoucherDiario.Designer.vb">
+      <DependentUpon>VoucherDiario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherDiario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VoucherEgresos.Designer.vb">
+      <DependentUpon>VoucherEgresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherEgresos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VoucherHonorarios.Designer.vb">
+      <DependentUpon>VoucherHonorarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherHonorarios.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VoucherIngresos.Designer.vb">
+      <DependentUpon>VoucherIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherIngresos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VoucherVentas.Designer.vb">
+      <DependentUpon>VoucherVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherVentas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroCompras.resx">
+      <DependentUpon>RegistroCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroHonorarios.resx">
+      <DependentUpon>RegistroHonorarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroVentas.resx">
+      <DependentUpon>RegistroVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepActividadesXCaserio.resx">
+      <DependentUpon>RepActividadesXCaserio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepActivo.resx">
+      <DependentUpon>RepActivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAdquisicionesPry.resx">
+      <DependentUpon>RepAdquisicionesPry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAnaliticoCCosto.resx">
+      <DependentUpon>RepAnaliticoCCosto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAnaliticoCCosto1.resx">
+      <DependentUpon>RepAnaliticoCCosto1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAnaliticoCuenta.resx">
+      <DependentUpon>RepAnaliticoCuenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepAnticiposRendiciones.resx">
+      <DependentUpon>RepAnticiposRendiciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBajaBienes.resx">
+      <DependentUpon>RepBajaBienes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceCombrobacionXareaSubDivisionaria.resx">
+      <DependentUpon>RepBalanceCombrobacionXareaSubDivisionaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceComprobacion.resx">
+      <DependentUpon>RepBalanceComprobacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceComprobacionAcumuladoNivelDetalle.resx">
+      <DependentUpon>RepBalanceComprobacionAcumuladoNivelDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceComprobacionAcumuladoNivelMayor.resx">
+      <DependentUpon>RepBalanceComprobacionAcumuladoNivelMayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceComprobacionAcumuladoNivelSubDivisionaria.resx">
+      <DependentUpon>RepBalanceComprobacionAcumuladoNivelSubDivisionaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceComprobacionXarea.resx">
+      <DependentUpon>RepBalanceComprobacionXarea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceComprobacionXareaMayor.resx">
+      <DependentUpon>RepBalanceComprobacionXareaMayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceFlujoEfectivoMayor.resx">
+      <DependentUpon>RepBalanceFlujoEfectivoMayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceFlujoEfectivoSubDivisionaria.resx">
+      <DependentUpon>RepBalanceFlujoEfectivoSubDivisionaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceFlujoEfectivoSubdivisionaria1.resx">
+      <DependentUpon>RepBalanceFlujoEfectivoSubdivisionaria1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBalanceGeneral.resx">
+      <DependentUpon>RepBalanceGeneral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBeneficiariosActividad.resx">
+      <DependentUpon>RepBeneficiariosActividad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBienesInmuebles.resx">
+      <DependentUpon>RepBienesInmuebles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBienesMuebles.resx">
+      <DependentUpon>RepBienesMuebles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBienesMueblesArea.resx">
+      <DependentUpon>RepBienesMueblesArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepBoletaVenta.resx">
+      <DependentUpon>RepBoletaVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCajaBancos.resx">
+      <DependentUpon>RepCajaBancos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCajaBancos1.resx">
+      <DependentUpon>RepCajaBancos1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCCostoXProyecto.resx">
+      <DependentUpon>RepCCostoXProyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepClimaSocial.resx">
+      <DependentUpon>RepClimaSocial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepConciliacionBancaria.resx">
+      <DependentUpon>RepConciliacionBancaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepConsolidadoGastos.resx">
+      <DependentUpon>RepConsolidadoGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepContabilizacionFondoFijo.resx">
+      <DependentUpon>RepContabilizacionFondoFijo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCopiasSunat.resx">
+      <DependentUpon>RepCopiasSunat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepCuentasPagarCobrar.resx">
+      <DependentUpon>RepCuentasPagarCobrar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepDepreciacionActivo.resx">
+      <DependentUpon>RepDepreciacionActivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepDetracciones.resx">
+      <DependentUpon>RepDetracciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepDocFondoFijo.resx">
+      <DependentUpon>RepDocFondoFijo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepEstadoCompromisos.resx">
+      <DependentUpon>RepEstadoCompromisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepEstadoIngresosGastos.resx">
+      <DependentUpon>RepEstadoIngresosGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepExistencias.resx">
+      <DependentUpon>RepExistencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepFacturaVenta.resx">
+      <DependentUpon>RepFacturaVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepFlujoEfectivo.resx">
+      <DependentUpon>RepFlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepFlujoEfectivo1.resx">
+      <DependentUpon>RepFlujoEfectivo1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepGastos.resx">
+      <DependentUpon>RepGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepGastosXCaserio.resx">
+      <DependentUpon>RepGastosXCaserio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepGeneracionEmpleo.resx">
+      <DependentUpon>RepGeneracionEmpleo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repkardex.resx">
+      <DependentUpon>Repkardex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepKardexDetallado.resx">
+      <DependentUpon>RepKardexDetallado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepLibroCajaBanco.resx">
+      <DependentUpon>RepLibroCajaBanco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepLibroDiario.resx">
+      <DependentUpon>RepLibroDiario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepLibroMayor.resx">
+      <DependentUpon>RepLibroMayor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepListaRetencionesCuarta.resx">
+      <DependentUpon>RepListaRetencionesCuarta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepMovCtaProveedores.resx">
+      <DependentUpon>RepMovCtaProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepMovCuentas.resx">
+      <DependentUpon>RepMovCuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepMovSemovientes.resx">
+      <DependentUpon>RepMovSemovientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota10.resx">
+      <DependentUpon>RepNota10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota11.resx">
+      <DependentUpon>RepNota11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota12.resx">
+      <DependentUpon>RepNota12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota13.resx">
+      <DependentUpon>RepNota13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota14.resx">
+      <DependentUpon>RepNota14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota15.resx">
+      <DependentUpon>RepNota15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota16.resx">
+      <DependentUpon>RepNota16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota17.resx">
+      <DependentUpon>RepNota17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota18.resx">
+      <DependentUpon>RepNota18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota19.resx">
+      <DependentUpon>RepNota19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota20.resx">
+      <DependentUpon>RepNota20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota21.resx">
+      <DependentUpon>RepNota21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota22.resx">
+      <DependentUpon>RepNota22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota23.resx">
+      <DependentUpon>RepNota23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota24.resx">
+      <DependentUpon>RepNota24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota25.resx">
+      <DependentUpon>RepNota25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota26.resx">
+      <DependentUpon>RepNota26.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota27.resx">
+      <DependentUpon>RepNota27.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota28.resx">
+      <DependentUpon>RepNota28.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota29.resx">
+      <DependentUpon>RepNota29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota3.resx">
+      <DependentUpon>RepNota3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota30.resx">
+      <DependentUpon>RepNota30.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota31.resx">
+      <DependentUpon>RepNota31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota32.resx">
+      <DependentUpon>RepNota32.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota33.resx">
+      <DependentUpon>RepNota33.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota34.resx">
+      <DependentUpon>RepNota34.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota3FlujoEfectivo.resx">
+      <DependentUpon>RepNota3FlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota4.resx">
+      <DependentUpon>RepNota4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota4FlujoEfectivo.resx">
+      <DependentUpon>RepNota4FlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota5.resx">
+      <DependentUpon>RepNota5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota5FlujoEfectivo.resx">
+      <DependentUpon>RepNota5FlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota6.resx">
+      <DependentUpon>RepNota6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota6FlujoEfectivo.resx">
+      <DependentUpon>RepNota6FlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota7.resx">
+      <DependentUpon>RepNota7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota7FlujoEfectivo.resx">
+      <DependentUpon>RepNota7FlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota8.resx">
+      <DependentUpon>RepNota8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota8FlujoEfectivo.resx">
+      <DependentUpon>RepNota8FlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNota9.resx">
+      <DependentUpon>RepNota9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNotasBalance.resx">
+      <DependentUpon>RepNotasBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepNotasFlujoEfectivo.resx">
+      <DependentUpon>RepNotasFlujoEfectivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteCompras1.resx">
+      <DependentUpon>ReporteCompras1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteComprobantesFinal.resx">
+      <DependentUpon>ReporteComprobantesFinal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteCurvaSporProyecto.resx">
+      <DependentUpon>ReporteCurvaSporProyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteEstadoOcComprobantes.resx">
+      <DependentUpon>ReporteEstadoOcComprobantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepPlanContable.resx">
+      <DependentUpon>RepPlanContable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepPoa.resx">
+      <DependentUpon>RepPoa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepPoaMeses.resx">
+      <DependentUpon>RepPoaMeses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepPoaTareas.resx">
+      <DependentUpon>RepPoaTareas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepProgramacionActividades.resx">
+      <DependentUpon>RepProgramacionActividades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepRendicionVentas.resx">
+      <DependentUpon>RepRendicionVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepReposicionFondoFijo.resx">
+      <DependentUpon>RepReposicionFondoFijo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOdenCompraServicio.resx">
+      <DependentUpon>ReportOdenCompraServicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOrdenCompraProducto.resx">
+      <DependentUpon>ReportOrdenCompraProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSolicitudCotizacion.resx">
+      <DependentUpon>ReportSolicitudCotizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSoulSource.resx">
+      <DependentUpon>ReportSoulSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepResumenBeneficiarios.resx">
+      <DependentUpon>RepResumenBeneficiarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepRetencionesCuarta.resx">
+      <DependentUpon>RepRetencionesCuarta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta12.resx">
+      <DependentUpon>RepSaldoCuenta12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta10.resx">
+      <DependentUpon>RepSaldoCuenta10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta14.resx">
+      <DependentUpon>RepSaldoCuenta14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta16.resx">
+      <DependentUpon>RepSaldoCuenta16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta19.resx">
+      <DependentUpon>RepSaldoCuenta19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta20.resx">
+      <DependentUpon>RepSaldoCuenta20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta40.resx">
+      <DependentUpon>RepSaldoCuenta40.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta41.resx">
+      <DependentUpon>RepSaldoCuenta41.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta42.resx">
+      <DependentUpon>RepSaldoCuenta42.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldoCuenta46.resx">
+      <DependentUpon>RepSaldoCuenta46.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSaldosCuentaBancaria.resx">
+      <DependentUpon>RepSaldosCuentaBancaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepSemovientes.resx">
+      <DependentUpon>RepSemovientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepTabuladoMes.resx">
+      <DependentUpon>RepTabuladoMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepTabuladoMesDetalle.resx">
+      <DependentUpon>RepTabuladoMesDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepVentas.resx">
+      <DependentUpon>RepVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepVotacion.resx">
+      <DependentUpon>RepVotacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherCompras.resx">
+      <DependentUpon>VoucherCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherDiario.resx">
+      <DependentUpon>VoucherDiario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherEgresos.resx">
+      <DependentUpon>VoucherEgresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherHonorarios.resx">
+      <DependentUpon>VoucherHonorarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherIngresos.resx">
+      <DependentUpon>VoucherIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherVentas.resx">
+      <DependentUpon>VoucherVentas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\logotipo foncreagro.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

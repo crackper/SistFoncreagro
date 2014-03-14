@@ -1,0 +1,30 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="MasterPageLogistica.master.vb" Inherits="SistFoncreagro.WebSite.MasterPageLogistica" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+   
+    <div class="page1">
+        <div class="header1">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/M_Logistica1.gif" />
+                 <asp:SiteMapDataSource ID="SiteMapDataSourceLogistica" runat="server" 
+         ShowStartingNode="False" SiteMapProvider="Logistica"  />
+            <div class="clear hideSkiplink">
+                      <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    IncludeStyleBlock="false" Orientation="Horizontal" 
+         BackColor="#F7F6F3" DataSourceID="SiteMapDataSourceLogistica" 
+         DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" 
+         ForeColor="#7C6F57" StaticSubMenuIndent="10px">
+                    <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#F7F6F3" />
+                    <DynamicSelectedStyle BackColor="#5D7B9D" />
+            </asp:Menu>
+
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </div>
+</asp:Content>
+

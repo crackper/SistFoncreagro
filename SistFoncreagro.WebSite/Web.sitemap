@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="" roles="*">
+
+    <siteMapNode url="" title="PROYECTOS"  description="" roles="*">
+      <siteMapNode url="" title="MAESTROS"  description="" roles="adminproy">
+        <siteMapNode url="~\Monitoreo\Formularios\FrmConvenioMarco.aspx" title="Convenio Marco"  description=""/>
+        <siteMapNode url="~\Monitoreo\Formularios\FrmComponentes1.aspx" title="Componentes"  description=""/>
+        <siteMapNode url="~\Monitoreo\Formularios\FrmActividad.aspx" title="Actividades"  description=""/>
+        <siteMapNode url="~\Monitoreo\Formularios\FrmElementoGasto.aspx" title="Elementos Gasto"  description=""/>
+      </siteMapNode>
+      <siteMapNode url="" title="MONITOREO"  description="" roles="adminproy">
+        <siteMapNode url="~\Monitoreo\Formularios\FrmBuscarConvenio.aspx" title="Convenios"  description=""/>
+        <siteMapNode url="~\Monitoreo\Formularios\FrmBuscarProyecto.aspx" title="Proyectos"  description=""/>
+        <siteMapNode url="~\Monitoreo\Formularios\FrmEjerPresup.aspx" title="Ejercicio Presupuestal"  description=""/>
+        <siteMapNode url="~\Monitoreo\Formularios\FrmActivarPresupuesto.aspx" title="Permiso Presupuesto"  description=""/>
+      </siteMapNode>
+      <siteMapNode url="~\Monitoreo\Formularios\FrmElegirProyecto.aspx" title="GESTION OPERATIVA"  description="" roles="gestionProyectos,adminproy">
+      </siteMapNode>
+      <siteMapNode url="" title="CONSULTAS"  description="" roles="admin,asistentelog">
+      </siteMapNode>
+      <siteMapNode url="" title="REPORTES"  description="" roles="admin,asistentelog">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="" title="LOGISTICA"  description="" roles="*">
+      <siteMapNode url="" title="MANTENIMIENTO"  description="" roles="admin,asistentelog">
+        <siteMapNode url="" title="PROVEEDOR"  description="" roles="asistentelog">
+          <siteMapNode url="~/Logistica/FrmProveedores.aspx" title="Mantenimiento Proveedor"  description="" roles="asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmEvaluarProveedor.aspx" title="Evaluación Proveedor"  description="" roles="asistentelog"/>
+        </siteMapNode>
+        <siteMapNode url="" title="CATÁLOGO"  description="" roles="asistentelog">
+          <siteMapNode url="~/Logistica/FrmListaProductos.aspx" title="Catálogo Productos"  description="" roles="asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmListaServicios.aspx" title="Catálogo Servicios"  description="" roles="asistentelog"/>
+        </siteMapNode>
+        <siteMapNode url="" title="MAESTROS"  description="" roles="asistentelog">
+          <siteMapNode url="~/Logistica/FrmRutaRequerimiento.aspx" title="Rutas"  description="" roles="asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmMarca.aspx" title="Marcas"  description="" roles="asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmUnidadMedida.aspx" title="Unidad de Medida"  description="" roles="asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmClasificacionProductos.aspx?IdClasificacion=0" title="Clasificación General de Productos"  description="" roles="asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmClasificacionProductos.aspx?IdClasificacion=1" title="Clasificación General de Servicios"  description="" roles="asistentelog"/>
+        </siteMapNode>
+        <siteMapNode url="" title="CONFIGURACIÓN"  description="" roles="admin, asistentelog">
+          <siteMapNode url="~/Logistica/FrmProcesoAprobacionRequerimiento.aspx" title="Niveles de Aprobación"  description="" roles="admin"/>
+          <siteMapNode url="~/Logistica/FrmConfiguracion.aspx" title="Habilitar C. Costo"  description="" roles="admin, asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmCambiarComprador.aspx" title="Cambiar Comprador"  description="" roles="admin, asistentelog"/>
+          <siteMapNode url="~/Logistica/FrmAutorizacion.aspx" title="Autorizar Envio de Requerimientos"  description="" roles="admin"/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="REQUERIMIENTOS"  description="" roles="user, aprobReq, asistentelog, aproboc">
+        <siteMapNode url="~/Logistica/FrmRequerimientoNuevo.aspx" title="Nuevo Requerimiento"  description="" roles="user" />
+        <siteMapNode url="~/Logistica/FrmListaRequerimientos.aspx" title="Bandeja de Requerimientos"  description="" roles="user" />
+        <siteMapNode url="~/Logistica/FrmListaRequerimientosPorAprobar.aspx" title="Aprobar Requerimientos"  description="" roles="aprobreq" />
+        <siteMapNode url="~/Logistica/FrmListaRequerimientosAprobados.aspx" title="Generar Orden Compra"  description="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaCotizacionPendiente.aspx" title="Cotizaciones pendientes"  description="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaRequerimientosLicitacion.aspx" title="Licitaciones"  description="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaCotizacionesPorAprobar.aspx" title="Soul Source"  description="aproboc" />
+      </siteMapNode>
+      <siteMapNode url="" title="ORDENES DE COMPRA"  description="" roles="asistentelog, aproboc, controlpat, ocInternas">
+        <siteMapNode url="~/Logistica/FrmListaOrdenesCompra.aspx" title="Bandeja de Órdenes de Compra"  description="Mostrar bandeja de ordenes de compra" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaOrdenesCompraPorAprobar.aspx" title="Aprobar Órdenes de Compra"  description="" roles="aproboc" />
+        <siteMapNode url="~/Logistica/FrmListaOrdenesCompraEnviar.aspx" title="Envío a Proveedor"  description="" roles="asistentelog"/>
+        <siteMapNode url="~/Logistica/FrmListaOrdenesCompraPorRecepcionar.aspx" title="Recepcionar O/C"  description="" roles="controlpat" />
+        <siteMapNode url="~/Logistica/FrmListaOrdenesCompraPorRecepcionarInternas.aspx" title="Recepcionar O/C Internas"  description="" roles="ocInternas" />
+        <siteMapNode url="~/Logistica/FrmListaOrdenesPorFacturar.aspx" title="Asignar Comprobantes"  description="" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaComprobantes.aspx" title="Registro de Comprobantes"  description="" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmConsultaOrdenesCompra.aspx" title="Consultar Órdenes de Compra"  description="" roles="aproboc" />
+      </siteMapNode>
+      <siteMapNode url="" title="CONSULTAS"  description="" roles="asistentelog, aproboc, controlpat">
+        <!--<siteMapNode url="~/Logistica/FrmReporte.aspx" title="Reportes"  description="" roles="user" />-->
+        <siteMapNode url="~/Logistica/FrmListaOrdenes.aspx" title="Listado de Ordenes de Compra"  description="Ordenes de Compra" roles="asistentelog, aproboc, controlpat" />
+        <siteMapNode url="~/Logistica/FrmRepListRequi.aspx" title="Listado de Requerimientos"  description="Requerimientos" roles="asistentelog, admin" />
+        <siteMapNode url="~/Logistica/FrmListaFactura.aspx" title="Listado de Facturas"  description="Facturas" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaJefes.aspx" title="Listado de Niveles de Aprobación"  description="Niveles de Aprobación" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmListaCatalogo.aspx" title="Listado de Productos / Servicios"  description="Catalogo" roles="asistentelog" />
+      </siteMapNode>
+      <siteMapNode url="" title="REPORTES"  description="" roles="asistentelog, aproboc, controlpat">
+        <siteMapNode url="~/Logistica/FrmReporteCompras.aspx" title="Reporte de Compras"  description="Reporte de Compras" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmReporteEstadoOcComprobantes.aspx" title="Reporte de Estado de O/C"  description="Reporte de Estado de O/C" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmReporteComprobantes.aspx" title="Reporte de Comprobantes"  description="Reporte de Comprobantes" roles="asistentelog" />
+        <siteMapNode url="~/Logistica/FrmReporteCurvaSporProyecto.aspx" title="Reporte de Ejecutados"  description="Reporte de Ejecutados" roles="asistentelog" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~\Patrimonio\Formularios\DefaultPatrimonio.aspx" title="CONTROL PATRIMONIAL"  description=""   roles="adminPatrimonio"/>
+    <siteMapNode url="~\Contabilidad\Formularios\FrmFechaProceso.aspx" title="CONTABILIDAD"  description=""   roles="reportesCont, admincont"/>
+    <siteMapNode url="" title="ELECCION DEL COLABORADOR DEL MES"  description="" roles="*">
+      <siteMapNode url="~/RRHH/Formulario/ListaFactorEvaluacion.aspx" title="Factores de Evaluación"  description="" roles="encuestaAdmin"/>
+      <siteMapNode url="~/RRHH/Formulario/ListaEncuesta.aspx" title="Elaborar Encuesta"  description="" roles="encuestaAdmin"/>
+      <siteMapNode url="~/RRHH/Formulario/ValidarExisteEncuesta.aspx" title="Llenar Encuesta"  description="" roles="encuestaTrabajador,encuestaAdmin"/>
+      <siteMapNode url="~/RRHH/Formulario/ParamVotacion.aspx" title="Verificar Quienes Votaron"  description="" roles="encuestaAdmin"/>
+      <siteMapNode url="~/RRHH/Formulario/ParamResultadosEncuesta.aspx" title="Resultados"  description="" roles="encuestaAdmin"/>
+    </siteMapNode>
+    <siteMapNode url="" title="USUARIOS"  description="" roles="admin, user">
+      <siteMapNode url="~\Account\Register.aspx" title="Registrar Usuario"  description="" roles="admin"/>
+      <siteMapNode url="~\Account\ChangePassword.aspx" title="Cambiar Password"  description="" roles="user"/>
+      <siteMapNode url="~\Account\FrmListaUsuarios.aspx" title="Lista de Usuarios"  description="" roles="admin"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

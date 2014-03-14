@@ -1,0 +1,35 @@
+Private Sub RadGrid1_DeleteCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.DeleteCommand
+        Dim EditedItem As GridEditableItem
+        EditedItem = CType(e.Item, GridEditableItem)
+        Try
+            _ComponenteBL.DeleteComponente(EditedItem.OwnerTableView.DataKeyValues(EditedItem.ItemIndex)("IdComponente"))
+            RadGrid1.DataBind()
+        Catch ex As Exception
+            RadWindowManager1.RadAlert("Error al Eliminar Registro <br /><br /><b>Tiene tablas relacionadas<br />", 300, 100, "ERROR", "")
+        End Try
+    End Sub
+
+    Protected Sub RadGrid1_InsertCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.InsertCommand
+        Dim mUserControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
+        Dim Cad As String = CType(mUserControl.FindControl("TxtIdComponente"), TextBox).Text
+        Dim idComponente As Int32
+        If Cad <> "" Then _Componente.IdComponente = CInt(Cad)
+        _Componente.Codigo = UCase(CType(mUserControl.FindControl("TxtCodigo"), TextBox).Text)
+        _Componente.Nombre = UCase(CType(mUserControl.FindControl("txtNombre"), TextBox).Text)
+        _Componente.Descripcion = UCase(CType(mUserControl.FindControl("txtDesc"), TextBox).Text)
+        idComponente = _ComponenteBL.SaveComponente(_Componente)
+    End Sub
+
+    Protected Sub RadGrid1_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.UpdateCommand
+        Dim userControl As UserControl = CType(e.Item.FindControl(GridEditFormItem.EditFormUserControlID), UserControl)
+        Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
+
+
+        _Componente.IdComponente = editedItem.OwnerTableView.DataKeyValues(editedItem.ItemIndex)("IdComponente")
+
+        _Componente.Codigo = UCase(CType(userControl.FindControl("Txtcodigo"), TextBox).Text)
+        _Componente.Nombre = UCase(CType(userControl.FindControl("TxtNombre"), TextBox).Text)
+        _Componente.Descripcion = UCase(CType(userControl.FindControl("TxtDesc"), TextBox).Text)
+
+        _ComponenteBL.SaveComponente(_Componente)
+    End Sub

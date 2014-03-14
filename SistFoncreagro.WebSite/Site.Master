@@ -1,0 +1,133 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="SistFoncreagro.WebSite.Site" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SISTEMA FONCREAGRO</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function cambiar(flag, img) {
+            if (document.images) {
+                if (document.images[img].permitirloaded) {
+                    if (flag == 1) document.images[img].src = document.images[img].permitir.src
+                    else document.images[img].src = document.images[img].permitir.oldsrc
+                }
+            }
+        }
+        function preloadcambiar(img, adresse) {
+            if (document.images) {
+                img.onload = null;
+                img.permitir = new Image();
+                img.permitir.oldsrc = img.src;
+                img.permitir.src = adresse;
+                img.permitirloaded = true;
+            }
+        }
+
+        function kH(e) {
+
+            var pK = document.all ? window.event.keyCode : e.which;
+            return pK != 13;
+        }
+
+        document.onkeypress = kH;
+        if (document.layers) document.captureEvents(Event.KEYPRESS);
+
+        if (window.history) {
+            function noBack() { window.history.forward() }
+            noBack();
+            window.onload = noBack;
+            window.onpageshow = function (evt) { if (evt.persisted) noBack() }
+            window.onunload = function () { void (0) }
+        }
+
+       </script>
+
+    <style type="text/css">
+        .style2
+        {
+            width: 1000px;
+        }
+        </style>
+</head>
+<body onkeydown="if(event.keyCode==13){event.keyCode=9;return event.keyCode}">
+    <form id="Form1" runat="server">
+    <div class="page" style="width: 1200px">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    SISTEMA FONCREAGRO - SISFON
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+                     <CompositeScript>
+                     <Scripts>
+
+                    <asp:ScriptReference Name="MicrosoftAjax.js" />
+
+                    <asp:ScriptReference Name="MicrosoftAjaxWebForms.js" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.Core.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Grid.RadGridScripts.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.jQuery.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.jQueryPlugins.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.Navigation.NavigationScripts.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.ComboBox.RadComboBoxScripts.js" Assembly="Telerik.Web.UI" />
+
+                </Scripts>
+                    </CompositeScript>
+                </asp:ToolkitScriptManager>
+                        <asp:SiteMapDataSource ID="SiteMapDataSourcePrincipal" runat="server" 
+                        ShowStartingNode="False" SiteMapProvider="XmlSiteMapProvider"  />
+            </div>
+            <table style="border-style: hidden; border-width: 0px; width: 1200px">
+                <tr>
+                    <td style="background-color: #419232;" class="style2">
+                <span class="bold">
+                <asp:Label ID="lblUsuario" runat="server" Text="Label" Height="17px" ForeColor="White"></asp:Label>
+                </span>
+                    </td>
+                    <td style="background-color: #419232;" align="right">
+                     <span class="bold">
+                             </span>
+                           <asp:LoginView ID="LoginView1" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                         <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server" >Iniciar sesión</a>    
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/Login.aspx" ForeColor="White"/>
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="style2"> 
+                        <telerik:RadMenu ID="RadMenu1" Runat="server"  Style="position: relative; z-index: 1000"
+                            DataSourceID="SiteMapDataSourcePrincipal" Skin="Forest" >
+                        </telerik:RadMenu>
+                    </td> 
+                </tr>
+            </table>
+        </div>
+        <div class="main" style="width: 97%">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer"> 
+    </div>
+    </form>
+</body>
+</html>

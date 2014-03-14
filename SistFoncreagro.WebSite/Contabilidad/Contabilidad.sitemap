@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="" roles="*">
+    <siteMapNode url="" title="Maestros"  description="" roles="admincont">
+      <siteMapNode url="~\Contabilidad\Formularios\ListaPlanContable.aspx" title="Plan Contable"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaCuentasCierre.aspx" title="Cuentas de Cierre"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaImpuestos.aspx" title="Tasas de Impuestos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTipoDocumento.aspx" title="Tipos de Documentos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaDocumentoConta.aspx" title="Contabilizacion de Documentos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaSubdiarios.aspx" title="Subdiarios"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTipoCambio.aspx" title="Tipo de Cambio"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaDetraccion.aspx" title="Tabla de Detracción"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaBancos.aspx" title="Bancos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaCtaBancaria.aspx" title="Cuentas Bancarias"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaCtaEnlace.aspx" title="Cuentas de Enlace"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTipoGasto.aspx" title="Tipo de Gasto"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaClasificacionCatalogo.aspx" title="Clasificación Catálogo de Ventas"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaCatalogoVenta.aspx" title="Catálogo de Ventas"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaContaVentas.aspx" title="Contabilizacion de Ventas"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaParametrosVentas.aspx" title="Parámetros de Contabilización"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaSerieVentas.aspx" title="Series asignadas a Comprobantes de Ventas"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaPorcDepreciacion.aspx" title="Tasas de Depreciación"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Transacciones"  description="" roles="admincont, fondoFijo, facturacion, rendiciones">
+      <siteMapNode url="~\Contabilidad\Formularios\ListaOrdenesCompra.aspx" title="Ordenes de Compra/Servicio Pendientes"  description="" roles="admincont"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaVentasPendientes.aspx" title="Ventas Pendientes"  description="" roles="admincont"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransacciones.aspx?IdSubDiario=2" title="Registro de Cuentas por Pagar"  description="" roles="rendiciones,admincont"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransacciones.aspx?IdSubDiario=3" title="Registro de Ventas"  description="" roles="admincont"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransacciones.aspx?IdSubDiario=4" title="Registro de Honorarios Profesionales"  description="" roles="admincont"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransacciones.aspx?IdSubDiario=70" title="Registro de Percepciones"  description="" roles="admincont"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaDiario.aspx" title="Registro de Comprobantes Diario"  description="" roles="rendiciones, admincont"/>
+      <siteMapNode url="" title="Fondos Fijos"  description="" roles="admincont, fondoFijo">
+        <siteMapNode url="~\Contabilidad\Formularios\ListaRecibos.aspx" title="Recibo Provisional"  description="" roles="admincont, fondoFijo"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ListaRendiciones.aspx" title="Rendición de Fondo Fijo"  description="" roles="admincont, fondoFijo" />
+        <siteMapNode url="~\Contabilidad\Formularios\ListaRendicionesPorAprobar.aspx" title="Aprobar Rendición"  description=""  />
+      </siteMapNode>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaVentas.aspx" title="Registrar y Facturar Ventas"  description="" roles="admincont, facturacion"/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaCaja.aspx?Flag=I" title="Caja y Bancos/Ingresos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaCaja.aspx?Flag=E" title="Caja y Bancos/Egresos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransitorios.aspx?Flag=Y" title="Movimientos Transitorios/Ingresos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransitorios.aspx?Flag=Z" title="Movimientos Transitorios/Egresos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaConciliacion.aspx?" title="Conciliacion Bancaria"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\Validacion.aspx" title="Duplicar/Revertir Comprobante"  description="" roles="admincont, rendiciones"/>
+    </siteMapNode>
+    <siteMapNode url="" title="Procesos"  description="" roles="contProcesos">
+      <siteMapNode url="~\Contabilidad\Formularios\FrmApertura.aspx" title="Asiento de Apertura del Ejercicio"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmAjusteDiferenciaCambio.aspx" title="Asiento de Ajuste por Diferencia de Cambio"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmAsientoDepreciacion.aspx" title="Asiento de Depreciación del Ejercicio"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmAsientoSemovientes.aspx" title="Asiento por Nacimientos, Ventas y Muertes de Activo Biológico"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmTrasladoSaldos.aspx" title="Asiento de Traslado de Saldos"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmCierre.aspx" title="Asiento de Cierre del Ejercicio"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmEjercicio.aspx" title="Cierre del Mes"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmGenerarDAOT.aspx" title="PDT de Operaciones con Terceros"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaValidarMuebles.aspx" title="Validar Bienes Muebles"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaValidarInmuebles.aspx" title="Validar Bienes Inmuebles"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\FrmDepreciacion.aspx" title="Depreciación de Activos Fijos"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="~\Contabilidad\Formularios\FrmFechaProceso.aspx" title="Fecha de Procesos"  description="">
+    </siteMapNode>
+    <siteMapNode url="" title="Consultas"  description="" roles="admincont">
+      <siteMapNode url="~\Contabilidad\Formularios\ParamBalanceComprobacionGeneral.aspx" title="Balance de Comprobación General"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ParamBalanceComprobacion.aspx" title="Balance de Comprobación Por Niveles"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransaccionesSinProcesar.aspx" title="Transacciones sin Procesar"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\ListaTransaccionesSinCuadrar.aspx" title="Transacciones sin Cuadrar"  description=""/>
+      <siteMapNode url="~\Contabilidad\Formularios\BuscarComprobante1.aspx" title="Comprobantes"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Reportes"  description="" roles="reportesCont, admincont, fondoFijo, facturacion">
+      <siteMapNode url="" title="Libros Contables"  description="" roles="reportesCont, admincont">
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRegCompras.aspx" title="Registro de Compras"  description=""  roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRegVentas.aspx" title="Registro de Ventas"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepLibroDiario.aspx" title="Libro Diario"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepLibroMayor.aspx" title="Libro Mayor"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepLibroCajaBancos.aspx" title="Libro Caja y Bancos"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="" title="Libro de Inventarios y Balances"  description="" roles="reportesCont, admincont">
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta10.aspx" title="Detalle del Saldo de la Cuenta 10 - Caja y Bancos"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta12.aspx" title="Detalle del Saldo de la Cuenta 12 - Clientes"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta14.aspx" title="Detalle del Saldo de la Cuenta 14 - Cuentas por Cobrar a Accionistas (o Socios) y Personal"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta16.aspx" title="Detalle del Saldo de la Cuenta 16 - Cuentas por Cobrar Diversas"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta19.aspx" title="Detalle del Saldo de la Cuenta 19 - Provisión para Cuentas de Cobranza Dudosa"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta20.aspx" title="Detalle del Saldo de la Cuenta 20 - Mercadería"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta40.aspx" title="Detalle del Saldo de la Cuenta 40 - Tributos por Pagar"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta41.aspx" title="Detalle del Saldo de la Cuenta 41 - Remuneraciones por Pagar"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta42.aspx" title="Detalle del Saldo de la Cuenta 42 - Proveedores"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuenta46.aspx" title="Detalle del Saldo de la Cuenta 46 - Cuentas por Pagar Diversas"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepBalanceComprobacion.aspx" title="Balance de Comprobación"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepBalanceFlujoEfectivo.aspx" title="Hoja de Trabajo Flujo de Efectivo"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepBalanceGeneral.aspx" title="Balance General"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepEstadoIngresosGastos.aspx" title="Estado de Ingresos y Gastos"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepFlujoEfectivo.aspx" title="Estado de Flujo de Efectivo"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepFlujoEfectivo1.aspx" title="Estado de Ingresos, Desembolsos y Saldos de Efectivo"  description="" roles="reportesCont, admincont"/>
+          <siteMapNode url="~\Contabilidad\Formularios\ParamNotasBalance.aspx" title="Notas a los Estados Financieros - Balance General/Ingresos y Gastos"  description="" roles="reportesCont, admincont" />
+          <siteMapNode url="~\Contabilidad\Formularios\ParamRepNotasFlujoEfectivo.aspx" title="Notas a los Estados Financieros - Flujo de Efectivo"  description="" roles="reportesCont, admincont"/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Libros Electrónicos"  description="" roles="reportesCont, admincont">
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepComprasSunat.aspx" title="Registro de Compras"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepVentasSunat.aspx" title="Registro de Ventas"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepDiarioSunat.aspx" title="Libro Diario"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepMayorSunat.aspx" title="Libro Mayor"  description="" roles="reportesCont, admincont"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Reportes Internos"  description="" roles="reportesCont, admincont, fondoFijo, facturacion">
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRegHonorarios.aspx" title="Registro de Honorarios Profesionales"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepRetencionesCuarta.aspx" title="Retenciones de Cuarta Categoría"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepBalanceComprobacionXarea.aspx"  title="Balance de Comprobación por Área"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepBalanceComprobacionAcumulado.aspx" title="Balance de Comprobación Acumulado"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepAnaliticoCuenta.aspx" title="Analítico por Cuenta"  description=""/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepAnaliticoCuentaClasificado.aspx" title="Analítico por Cuenta Clasificado"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepAnaliticoCCosto1.aspx" title="Analítico por C. Costo"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepAnaliticoCCosto.aspx" title="Analítico por C. Costo - Actividad"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepTabuladoMes.aspx" title="Movimiento Tabulado por Mes"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepGastos.aspx" title="Consolidado de Gastos por Proyecto"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepCuentasPagarCobrar.aspx" title="Control entre Cuentas por Cobrar y Pagar"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepGastosDet.aspx" title="Consolidado de Vouchers por Proyecto"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepCajaBancosConciliacion.aspx" title="Caja y Bancos para Conciliación"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepSaldoCuentaBancaria.aspx" title="Saldos Cuentas Bancarias"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepMovCuentas.aspx" title="Movimiento de Cuentas Bancarias"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepMovCtaProveedores.aspx" title="Movimiento de Cuentas Proveedores/Clientes"  description="" roles="reportesCont, admincont" />
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepDetracciones.aspx" title="Listado de Detracciones"  description="" roles="reportesCont, admincont" />
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepAnticiposRendiciones.aspx" title="Listado de Anticipos/Rendiciones"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ReporteReposicionFondoFijo.aspx" title="Reposición de Fondo Fijo"  description="" roles="reportesCont, admincont,fondoFijo"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ReporteCopiasSunat.aspx" title="Copias Sunat para Contabilidad"  description="" roles="reportesCont, admincont,fondoFijo"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepRendicionVentas.aspx" title="Rendición de Ventas"  description="" roles="reportesCont, admincont,facturacion"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepVentas.aspx" title="Emision de Comprobantes de Pago"  description="" roles="reportesCont, admincont,facturacion"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ReportePlanContable.aspx" title="Plan Contable"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepCCostoXProyecto.aspx" title="Centros de Costos Por Proyecto"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepActivo.aspx" title="Activo Fijo"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamDepreciacionActivo.aspx" title="Depreciacion Activo Fijo"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepSemoviente.aspx" title="Activo Biológico"  description="" roles="reportesCont, admincont"/>
+        <siteMapNode url="~\Contabilidad\Formularios\ParamRepMovSemoviente.aspx" title="Nacimientos, Ventas y Muertes de Activo Biológico"  description="" roles="reportesCont, admincont"/>
+      </siteMapNode>
+
+    </siteMapNode>
+
+  </siteMapNode>
+
+</siteMap>

@@ -1,0 +1,78 @@
+﻿.exampleWrapper1
+{
+    width: 880px;
+    height: 467px;
+    background: transparent url(images/background.png) no-repeat top left;
+    position: relative;
+}
+
+.exampleWrapper1
+{
+    background: transparent url(images/background.png) no-repeat top left;
+    position: relative;
+}
+.tabStrip1
+{
+    position:absolute;
+    top:79px;
+    left:101px;
+}
+.multiPage1
+{
+    position:absolute;
+    top:106px;
+    left:101px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.multiPage1 p
+{
+    margin-left: 40px;
+}
+
+.multiPage1 ul
+{
+    list-style: none;
+    width: 520px;
+    border-bottom: 1px solid #8d9396;
+}
+.multiPage1 label
+{
+    float:left;
+    width: 120px;
+    padding-left: 16px;
+}
+
+.multiPage1 li
+{
+    border-top: 1px solid #8d9396;
+    line-height: 23px;
+}
+.multiPage1 .pageViewEducation label
+{
+    width: 220px;
+}
+
+.multiPage1 .riLabel
+{
+   width: 115px;
+}
+
+.multiPage1 .rcbLabel
+{
+   width: 109px;
+}
+
+.pageview1{
+    width: 100%;
+    height: 100%;
+    background: transparent url(images/background.png) no-repeat top left;
+    position: relative;
+}
+
+#btnSend
+{
+    margin-left: 135px;
+}

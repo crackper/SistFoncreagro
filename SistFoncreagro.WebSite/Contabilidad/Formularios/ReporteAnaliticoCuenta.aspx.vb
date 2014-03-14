@@ -1,0 +1,32 @@
+﻿Imports SistFoncreagro.Report
+Public Class ReporteAnaliticoCuenta
+    Inherits System.Web.UI.Page
+    Dim ProyectoInicio As String
+    Dim ProyectoFin As String
+    Dim CCostoInicio As String
+    Dim CCostoFin As String
+    Dim FechaInicio As String
+    Dim FechaFin As String
+    Dim CuentaInicio As String
+    Dim CuentaFin As String
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        ProyectoInicio = Request.QueryString("ProyectoInicio")
+        ProyectoFin = Request.QueryString("ProyectoFin")
+        CCostoInicio = Request.QueryString("CCostoInicio")
+        CCostoFin = Request.QueryString("CCostoFin")
+        FechaInicio = Request.QueryString("FechaInicio")
+        FechaFin = Request.QueryString("FechaFin")
+        CuentaInicio = Request.QueryString("CuentaInicio")
+        CuentaFin = Request.QueryString("CuentaFin")
+        Me.ReportViewer1.Report = New RepAnaliticoCuenta
+        Me.ReportViewer1.Report.ReportParameters(0).Value = FechaInicio
+        Me.ReportViewer1.Report.ReportParameters(1).Value = FechaFin
+        Me.ReportViewer1.Report.ReportParameters(2).Value = ProyectoInicio
+        Me.ReportViewer1.Report.ReportParameters(3).Value = ProyectoFin
+        Me.ReportViewer1.Report.ReportParameters(4).Value = CCostoInicio
+        Me.ReportViewer1.Report.ReportParameters(5).Value = CCostoFin
+        Me.ReportViewer1.Report.ReportParameters(6).Value = CuentaInicio
+        Me.ReportViewer1.Report.ReportParameters(7).Value = CuentaFin
+    End Sub
+
+End Class

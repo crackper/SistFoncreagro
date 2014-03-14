@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{F4B1BA33-8582-4CEB-B959-3E8C47C3BFC9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SistFoncreagro.BussinessEntities</RootNamespace>
+    <AssemblyName>SistFoncreagro.BussinessEntities</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SistFoncreagro.BussinessEntities.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SistFoncreagro.BussinessEntities.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\ComplementosVS2010\Telerik\Bin40\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActitudInteresado.vb" />
+    <Compile Include="ActivarPresupuesto.vb" />
+    <Compile Include="Actividad.vb" />
+    <Compile Include="Adenda.vb" />
+    <Compile Include="AdjMonit.vb" />
+    <Compile Include="AdjuntoCotizacion.vb" />
+    <Compile Include="AdjuntoRequerimiento.vb" />
+    <Compile Include="AdjuntoSemovientes.vb" />
+    <Compile Include="AfectacionConcepto.vb" />
+    <Compile Include="AfiliacionSP.vb" />
+    <Compile Include="AmbitoProyecto.vb" />
+    <Compile Include="AplicacionTipoCambio.vb" />
+    <Compile Include="AporteSp.vb" />
+    <Compile Include="AportesPorPeriodo.vb" />
+    <Compile Include="AprobarOrdenCompra.vb" />
+    <Compile Include="AprobarRequerimiento.vb" />
+    <Compile Include="Area.vb" />
+    <Compile Include="Argumentos\ArgumentoDevolucionCondicionesContrato.vb" />
+    <Compile Include="Argumentos\ArgumentosArea.vb" />
+    <Compile Include="Argumentos\ArgumentosCondicionesContrato.vb" />
+    <Compile Include="Argumentos\ArgumentosContrato.vb" />
+    <Compile Include="Argumentos\ArgumentosCoordinaParteProyecto.vb" />
+    <Compile Include="Argumentos\ArgumentosDevolucionArea.vb" />
+    <Compile Include="Argumentos\ArgumentosDevolucionPosicion.vb" />
+    <Compile Include="Argumentos\ArgumentosPeriodolaboral.vb" />
+    <Compile Include="Argumentos\ArgumentosPersonal.vb" />
+    <Compile Include="Argumentos\ArgumentosPosicion.vb" />
+    <Compile Include="Asistente.vb" />
+    <Compile Include="AsistenteCotizacion.vb" />
+    <Compile Include="Ausencia.vb" />
+    <Compile Include="AusenciaPeriodo.vb" />
+    <Compile Include="AvanceFisico.vb" />
+    <Compile Include="Banco.vb" />
+    <Compile Include="BienInmueble.vb" />
+    <Compile Include="BIENMUEBLE.vb" />
+    <Compile Include="BonificacionVenta.vb" />
+    <Compile Include="Caracteristica.vb" />
+    <Compile Include="Cargo.vb" />
+    <Compile Include="CargoArea.vb" />
+    <Compile Include="Catalogo.vb" />
+    <Compile Include="CatalogoVenta.vb" />
+    <Compile Include="CategoriaRrhh.vb" />
+    <Compile Include="CCosto.vb" />
+    <Compile Include="CCostoxDetalleOrden.vb" />
+    <Compile Include="CCostoxDetalleRequerimiento.vb" />
+    <Compile Include="CentroDeFormacionEducativa.vb" />
+    <Compile Include="CierreContable.vb" />
+    <Compile Include="Clasificacion.vb" />
+    <Compile Include="ClasificacionCatalogo.vb" />
+    <Compile Include="ClasificacionCatalogoVentas.vb" />
+    <Compile Include="ClimaSocial.vb" />
+    <Compile Include="Componente.vb" />
+    <Compile Include="ConceptoPlanilla.vb" />
+    <Compile Include="ConciliacionBancaria.vb" />
+    <Compile Include="CondicionesContrato.vb" />
+    <Compile Include="ContabilizacionVenta.vb" />
+    <Compile Include="ContratoConvenio.vb" />
+    <Compile Include="Control.vb" />
+    <Compile Include="Controlar.vb" />
+    <Compile Include="ControlAsistencia.vb" />
+    <Compile Include="ConveMarco.vb" />
+    <Compile Include="Convenio.vb" />
+    <Compile Include="ConveProy.vb" />
+    <Compile Include="CoordinaParteProyecto.vb" />
+    <Compile Include="Correlativo.vb" />
+    <Compile Include="Cotizacion.vb" />
+    <Compile Include="CronogramaRecuperacion.vb" />
+    <Compile Include="CtaBancariaProyecto.vb" />
+    <Compile Include="CuentaBancaria.vb" />
+    <Compile Include="CuentaEnlace.vb" />
+    <Compile Include="DatosActual.vb" />
+    <Compile Include="DatosPresup.vb" />
+    <Compile Include="DatosPresupAnual.vb" />
+    <Compile Include="Declarante.vb" />
+    <Compile Include="Depreciacion.vb" />
+    <Compile Include="DerechoHabiente.vb" />
+    <Compile Include="Desembolso.vb" />
+    <Compile Include="DetalleComprobante.vb" />
+    <Compile Include="DetalleConcepto.vb" />
+    <Compile Include="DetalleConceptoPeriodo.vb" />
+    <Compile Include="DetalleConciliacion.vb" />
+    <Compile Include="DetalleEjecucion.vb" />
+    <Compile Include="DetalleEncuesta.vb" />
+    <Compile Include="DetalleOrdenCompra.vb" />
+    <Compile Include="DetalleParametroLab.vb" />
+    <Compile Include="DetalleReporteCotizacion.vb" />
+    <Compile Include="DetalleReqCotizacion.vb" />
+    <Compile Include="DetalleRequerimiento.vb" />
+    <Compile Include="DetalleVenta.vb" />
+    <Compile Include="DetEjerPresup.vb" />
+    <Compile Include="DetOcxFactura.vb" />
+    <Compile Include="Detraccion.vb" />
+    <Compile Include="DistribucionCCostosPersonal.vb" />
+    <Compile Include="DistribucionCCP.vb" />
+    <Compile Include="DocumentoContabilizado.vb" />
+    <Compile Include="DocumentoRendido.vb" />
+    <Compile Include="Ejecucion.vb" />
+    <Compile Include="Ejercicio.vb" />
+    <Compile Include="EjerPresup.vb" />
+    <Compile Include="ElementoGasto.vb" />
+    <Compile Include="Encuesta.vb" />
+    <Compile Include="EncuestaLlena.vb" />
+    <Compile Include="EspecieAnimal.vb" />
+    <Compile Include="EstadoBienMueble.vb" />
+    <Compile Include="EstadoCotizacion.vb" />
+    <Compile Include="EstadoOrdenCompra.vb" />
+    <Compile Include="EstadoRequerimiento.vb" />
+    <Compile Include="EstadosFinancieros.vb" />
+    <Compile Include="ExTrabajador.vb" />
+    <Compile Include="Factor.vb" />
+    <Compile Include="FactorEvaluacion.vb" />
+    <Compile Include="FacturaCentroCosto.vb" />
+    <Compile Include="Feriado.vb" />
+    <Compile Include="FormacionRequerida.vb" />
+    <Compile Include="Funciones.vb" />
+    <Compile Include="GradoSalarial.vb" />
+    <Compile Include="GrupoOcupacional.vb" />
+    <Compile Include="Habilidades.vb" />
+    <Compile Include="HistoricoOrden.vb" />
+    <Compile Include="HistoricoRequerimiento.vb" />
+    <Compile Include="Horario.vb" />
+    <Compile Include="HorarioAsignado.vb" />
+    <Compile Include="InformeProyecto.vb" />
+    <Compile Include="Institucion.vb" />
+    <Compile Include="Insumos.vb" />
+    <Compile Include="Integrante.vb" />
+    <Compile Include="Interesados.vb" />
+    <Compile Include="JornadaDeTrabajo.vb" />
+    <Compile Include="JornadaLaboralPeriodo.vb" />
+    <Compile Include="LimitesRC.vb" />
+    <Compile Include="Local.vb" />
+    <Compile Include="Marca.vb" />
+    <Compile Include="MotivoAusencia.vb" />
+    <Compile Include="MotivoFinDePeriodo.vb" />
+    <Compile Include="Nacionalidad.vb" />
+    <Compile Include="NivelEducativo.vb" />
+    <Compile Include="Observacion.vb" />
+    <Compile Include="OcxFactura.vb" />
+    <Compile Include="Oficina.vb" />
+    <Compile Include="OrdenCentroCosto.vb" />
+    <Compile Include="OrdenCompra.vb" />
+    <Compile Include="Parametros.vb" />
+    <Compile Include="ParametrosLaborales.vb" />
+    <Compile Include="ParametrosVentas.vb" />
+    <Compile Include="PeriodoDeclaracion.vb" />
+    <Compile Include="PeriodoLaboral.vb" />
+    <Compile Include="Permisos.vb" />
+    <Compile Include="PermisoUsuario.vb" />
+    <Compile Include="PlanillaDetalleConcepto.vb" />
+    <Compile Include="PorcDepreciacion.vb" />
+    <Compile Include="Posicion.vb" />
+    <Compile Include="PosicionCentroCosto.vb" />
+    <Compile Include="Practicante.vb" />
+    <Compile Include="Programacion.vb" />
+    <Compile Include="PropiedadSemovientes.vb" />
+    <Compile Include="ProveedorCliente.vb" />
+    <Compile Include="ProveedorDetalleCotizacion.vb" />
+    <Compile Include="ProyAct.vb" />
+    <Compile Include="ProyComp.vb" />
+    <Compile Include="ProyectoArea.vb" />
+    <Compile Include="RazonSoulSource.vb" />
+    <Compile Include="Recibo.vb" />
+    <Compile Include="RecibosRendicion.vb" />
+    <Compile Include="RegimenDeTrabajo.vb" />
+    <Compile Include="REMUNERACIONCOMPUTABLE.vb" />
+    <Compile Include="Rendicion.vb" />
+    <Compile Include="ReqLicSoul.vb" />
+    <Compile Include="Requerimiento.vb" />
+    <Compile Include="RequisitoAdicional.vb" />
+    <Compile Include="Responsable.vb" />
+    <Compile Include="ResponsableBienMueble.vb" />
+    <Compile Include="Respuesta.vb" />
+    <Compile Include="ROL.vb" />
+    <Compile Include="RolAsignado.vb" />
+    <Compile Include="RolPersonal.vb" />
+    <Compile Include="RutaRequerimiento.vb" />
+    <Compile Include="Semovientes.vb" />
+    <Compile Include="Serie.vb" />
+    <Compile Include="SistemaDePensiones.vb" />
+    <Compile Include="SituacionEspecial.vb" />
+    <Compile Include="SubActividad.vb" />
+    <Compile Include="Sustento.vb" />
+    <Compile Include="Tarea.vb" />
+    <Compile Include="TelefonoAsignado.vb" />
+    <Compile Include="TelefonoCoorporativo.vb" />
+    <Compile Include="TelefonosAsignados.vb" />
+    <Compile Include="TelefonosCoorporativos.vb" />
+    <Compile Include="TipoAjuste.vb" />
+    <Compile Include="TipoCancelacion.vb" />
+    <Compile Include="TipoConcepto.vb" />
+    <Compile Include="TipoContrato.vb" />
+    <Compile Include="TipoConvenio.vb" />
+    <Compile Include="Linea.vb" />
+    <Compile Include="Moneda.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OperacionFinanciera.vb" />
+    <Compile Include="Personal.vb" />
+    <Compile Include="PlanContable.vb" />
+    <Compile Include="Presupuesto.vb" />
+    <Compile Include="Proyecto.vb" />
+    <Compile Include="Subdiario.vb" />
+    <Compile Include="TipoBaseImponible.vb" />
+    <Compile Include="TipoCambio.vb" />
+    <Compile Include="TipoCotizacion.vb" />
+    <Compile Include="TipoCtaBancaria.vb" />
+    <Compile Include="TipoCtaContable.vb" />
+    <Compile Include="TipoDocumento.vb" />
+    <Compile Include="TipoDocumentoIdentidad.vb" />
+    <Compile Include="TipoGasto.vb" />
+    <Compile Include="TipoInmueble.vb" />
+    <Compile Include="TipoMovimiento.vb" />
+    <Compile Include="TipoPago.vb" />
+    <Compile Include="TipoPlanilla.vb" />
+    <Compile Include="TipoPlanillaTipoTrabajador.vb" />
+    <Compile Include="TipoProceso.vb" />
+    <Compile Include="TipoSp.vb" />
+    <Compile Include="TipoTelefono.vb" />
+    <Compile Include="TipoTrabajador.vb" />
+    <Compile Include="TipoTrabajadorDetalleConcepto.vb" />
+    <Compile Include="Trabajador.vb" />
+    <Compile Include="Traducciones.vb" />
+    <Compile Include="Transaccion.vb" />
+    <Compile Include="TurnosRegulares.vb" />
+    <Compile Include="UbicacionSemovientes.vb" />
+    <Compile Include="Ubigeo.vb" />
+    <Compile Include="UbigeoDatos.vb" />
+    <Compile Include="UnidadMedida.vb" />
+    <Compile Include="Usuario.vb" />
+    <Compile Include="Vehiculo.vb" />
+    <Compile Include="Venta.vb" />
+    <Compile Include="VinculoFamiliar.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\SistFoncreagro.BussinessEntities.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DiagramaClases.cd" />
+    <None Include="DiagramaDeClasesEntidadesRRHH.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GenerateResource-ResGen.read.1.tlog" />
+    <None Include="obj\Debug\GenerateResource-ResGen.write.1.tlog" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\SistFoncreagro.BussinessEntities.dll" />
+    <Content Include="bin\Debug\SistFoncreagro.BussinessEntities.pdb" />
+    <Content Include="bin\Debug\SistFoncreagro.BussinessEntities.xml" />
+    <Content Include="obj\Debug\SistFoncreagro.BussinessEntities.dll" />
+    <Content Include="obj\Debug\SistFoncreagro.BussinessEntities.pdb" />
+    <Content Include="obj\Debug\SistFoncreagro.BussinessEntities.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\SistFoncreagro.BussinessEntities.xml" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

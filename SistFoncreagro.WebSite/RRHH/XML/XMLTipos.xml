@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TipoAreas>
+  <direccion texto="Direccion" valor="direccion">
+    <tipoArea texto="Direccion" valor="direccion"/>
+    <tipoArea texto="General" valor="general"/>    
+  </direccion>
+  <general texto="General" valor="general">
+    <tipoArea texto="Sub Area" valor="subarea"/>
+  </general>
+  <subarea texto="Sub Area" valor="subarea">
+    <tipoArea texto="Sub Area" valor ="subarea"/>
+  </subarea>
+</TipoAreas>
+

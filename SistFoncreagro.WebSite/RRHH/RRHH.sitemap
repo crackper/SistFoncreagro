@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+      <siteMapNode url="" title="Admin. Personal"  description="Administración de personal">
+        <siteMapNode url="~/RRHH/Formulario/FrmPersonal.aspx" title=" Lista de Personal "  description=" Administración de personal" />
+         <siteMapNode url="~/RRHH/Formulario/FrmBandejaSistemaPensiones.aspx" title="Sistema de Pensiones"  description=" " />
+        <siteMapNode url="" title="Cuentas de Sueldo"  description=" " />
+      </siteMapNode> 
+     <siteMapNode url="" title="Organizacion"  description="Organizacion" >
+      <siteMapNode url="~/RRHH/Formulario/FrmArea.aspx" title="Areas - Posiciones "  description=" " />
+      <siteMapNode url="" title="Funciones "  description=" " />
+      <siteMapNode url="" title="Organigrama Funcional "  description=" " />
+    </siteMapNode>
+    <siteMapNode url="" title="Control de Asistencia"  description="">
+      <siteMapNode url="~/RRHH/Formulario/FrmAsignarHorario.aspx" title="Horarios "  description=" " />
+      <siteMapNode url="~/RRHH/Formulario/FrmControlAsistencia.aspx" title="Asistencia Diaria"  description=" " />
+      <siteMapNode url="~/RRHH/Formulario/FrmAusencia.aspx" title="Control Vacaciones, Permisos y Descansos"  description=" " />
+      <siteMapNode url="~/RRHH/Formulario/FrmFeriado.aspx.aspx" title="Feriados"  description=" " />    
+    </siteMapNode>
+    <siteMapNode url="" title="Planillas"  description="">
+        <siteMapNode url="" title="Prestamos y adelantos"  description=" " />
+        <siteMapNode url="" title="Planilla Remuneracion Mensual"  description=" " />
+        <siteMapNode url="" title="Planilla de Gratificaciones"  description=" " />
+        <siteMapNode url="" title="Planilla de CTS"  description=" " />
+        <siteMapNode url="" title="Planilla de AFP"  description=" " />
+        <siteMapNode url="" title="Tributos SUNAT"  description=" " />
+        <siteMapNode url="" title="Provisiones"  description=" " />
+        <siteMapNode url="" title="Boletas de Pago"  description=" " />
+     </siteMapNode>     
+     <siteMapNode url="" title="Legislacion"  description="">
+       <siteMapNode url="" title=""  description=" " />
+     </siteMapNode>
+      <siteMapNode url="" title="Reportes"  description="">
+        <siteMapNode url="" title=""  description=" " />
+      </siteMapNode>
+      <siteMapNode url="" title="Mantenimiento"  description="">
+        <siteMapNode url="~/RRHH/Formulario/FrmCargo.aspx" title="Cargos"  description="Mantenimiento de Cargo " />
+      </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,108 @@
+<asp:GridView ID="gvDetalleRequerimiento" runat="server" 
+                         AutoGenerateColumns="False" Width="900px" 
+                          DataKeyNames="IdDetalleRequerimiento,codigoCatalogo,nombreCatalogo" 
+                            Font-Size="9pt" style="margin-right: 2px">
+            <Columns>
+                <asp:TemplateField
+                    SortExpression="IdDetalleRequerimiento">
+                    <EditItemTemplate>
+                            <asp:Label ID="Label1" runat="server" Text='<%# Bind("IdDetalleRequerimiento") %>'></asp:Label>
+                    </EditItemTemplate>
+                         <ItemTemplate>
+                    <asp:TextBox ID="txtIdDetReq" runat="server" BackColor="Info" CssClass="TextoCentro"
+                        Text='<%# Bind("IdDetalleRequerimiento") %>' Width="0px"></asp:TextBox>
+                    <asp:TextBox ID="txtIdCatalogo" runat="server" BackColor="Info" CssClass="TextoCentro"
+                        Text='<%# Bind("IdCatalogo") %>' Width="0px"></asp:TextBox>
+                     </ItemTemplate>
+                        <ControlStyle Width="0pt" BorderStyle="None" BorderWidth="0pt" Font-Size="0pt" 
+                            ForeColor="White" />
+                        <FooterStyle Width="0pt" Font-Size="0pt" ForeColor="White" />
+                        <ItemStyle Width="1px" />
+                </asp:TemplateField>
+                <asp:BoundField DataField="IdCatalogo" HeaderText="IdCatalogo" 
+                    SortExpression="IdCatalogo" Visible="False" />
+                    <asp:BoundField DataField="codigoCatalogo" HeaderText="Código" 
+                    SortExpression="codigoCatalogo" >
+                <HeaderStyle HorizontalAlign="Center" Width="75px" />
+                <ItemStyle HorizontalAlign="Center" />
+                </asp:BoundField>
+                <asp:BoundField DataField="nombreCatalogo" HeaderText="Producto / Servicio" 
+                    SortExpression="nombreCatalogo" >
+               <HeaderStyle Width="300px" />
+                </asp:BoundField>
+
+                <asp:TemplateField HeaderText="Observación" SortExpression="Observacion">
+               <ItemTemplate>
+                    <asp:TextBox ID="txtDetalleObservacion" runat="server" BackColor="Info" CssClass="TextoCentro"
+                        Text='<%# Bind("observacion") %>' Width="200px"></asp:TextBox>
+                </ItemTemplate>
+                <ItemStyle HorizontalAlign="Center" Width="210px" />
+                </asp:TemplateField>
+                <asp:BoundField DataField="UnidadMedidaDetalle" HeaderText="Unidad" >
+                <HeaderStyle HorizontalAlign="Center" Width="65px" />
+                <ItemStyle HorizontalAlign="Center" Width="25px" />
+                </asp:BoundField>
+                <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" >
+                <HeaderStyle HorizontalAlign="Center" Width="65px" />
+                <ItemStyle HorizontalAlign="Center" Width="25px" />
+                </asp:BoundField>
+                <asp:TemplateField HeaderText="P. Compra" SortExpression="PrecioCompra" 
+                    Visible="False">
+                    <EditItemTemplate>
+                    </EditItemTemplate>
+               <ItemTemplate>
+                    <asp:TextBox ID="txtPrecioCompra" runat="server" BackColor="Info" CssClass="TextoCentro"
+                        Text='<%# Bind("PrecioCompra", "{0:N}") %>' Width="50px"></asp:TextBox>
+                </ItemTemplate>
+                <ItemStyle HorizontalAlign="Center" Width="40px" />
+                </asp:TemplateField>
+
+                <asp:BoundField HeaderText="Sub Total" DataField="Subtotal" 
+                    DataFormatString="{0:n}" Visible="False" >
+                <HeaderStyle HorizontalAlign="Center" Width="70px" />
+                <ItemStyle HorizontalAlign="Center" Width="40px" />
+                </asp:BoundField>
+                <asp:CheckBoxField DataField="AfectoIgv" HeaderText="AfectoIgv" 
+                    SortExpression="AfectoIgv" Visible="False" />        
+               <asp:TemplateField HeaderText="C. Costo" SortExpression="">
+                    <ItemTemplate>
+                    <asp:LinkButton ID="lbCentroCosto" Text="C. Costo" runat="server" 
+                            Font-Size="8pt"/>
+                    </ItemTemplate>
+                    <HeaderStyle Width="65px" />
+                    <ItemStyle HorizontalAlign="Center" Width="50px" />
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="C. Costo" SortExpression="">
+                    <ItemTemplate>
+                        <telerik:RadComboBox ID="rcbCentroCostoDetalle" Runat="server" 
+                            SelectedValue='<%# Bind("IdCentroCosto") %>' Enabled="False" 
+                            DataSourceID="odsCentroCostoDetalle" DataTextField="Codigo" 
+                            DataValueField="IdCCosto">
+                            <Items>
+                                <telerik:RadComboBoxItem runat="server" Owner="rcbCentroCostoDetalle" 
+                                    Text="C-10001212" Value="2" />
+                                <telerik:RadComboBoxItem runat="server" Text="C-10001213" Value="3" />
+                            </Items>
+                        </telerik:RadComboBox>
+                        <asp:ObjectDataSource ID="odsCentroCostoDetalle" runat="server" 
+                            SelectMethod="GetCCOSTOByIdProyecto" 
+                            TypeName="SistFoncreagro.BussinesLogic.CCostoBL">
+                            <SelectParameters>
+                                <asp:QueryStringParameter Name="_IdProyecto" QueryStringField="IdProy" 
+                                    Type="Int32" />
+                            </SelectParameters>
+                        </asp:ObjectDataSource>
+                    </ItemTemplate>
+                    <HeaderStyle Width="65px" />
+                    <ItemStyle HorizontalAlign="Center" Width="50px" />
+                </asp:TemplateField>
+                <asp:TemplateField HeaderText="Estado">
+                    <ItemTemplate>
+                        <asp:CheckBox ID="cbEstado" runat="server" 
+                            Checked='<%# Bind("EstadoItem") %>' />
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Center" />
+                    <ItemStyle HorizontalAlign="Center" />
+                </asp:TemplateField>
+            </Columns>
+            </asp:GridView>

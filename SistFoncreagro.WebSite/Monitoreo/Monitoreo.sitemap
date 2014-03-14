@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="" roles="*">
+    <siteMapNode url="" title="Stakeholders"  description="" roles="gestionProyectos,adminproy">
+      <siteMapNode url="~\Monitoreo\Formularios\FrmListaStakeholders.aspx" title="Datos de Stakeholders"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelStakeholder.aspx" title="Reporte de Stakeholders"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Plan Operativo"  description="" roles="gestionProyectos,adminproy">
+      <siteMapNode url="~\Monitoreo\Formularios\FrmListaActividades.aspx" title="Registrar Actividades"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\FrmProgramacionPoa.aspx" title="Registrar Programacion"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ReportePoaEjecutado.aspx" title="Reporte de Ejecucion Por Tareas/Año"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ReportePoaEjecutadoTareas.aspx" title="Reporte de Ejecucion Por Sub Actividades/Año"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ReportePoaEjecutadoMeses.aspx" title="Reporte de Ejecucion Por Sub Actividades/Meses"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Registro de Actividades/tareas"  description="" roles="gestionProyectos,adminproy">
+      <siteMapNode url="~\Monitoreo\Formularios\FrmListaTareas.aspx" title="Registrar Actividades/Tareas"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelActividadesCaserio.aspx" title="Reporte de Compromisos por Caserio"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelTareasCaserio.aspx" title="Reporte de Tareas ejecutadas por Caserio (Detallado)"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ParamRepTareasCaserioResumen.aspx" title="Reporte de Tareas ejecutadas por Caserio (Resumen)"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ParamSalidas.aspx" title="Reporte de Actividades/Tareas Programadas del Personal"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelTareasPersonal.aspx" title="Reporte de Actividades/Tareas del Personal (Historial)"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ParamRepBeneficiariosActividad.aspx" title="Reporte de Beneficiarios por Actividad y Fecha"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ParamRepResumenBeneficiariosActividad.aspx" title="Reporte de Beneficiarios por Actividad y Fecha (Resumen)"  description=""/>
+      
+     </siteMapNode>
+    <siteMapNode url="" title="Clima Social"  description="" roles="gestionProyectos,adminproy">
+      <siteMapNode url="~\Monitoreo\Formularios\FrmClima.aspx" title="Registrar Clima"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ReporteClima.aspx" title="Matriz de Clima Social"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Consultas"  description="" roles="gestionProyectos,adminproy">
+
+    </siteMapNode>
+    <siteMapNode url="" title="Reportes"  description="" roles="gestionProyectos,adminproy">
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelAmbito.aspx" title="Caserios dentro del Ambito del Proyecto"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelGastos.aspx" title="Gastos por Caserio"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelGeneracionEmpleo.aspx" title="Generacion de Empleo"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ReporteKardexDetallado.aspx" title="Entradas y Salidas de Productos"  description=""/>
+      <siteMapNode url="~\Monitoreo\Formularios\ExcelExistencias.aspx" title="Existencias en Almacen"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="~\Monitoreo\Formularios\FrmElegirProyecto.aspx" title="Seleccionar Proyecto"  description=""/>
+  </siteMapNode>
+</siteMap>

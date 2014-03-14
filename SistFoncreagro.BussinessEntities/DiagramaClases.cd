@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SistFoncreagro.BussinessEntities.Cargo">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAA=</HashCode>
+      <FileName>Cargo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistFoncreagro.BussinessEntities.Convenio">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAKAAEBAAAAAAAAAAAAAAAAAAIgQAAEAAAQAAAAA=</HashCode>
+      <FileName>Convenio.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistFoncreagro.BussinessEntities.Moneda">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIgAAAAAgAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Moneda.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistFoncreagro.BussinessEntities.Personal">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAoAGAAgAAAAAAQAAAAAAAAAwgAAAA=</HashCode>
+      <FileName>Personal.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistFoncreagro.BussinessEntities.Proyecto">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JGACQACAIQIAQAAAAAgAgAAIAACAAAAAAEACAgAAAAg=</HashCode>
+      <FileName>Proyecto.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Convenio" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

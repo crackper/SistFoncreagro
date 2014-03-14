@@ -1,0 +1,95 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterContabilidad.Master.vb" Inherits="SistFoncreagro.WebSite.MasterCOntabilidad" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SISTEMA FONCREAGRO</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function cambiar(flag, img) {
+            if (document.images) {
+                if (document.images[img].permitirloaded) {
+                    if (flag == 1) document.images[img].src = document.images[img].permitir.src
+                    else document.images[img].src = document.images[img].permitir.oldsrc
+                }
+            }
+        }
+        function preloadcambiar(img, adresse) {
+            if (document.images) {
+                img.onload = null;
+                img.permitir = new Image();
+                img.permitir.oldsrc = img.src;
+                img.permitir.src = adresse;
+                img.permitirloaded = true;
+            }
+        }
+
+        function kH(e) {
+
+            var pK = document.all ? window.event.keyCode : e.which;
+            return pK != 13;
+        }
+
+        document.onkeypress = kH;
+        if (document.layers) document.captureEvents(Event.KEYPRESS);
+
+        if (window.history) {
+            function noBack() { window.history.forward() }
+            noBack();
+            window.onload = noBack;
+            window.onpageshow = function (evt) { if (evt.persisted) noBack() }
+            window.onunload = function () { void (0) }
+        }
+
+       </script>
+
+    </head>
+<body onkeydown="if(event.keyCode==13){event.keyCode=9;return event.keyCode}">
+    <form id="Form1" runat="server">
+    <div class="page">
+    
+
+            
+                <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+                     <CompositeScript>
+                     <Scripts>
+
+                    <asp:ScriptReference Name="MicrosoftAjax.js" />
+
+                    <asp:ScriptReference Name="MicrosoftAjaxWebForms.js" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.Core.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Grid.RadGridScripts.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.jQuery.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.jQueryPlugins.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.Common.Navigation.NavigationScripts.js" Assembly="Telerik.Web.UI" />
+
+                    <asp:ScriptReference Name="Telerik.Web.UI.ComboBox.RadComboBoxScripts.js" Assembly="Telerik.Web.UI" />
+
+                </Scripts>
+                    </CompositeScript>
+                </asp:ToolkitScriptManager>
+            
+            
+       
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer"> 
+    </div>
+    </form>
+</body>
+</html>

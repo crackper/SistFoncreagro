@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="" title=""  description="" roles="*">
+		<siteMapNode url="" title="Maestros"  description="" roles="adminPatrimonio, bienes, semovientes">
+			<siteMapNode url="~\Patrimonio\Formularios\ListaLocales.aspx" title="Locales y Oficinas"  description="" roles="adminPatrimonio, bienes"/>
+      <siteMapNode url="~\Patrimonio\Formularios\ListaTipoInmueble.aspx" title="Tipos de Inmuebles"  description="" roles="adminPatrimonio, bienes"/>
+		</siteMapNode>
+		<siteMapNode url="" title="Bienes Muebles"  description="" roles="adminPatrimonio, bienes">
+			<siteMapNode url="~\Patrimonio\Formularios\ListaBienes.aspx" title="Registro de Bienes"  description="" roles="adminPatrimonio, bienes"/>
+		</siteMapNode>
+		<siteMapNode url="" title="Bienes Inmuebles"  description="" roles="adminPatrimonio, bienes">
+			<siteMapNode url="~\Patrimonio\Formularios\ListaInmuebles.aspx" title="Registro de Inmuebles"  description="" roles="adminPatrimonio, bienes"/>
+		</siteMapNode>
+    <siteMapNode url="" title="Activo Biológico"  description="" roles="adminPatrimonio, semovientes">
+      <siteMapNode url="~\Patrimonio\Formularios\ListaSemovientes.aspx" title="Registro de Activo Biológico"  description="" roles="adminPatrimonio, semovientes"/>
+    </siteMapNode>
+		<siteMapNode url="" title="Reportes"  description="" roles="adminPatrimonio, bienes, semovientes">
+		 <siteMapNode url="~\Patrimonio\Formularios\ReporteMuebles.aspx" title="Bienes Muebles por Clasificación"  description="" roles="adminPatrimonio, bienes"/>
+      <siteMapNode url="~\Patrimonio\Formularios\ReporteMueblesAreas.aspx" title="Bienes Muebles por Área o Proyecto"  description="" roles="adminPatrimonio, bienes"/>
+      <siteMapNode url="~\Patrimonio\Formularios\ParamRepBajaBienes.aspx" title="Bienes Muebles de Baja"  description="" roles="adminPatrimonio, bienes"/>
+      <siteMapNode url="~\Patrimonio\Formularios\ParamRepActivoFijo.aspx" title="Activo Fijo"  description="" roles="adminPatrimonio, bienes"/>
+     <siteMapNode url="~\Patrimonio\Formularios\ReporteInmuebles.aspx" title="Bienes Inmuebles"  description="" roles="adminPatrimonio, bienes"/>
+      <siteMapNode url="~\Patrimonio\Formularios\ParamRepSemovientes.aspx" title="Activos Biológicos"  description="" roles="adminPatrimonio, semovientes"/>
+      <siteMapNode url="~\Patrimonio\Formularios\ParamRepMovSemovientes.aspx" title="Nacimientos, Ventas y Muertes de Activos Biológicos"  description="" roles="adminPatrimonio, semovientes"/>
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

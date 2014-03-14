@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Varios>
+  <Habilidades>
+    <habilidad texto="Pensamiento intencional" valor="Pensamiento intencional" detalle=" [cuestionar], [decidir, elegir, escoger, seleccionar], [focalizar], [monitorear], [planear], [priorizar], [preparar], [proyectar], [reflexionar], [redefinir], [retroalimentar] "/>
+    <habilidad texto="Exploración" valor="Exploración" detalle="[amplitud], [anticipar], [aprender], [calcular, estimar, operar], [comprobar, confirmar, confrontar, verificar], [considerar], [cuestionar], [curiosidad], [descubrir], [detallar], [explorar], [extrapolar], [ejemplificar, instanciar, particularizar], [hipotetizar], [investigar], [localizar], [medir], [observar], [recolectar (datos, información)]"/> 
+    <habilidad texto="Organización" valor="Organización" detalle="[abstraer, generalizar, extender, resumir] [analizar, dividir, separar], [categorizar], [clasificar], [comparar, contrastar, diferenciar, discriminar, distinguir] [asimilar, comprender, interiorizar], [conceptualizar], [definir], [decidir], [determinar, etiquetar, identificar, reconocer], [examinar], [explicar], [flexibilidad], [interpretar], [localizar], [memorizar, repetir], [ordenar], [organizar], [redefinir], [reducir], [secuenciar], [simplificar], [sistematizar]"/>
+    <habilidad texto="Pensamiento crítico" valor="Pensamiento crítico" detalle="[razonar], [argumentar], [concluir, deducir, inferir], [corregir], [criticar, juzgar], [cualificar], [cuantificar], [debatir], [demostrar, probar], [evaluar], [explicar], [problematizar], [predecir], [sustentar], [señalar], [valorar]"/>
+    <habilidad texto="Pensamiento creativo" valor="Pensamiento creativo" detalle="[cambiar], [crear], [diseñar], [extrapolar], [hipotetizar], [inventar], [improvisar], [interpretar], [intuir], [modificar], [pensamiento divergente], [simplificar]"/>
+    <habilidad texto="Pensamiento constructivo" valor="Pensamiento constructivo" detalle=" [aplicar], [componer], [concretar], [conceptualizar], [construir], [crear], [desarrollar], [diseñar], [inventar], [pensamiento convergente], [resolver], [simular], [teorizar]"/>
+    <habilidad texto="Pensamiento cooperativo" valor="Pensamiento cooperativo" detalle="[debatir], [dialogar, discutir], [escuchar], [exponer], [negociar], [participar], [recomendar]"/>
+    <habilidad texto="Pensamiento sistémico" valor="Pensamiento sistémico" detalle="[articular] [combinar], [contextualizar], [globalizar], [integrar], [relacionar], [sintetizar], [trasferir]"/>
+    <habilidad texto="Pensamiento simbólico" valor="Pensamiento simbólico" detalle="[definir, plantear], [describir], [dibujar], [esquematizar], [expresar], [exponer], [etiquetar], [escribir, redactar, resumir], [metaforizar], [formalizar], [formular], [ilustrar], [leer], [metaforizar], [modelar], [plantear], [representar, simbolizar], [simular], [teorizar]"/>
+  </Habilidades>  
+</Varios>

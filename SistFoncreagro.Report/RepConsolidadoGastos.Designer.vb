@@ -258,7 +258,7 @@ Partial Class RepConsolidadoGastos
         '
         Me.proyectoGroup.GroupFooter = Me.proyectoGroupFooter
         Me.proyectoGroup.GroupHeader = Me.proyectoGroupHeader
-        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proyecto")})
+        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proyecto")})
         Me.proyectoGroup.Name = "proyectoGroup"
         '
         'nomSubdiarioGroupHeader
@@ -327,7 +327,7 @@ Partial Class RepConsolidadoGastos
         '
         Me.nomSubdiarioGroup.GroupFooter = Me.nomSubdiarioGroupFooter
         Me.nomSubdiarioGroup.GroupHeader = Me.nomSubdiarioGroupHeader
-        Me.nomSubdiarioGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NomSubdiario")})
+        Me.nomSubdiarioGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NomSubdiario")})
         Me.nomSubdiarioGroup.Name = "nomSubdiarioGroup"
         '
         'reportFooter

@@ -319,7 +319,7 @@ Partial Class RepLibroDiario
         '
         Me.subDiarioGroup.GroupFooter = Me.subDiarioGroupFooter
         Me.subDiarioGroup.GroupHeader = Me.subDiarioGroupHeader
-        Me.subDiarioGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.SubDiario")})
+        Me.subDiarioGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.SubDiario")})
         Me.subDiarioGroup.Name = "subDiarioGroup"
         '
         'correlativoGroupHeader
@@ -388,7 +388,7 @@ Partial Class RepLibroDiario
         '
         Me.correlativoGroup.GroupFooter = Me.correlativoGroupFooter
         Me.correlativoGroup.GroupHeader = Me.correlativoGroupHeader
-        Me.correlativoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Correlativo")})
+        Me.correlativoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Correlativo")})
         Me.correlativoGroup.Name = "correlativoGroup"
         '
         'reportFooter

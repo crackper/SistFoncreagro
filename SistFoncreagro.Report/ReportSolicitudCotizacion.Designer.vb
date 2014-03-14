@@ -455,7 +455,7 @@ Partial Class ReportSolicitudCotizacion
         'ReportSolicitudCotizacion
         '
         Me.DataSource = Me.DSSolicitudCotizacion
-        Me.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.IdRequerimiento", Telerik.Reporting.Data.FilterOperator.Equal, "=Parameters.ParamIdReq.Value")})
+        Me.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.IdRequerimiento", Telerik.Reporting.FilterOperator.Equal, "=Parameters.ParamIdReq.Value")})
         Me.Groups.AddRange(New Telerik.Reporting.Group() {Me.labelsGroup, Me.descripcionGroup})
         Me.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.labelsGroupHeader, Me.labelsGroupFooter, Me.descripcionGroupHeader, Me.descripcionGroupFooter, Me.pageFooter, Me.reportHeader, Me.reportFooter, Me.detail})
         Me.PageSettings.Landscape = False

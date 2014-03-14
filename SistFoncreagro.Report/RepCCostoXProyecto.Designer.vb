@@ -207,18 +207,18 @@ Partial Class RepCCostoXProyecto
         Me.Crosstab1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox24, Me.TextBox25, Me.TextBox11, Me.TextBox12, Me.TextBox6, Me.TextBox10, Me.TextBox1, Me.TextBox5})
         Me.Crosstab1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.00010012308484874666R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Crosstab1.Name = "Crosstab1"
-        TableGroup5.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup5.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup5.Name = "Detail"
         TableGroup4.ChildGroups.Add(TableGroup5)
-        TableGroup4.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Actividad")})
+        TableGroup4.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Actividad")})
         TableGroup4.Name = "Actividad"
         TableGroup4.ReportItem = Me.TextBox10
-        TableGroup4.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Actividad", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup4.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Actividad", Telerik.Reporting.SortDirection.Asc)})
         TableGroup3.ChildGroups.Add(TableGroup4)
-        TableGroup3.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Componente")})
+        TableGroup3.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Componente")})
         TableGroup3.Name = "Componente"
         TableGroup3.ReportItem = Me.TextBox6
-        TableGroup3.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Componente", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup3.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Componente", Telerik.Reporting.SortDirection.Asc)})
         Me.Crosstab1.RowGroups.Add(TableGroup3)
         Me.Crosstab1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(20.002708435058594R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Crosstab1.StyleName = "Normal.TableNormal"

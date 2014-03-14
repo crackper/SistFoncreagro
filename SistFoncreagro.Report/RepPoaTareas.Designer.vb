@@ -1119,7 +1119,7 @@ Partial Class RepPoaTareas
         '
         Me.componenteGroup.GroupFooter = Me.componenteGroupFooter
         Me.componenteGroup.GroupHeader = Me.componenteGroupHeader
-        Me.componenteGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Componente")})
+        Me.componenteGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Componente")})
         Me.componenteGroup.Name = "componenteGroup"
         '
         'actividadGroupHeader
@@ -1152,7 +1152,7 @@ Partial Class RepPoaTareas
         '
         Me.actividadGroup.GroupFooter = Me.actividadGroupFooter
         Me.actividadGroup.GroupHeader = Me.actividadGroupHeader
-        Me.actividadGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Actividad")})
+        Me.actividadGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Actividad")})
         Me.actividadGroup.Name = "actividadGroup"
         '
         'pageHeader
@@ -1296,11 +1296,11 @@ Partial Class RepPoaTareas
         'TextBox78
         '
         Me.TextBox78.CanGrow = True
-        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule1.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule2.Style.BackgroundColor = System.Drawing.Color.Red
-        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule3.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox78.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule1, FormattingRule2, FormattingRule3})
         Me.TextBox78.Format = "{0:P0}"
@@ -1333,11 +1333,11 @@ Partial Class RepPoaTareas
         'TextBox74
         '
         Me.TextBox74.CanGrow = True
-        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeDic", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeDic", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule4.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeDic", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeDic", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule5.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule6.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeDic", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule6.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeDic", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule6.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox74.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule4, FormattingRule5, FormattingRule6})
         Me.TextBox74.Format = "{0:P0}"
@@ -1354,11 +1354,11 @@ Partial Class RepPoaTareas
         'TextBox73
         '
         Me.TextBox73.CanGrow = True
-        FormattingRule7.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeNov", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule7.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeNov", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule7.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule8.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeNov", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule8.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeNov", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule8.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule9.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeNov", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule9.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeNov", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule9.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox73.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule7, FormattingRule8, FormattingRule9})
         Me.TextBox73.Format = "{0:P0}"
@@ -1375,11 +1375,11 @@ Partial Class RepPoaTareas
         'TextBox72
         '
         Me.TextBox72.CanGrow = True
-        FormattingRule10.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeOct", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule10.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeOct", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule10.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule11.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeOct", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule11.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeOct", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule11.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule12.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeOct", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule12.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeOct", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule12.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox72.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule10, FormattingRule11, FormattingRule12})
         Me.TextBox72.Format = "{0:P0}"
@@ -1396,11 +1396,11 @@ Partial Class RepPoaTareas
         'TextBox71
         '
         Me.TextBox71.CanGrow = True
-        FormattingRule13.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeSep", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule13.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeSep", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule13.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule14.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeSep", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule14.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeSep", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule14.Style.BackgroundColor = System.Drawing.Color.Red
-        FormattingRule15.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeSep", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule15.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeSep", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule15.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.TextBox71.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule13, FormattingRule14, FormattingRule15})
         Me.TextBox71.Format = "{0:P0}"
@@ -1417,11 +1417,11 @@ Partial Class RepPoaTareas
         'TextBox70
         '
         Me.TextBox70.CanGrow = True
-        FormattingRule16.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule16.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule17.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule17.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule17.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule18.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule18.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule18.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox70.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule16, FormattingRule17, FormattingRule18})
         Me.TextBox70.Format = "{0:P0}"
@@ -1438,11 +1438,11 @@ Partial Class RepPoaTareas
         'TextBox69
         '
         Me.TextBox69.CanGrow = True
-        FormattingRule19.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJul", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule19.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJul", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule20.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJul", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule20.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJul", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule20.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule21.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJul", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule21.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJul", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule21.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox69.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule19, FormattingRule20, FormattingRule21})
         Me.TextBox69.Format = "{0:P0}"
@@ -1459,11 +1459,11 @@ Partial Class RepPoaTareas
         'TextBox68
         '
         Me.TextBox68.CanGrow = True
-        FormattingRule22.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJun", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule22.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJun", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule22.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule23.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJun", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule23.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJun", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule23.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule24.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJun", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule24.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJun", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule24.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox68.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule22, FormattingRule23, FormattingRule24})
         Me.TextBox68.Format = "{0:P0}"
@@ -1480,11 +1480,11 @@ Partial Class RepPoaTareas
         'TextBox67
         '
         Me.TextBox67.CanGrow = True
-        FormattingRule25.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMay", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule25.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMay", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule25.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule26.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMay", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule26.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMay", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule26.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule27.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMay", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule27.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMay", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule27.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox67.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule25, FormattingRule26, FormattingRule27})
         Me.TextBox67.Format = "{0:P0}"
@@ -1501,11 +1501,11 @@ Partial Class RepPoaTareas
         'TextBox66
         '
         Me.TextBox66.CanGrow = True
-        FormattingRule28.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule28.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule28.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule29.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule29.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule29.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule30.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule30.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule30.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox66.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule28, FormattingRule29, FormattingRule30})
         Me.TextBox66.Format = "{0:P0}"
@@ -1522,11 +1522,11 @@ Partial Class RepPoaTareas
         'TextBox65
         '
         Me.TextBox65.CanGrow = True
-        FormattingRule31.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMar", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule31.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMar", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule31.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule32.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMar", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule32.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMar", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule32.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule33.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMar", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule33.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMar", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule33.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox65.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule31, FormattingRule32, FormattingRule33})
         Me.TextBox65.Format = "{0:P0}"
@@ -1543,11 +1543,11 @@ Partial Class RepPoaTareas
         'TextBox64
         '
         Me.TextBox64.CanGrow = True
-        FormattingRule34.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule34.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule34.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule35.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule35.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule35.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule36.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule36.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule36.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox64.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule34, FormattingRule35, FormattingRule36})
         Me.TextBox64.Format = "{0:P0}"
@@ -1564,11 +1564,11 @@ Partial Class RepPoaTareas
         'TextBox63
         '
         Me.TextBox63.CanGrow = True
-        FormattingRule37.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEne", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule37.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEne", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule37.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-        FormattingRule38.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEne", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule38.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEne", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule38.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-        FormattingRule39.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEne", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule39.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEne", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule39.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox63.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule37, FormattingRule38, FormattingRule39})
         Me.TextBox63.Format = "{0:P0}"
@@ -1585,7 +1585,7 @@ Partial Class RepPoaTareas
         'TextBox62
         '
         Me.TextBox62.CanGrow = True
-        FormattingRule40.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule40.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule40.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.TextBox62.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule40})
         Me.TextBox62.Format = "{0:N0}"
@@ -1603,7 +1603,7 @@ Partial Class RepPoaTareas
         'TextBox61
         '
         Me.TextBox61.CanGrow = True
-        FormattingRule41.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule41.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule41.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.TextBox61.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule41})
         Me.TextBox61.Format = "{0:N0}"
@@ -1621,7 +1621,7 @@ Partial Class RepPoaTareas
         'dicEjeDataTextBox
         '
         Me.dicEjeDataTextBox.CanGrow = True
-        FormattingRule42.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule42.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule42.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.dicEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule42})
         Me.dicEjeDataTextBox.Format = "{0:N0}"
@@ -1638,7 +1638,7 @@ Partial Class RepPoaTareas
         'dicProgDataTextBox
         '
         Me.dicProgDataTextBox.CanGrow = True
-        FormattingRule43.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule43.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule43.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.dicProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule43})
         Me.dicProgDataTextBox.Format = "{0:N0}"
@@ -1655,7 +1655,7 @@ Partial Class RepPoaTareas
         'novEjeDataTextBox
         '
         Me.novEjeDataTextBox.CanGrow = True
-        FormattingRule44.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule44.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule44.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.novEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule44})
         Me.novEjeDataTextBox.Format = "{0:N0}"
@@ -1672,7 +1672,7 @@ Partial Class RepPoaTareas
         'novProgDataTextBox
         '
         Me.novProgDataTextBox.CanGrow = True
-        FormattingRule45.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule45.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule45.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.novProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule45})
         Me.novProgDataTextBox.Format = "{0:N0}"
@@ -1689,7 +1689,7 @@ Partial Class RepPoaTareas
         'octEjeDataTextBox
         '
         Me.octEjeDataTextBox.CanGrow = True
-        FormattingRule46.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule46.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule46.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.octEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule46})
         Me.octEjeDataTextBox.Format = "{0:N0}"
@@ -1706,7 +1706,7 @@ Partial Class RepPoaTareas
         'octProgDataTextBox
         '
         Me.octProgDataTextBox.CanGrow = True
-        FormattingRule47.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule47.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule47.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.octProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule47})
         Me.octProgDataTextBox.Format = "{0:N0}"
@@ -1723,7 +1723,7 @@ Partial Class RepPoaTareas
         'sepEjeDataTextBox
         '
         Me.sepEjeDataTextBox.CanGrow = True
-        FormattingRule48.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule48.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule48.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.sepEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule48})
         Me.sepEjeDataTextBox.Format = "{0:N0}"
@@ -1740,7 +1740,7 @@ Partial Class RepPoaTareas
         'sepProgDataTextBox
         '
         Me.sepProgDataTextBox.CanGrow = True
-        FormattingRule49.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule49.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule49.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.sepProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule49})
         Me.sepProgDataTextBox.Format = "{0:N0}"
@@ -1757,7 +1757,7 @@ Partial Class RepPoaTareas
         'agoEjeDataTextBox
         '
         Me.agoEjeDataTextBox.CanGrow = True
-        FormattingRule50.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule50.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule50.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.agoEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule50})
         Me.agoEjeDataTextBox.Format = "{0:N0}"
@@ -1774,7 +1774,7 @@ Partial Class RepPoaTareas
         'agoProgDataTextBox
         '
         Me.agoProgDataTextBox.CanGrow = True
-        FormattingRule51.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule51.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule51.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.agoProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule51})
         Me.agoProgDataTextBox.Format = "{0:N0}"
@@ -1791,7 +1791,7 @@ Partial Class RepPoaTareas
         'julEjeDataTextBox
         '
         Me.julEjeDataTextBox.CanGrow = True
-        FormattingRule52.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule52.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule52.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.julEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule52})
         Me.julEjeDataTextBox.Format = "{0:N0}"
@@ -1808,7 +1808,7 @@ Partial Class RepPoaTareas
         'julProgDataTextBox
         '
         Me.julProgDataTextBox.CanGrow = True
-        FormattingRule53.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule53.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule53.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.julProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule53})
         Me.julProgDataTextBox.Format = "{0:N0}"
@@ -1825,7 +1825,7 @@ Partial Class RepPoaTareas
         'junEjeDataTextBox
         '
         Me.junEjeDataTextBox.CanGrow = True
-        FormattingRule54.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule54.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule54.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.junEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule54})
         Me.junEjeDataTextBox.Format = "{0:N0}"
@@ -1842,7 +1842,7 @@ Partial Class RepPoaTareas
         'junProgDataTextBox
         '
         Me.junProgDataTextBox.CanGrow = True
-        FormattingRule55.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule55.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule55.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.junProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule55})
         Me.junProgDataTextBox.Format = "{0:N0}"
@@ -1859,7 +1859,7 @@ Partial Class RepPoaTareas
         'mayEjeDataTextBox
         '
         Me.mayEjeDataTextBox.CanGrow = True
-        FormattingRule56.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule56.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule56.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.mayEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule56})
         Me.mayEjeDataTextBox.Format = "{0:N0}"
@@ -1876,7 +1876,7 @@ Partial Class RepPoaTareas
         'mayProgDataTextBox
         '
         Me.mayProgDataTextBox.CanGrow = True
-        FormattingRule57.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule57.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule57.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.mayProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule57})
         Me.mayProgDataTextBox.Format = "{0:N0}"
@@ -1893,7 +1893,7 @@ Partial Class RepPoaTareas
         'abrEjeDataTextBox
         '
         Me.abrEjeDataTextBox.CanGrow = True
-        FormattingRule58.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule58.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule58.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.abrEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule58})
         Me.abrEjeDataTextBox.Format = "{0:N0}"
@@ -1910,7 +1910,7 @@ Partial Class RepPoaTareas
         'abrProgDataTextBox
         '
         Me.abrProgDataTextBox.CanGrow = True
-        FormattingRule59.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule59.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule59.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.abrProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule59})
         Me.abrProgDataTextBox.Format = "{0:N0}"
@@ -1927,7 +1927,7 @@ Partial Class RepPoaTareas
         'marEjeDataTextBox
         '
         Me.marEjeDataTextBox.CanGrow = True
-        FormattingRule60.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule60.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule60.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.marEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule60})
         Me.marEjeDataTextBox.Format = "{0:N0}"
@@ -1944,7 +1944,7 @@ Partial Class RepPoaTareas
         'marProgDataTextBox
         '
         Me.marProgDataTextBox.CanGrow = True
-        FormattingRule61.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule61.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule61.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.marProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule61})
         Me.marProgDataTextBox.Format = "{0:N0}"
@@ -1961,7 +1961,7 @@ Partial Class RepPoaTareas
         'febEjeDataTextBox
         '
         Me.febEjeDataTextBox.CanGrow = True
-        FormattingRule62.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule62.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule62.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.febEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule62})
         Me.febEjeDataTextBox.Format = "{0:N0}"
@@ -1978,7 +1978,7 @@ Partial Class RepPoaTareas
         'febProgDataTextBox
         '
         Me.febProgDataTextBox.CanGrow = True
-        FormattingRule63.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule63.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule63.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.febProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule63})
         Me.febProgDataTextBox.Format = "{0:N0}"
@@ -1995,7 +1995,7 @@ Partial Class RepPoaTareas
         'eneEjeDataTextBox
         '
         Me.eneEjeDataTextBox.CanGrow = True
-        FormattingRule64.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule64.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule64.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.eneEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule64})
         Me.eneEjeDataTextBox.Format = "{0:N0}"
@@ -2012,7 +2012,7 @@ Partial Class RepPoaTareas
         'eneProgDataTextBox
         '
         Me.eneProgDataTextBox.CanGrow = True
-        FormattingRule65.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule65.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule65.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.eneProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule65})
         Me.eneProgDataTextBox.Format = "{0:N0}"
@@ -2029,7 +2029,7 @@ Partial Class RepPoaTareas
         'unidadDataTextBox
         '
         Me.unidadDataTextBox.CanGrow = True
-        FormattingRule66.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule66.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule66.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.unidadDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule66})
         Me.unidadDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(16.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -2045,7 +2045,7 @@ Partial Class RepPoaTareas
         'nomTareaDataTextBox
         '
         Me.nomTareaDataTextBox.CanGrow = True
-        FormattingRule67.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
+        FormattingRule67.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
         FormattingRule67.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
         Me.nomTareaDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule67})
         Me.nomTareaDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))

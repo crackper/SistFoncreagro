@@ -286,7 +286,7 @@ Partial Class RepBienesMuebles
         '
         Me.codClasificacionGroup.GroupFooter = Me.codClasificacionGroupFooter
         Me.codClasificacionGroup.GroupHeader = Me.codClasificacionGroupHeader
-        Me.codClasificacionGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CodClasificacion")})
+        Me.codClasificacionGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CodClasificacion")})
         Me.codClasificacionGroup.Name = "codClasificacionGroup"
         '
         'pageHeader

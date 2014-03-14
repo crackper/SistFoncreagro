@@ -974,7 +974,7 @@ Partial Class RegistroVentas
         '
         Me.TipoDoc.GroupFooter = Me.GroupFooterSection1
         Me.TipoDoc.GroupHeader = Me.GroupHeaderSection1
-        Me.TipoDoc.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.TipoDoc")})
+        Me.TipoDoc.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.TipoDoc")})
         Me.TipoDoc.Name = "TipoDoc"
         '
         'GroupFooterSection1

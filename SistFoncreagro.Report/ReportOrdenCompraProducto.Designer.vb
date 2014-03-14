@@ -388,7 +388,7 @@ Partial Class ReportOrdenCompraProducto
         '
         Me.descripcionGroup.GroupFooter = Me.descripcionGroupFooter
         Me.descripcionGroup.GroupHeader = Me.descripcionGroupHeader
-        Me.descripcionGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Descripcion")})
+        Me.descripcionGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Descripcion")})
         Me.descripcionGroup.Name = "descripcionGroup"
         '
         'pageFooter
@@ -700,7 +700,7 @@ Partial Class ReportOrdenCompraProducto
         'ReportOrdenCompraProducto
         '
         Me.DataSource = Me.DSOrdenCompraProducto
-        Me.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.IdOrdenCompra", Telerik.Reporting.Data.FilterOperator.Equal, "= Parameters.ParametroIdOrdenCompra.Value")})
+        Me.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.IdOrdenCompra", Telerik.Reporting.FilterOperator.Equal, "= Parameters.ParametroIdOrdenCompra.Value")})
         Me.Groups.AddRange(New Telerik.Reporting.Group() {Me.labelsGroup, Me.descripcionGroup})
         Me.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.labelsGroupHeader, Me.labelsGroupFooter, Me.descripcionGroupHeader, Me.descripcionGroupFooter, Me.pageFooter, Me.reportHeader, Me.reportFooter, Me.detail})
         Me.PageSettings.Landscape = False

@@ -183,10 +183,10 @@ Partial Class RepEstadoCompromisos
         Me.Crosstab1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm)))
         Me.Crosstab1.Body.SetCellContent(0, 0, Me.TextBox4)
         Me.Crosstab1.Body.SetCellContent(1, 0, Me.TextBox18)
-        TableGroup1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Actividad")})
+        TableGroup1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Actividad")})
         TableGroup1.Name = "Actividad"
         TableGroup1.ReportItem = Me.TextBox1
-        TableGroup1.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Actividad", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup1.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Actividad", Telerik.Reporting.SortDirection.Asc)})
         Me.Crosstab1.ColumnGroups.Add(TableGroup1)
         Me.Crosstab1.Corner.SetCellContent(0, 2, Me.TextBox3)
         Me.Crosstab1.Corner.SetCellContent(0, 0, Me.TextBox8)
@@ -201,7 +201,7 @@ Partial Class RepEstadoCompromisos
         TableGroup3.Name = "Group8"
         TableGroup3.ReportItem = Me.TextBox9
         TableGroup2.ChildGroups.Add(TableGroup3)
-        TableGroup2.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Caserio")})
+        TableGroup2.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Caserio")})
         TableGroup2.Name = "Caserio"
         TableGroup2.ReportItem = Me.TextBox7
         TableGroup7.Name = "Group7"
@@ -215,7 +215,7 @@ Partial Class RepEstadoCompromisos
         Me.Crosstab1.RowGroups.Add(TableGroup2)
         Me.Crosstab1.RowGroups.Add(TableGroup5)
         Me.Crosstab1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(9.0583419799804687R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(2.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-        Me.Crosstab1.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Distrito", Telerik.Reporting.Data.SortDirection.Asc), New Telerik.Reporting.Data.Sorting("=Fields.CentroPoblado", Telerik.Reporting.Data.SortDirection.Asc), New Telerik.Reporting.Data.Sorting("=Fields.Caserio", Telerik.Reporting.Data.SortDirection.Asc)})
+        Me.Crosstab1.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Distrito", Telerik.Reporting.SortDirection.Asc), New Telerik.Reporting.Sorting("=Fields.CentroPoblado", Telerik.Reporting.SortDirection.Asc), New Telerik.Reporting.Sorting("=Fields.Caserio", Telerik.Reporting.SortDirection.Asc)})
         Me.Crosstab1.StyleName = "Normal.TableNormal"
         '
         'TextBox4
@@ -308,7 +308,7 @@ Partial Class RepEstadoCompromisos
         Me.ReportParameters.Add(ReportParameter1)
         Me.ReportParameters.Add(ReportParameter2)
         Me.ReportParameters.Add(ReportParameter3)
-        Me.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Distrito", Telerik.Reporting.Data.SortDirection.Asc), New Telerik.Reporting.Data.Sorting("=Fields.CentroPoblado", Telerik.Reporting.Data.SortDirection.Asc), New Telerik.Reporting.Data.Sorting("=Fields.Caserio", Telerik.Reporting.Data.SortDirection.Asc)})
+        Me.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Distrito", Telerik.Reporting.SortDirection.Asc), New Telerik.Reporting.Sorting("=Fields.CentroPoblado", Telerik.Reporting.SortDirection.Asc), New Telerik.Reporting.Sorting("=Fields.Caserio", Telerik.Reporting.SortDirection.Asc)})
         Me.Style.BackgroundColor = System.Drawing.Color.White
         StyleRule1.Selectors.AddRange(New Telerik.Reporting.Drawing.ISelector() {New Telerik.Reporting.Drawing.StyleSelector("Title")})
         StyleRule1.Style.Color = System.Drawing.Color.Black

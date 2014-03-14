@@ -525,7 +525,7 @@ Partial Class RepBalanceComprobacionAcumuladoNivelDetalle
         '
         Me.descripcion2Group.GroupFooter = Me.descripcion2GroupFooter
         Me.descripcion2Group.GroupHeader = Me.descripcion2GroupHeader
-        Me.descripcion2Group.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CodigoN2")})
+        Me.descripcion2Group.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CodigoN2")})
         Me.descripcion2Group.Name = "descripcion2Group"
         '
         'reportFooter

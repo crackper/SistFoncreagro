@@ -349,7 +349,7 @@ Partial Class RepAnaliticoCCosto
         '
         Me.nomProyectoGroup.GroupFooter = Me.nomProyectoGroupFooter
         Me.nomProyectoGroup.GroupHeader = Me.nomProyectoGroupHeader
-        Me.nomProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NomProyecto")})
+        Me.nomProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NomProyecto")})
         Me.nomProyectoGroup.Name = "nomProyectoGroup"
         '
         'actividadGroupHeader
@@ -435,7 +435,7 @@ Partial Class RepAnaliticoCCosto
         '
         Me.actividadGroup.GroupFooter = Me.actividadGroupFooter
         Me.actividadGroup.GroupHeader = Me.actividadGroupHeader
-        Me.actividadGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CodActividad")})
+        Me.actividadGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CodActividad")})
         Me.actividadGroup.Name = "actividadGroup"
         '
         'reportFooter
@@ -776,7 +776,7 @@ Partial Class RepAnaliticoCCosto
         '
         Me.Group1.GroupFooter = Me.GroupFooterSection1
         Me.Group1.GroupHeader = Me.GroupHeaderSection1
-        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CCosto")})
+        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CCosto")})
         Me.Group1.Name = "Group1"
         '
         'GroupFooterSection1

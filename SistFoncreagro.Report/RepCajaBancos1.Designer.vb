@@ -504,7 +504,7 @@ Partial Class RepCajaBancos1
         '
         Me.cuentaGroup.GroupFooter = Me.cuentaGroupFooter
         Me.cuentaGroup.GroupHeader = Me.cuentaGroupHeader
-        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Cuenta")})
+        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Cuenta")})
         Me.cuentaGroup.Name = "cuentaGroup"
         '
         'reportFooter
@@ -810,7 +810,7 @@ Partial Class RepCajaBancos1
         '
         Me.ProyectoGroup.GroupFooter = Me.GroupFooterSection1
         Me.ProyectoGroup.GroupHeader = Me.GroupHeaderSection1
-        Me.ProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proyecto")})
+        Me.ProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proyecto")})
         Me.ProyectoGroup.Name = "ProyectoGroup"
         '
         'GroupFooterSection1

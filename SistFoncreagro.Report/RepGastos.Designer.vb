@@ -272,7 +272,7 @@ Partial Class RepGastos
         '
         Me.codProyectoGroup.GroupFooter = Me.codProyectoGroupFooter
         Me.codProyectoGroup.GroupHeader = Me.codProyectoGroupHeader
-        Me.codProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CodProyecto")})
+        Me.codProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CodProyecto")})
         Me.codProyectoGroup.Name = "codProyectoGroup"
         '
         'reportFooter

@@ -223,7 +223,7 @@ Partial Class RepKardexDetallado
         '
         Me.productoGroup.GroupFooter = Me.productoGroupFooter
         Me.productoGroup.GroupHeader = Me.productoGroupHeader
-        Me.productoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Producto")})
+        Me.productoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Producto")})
         Me.productoGroup.Name = "productoGroup"
         '
         'reportFooter
@@ -408,7 +408,7 @@ Partial Class RepKardexDetallado
         '
         Me.TipoGroup.GroupFooter = Me.GroupFooterSection1
         Me.TipoGroup.GroupHeader = Me.GroupHeaderSection1
-        Me.TipoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Tipo")})
+        Me.TipoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Tipo")})
         Me.TipoGroup.Name = "TipoGroup"
         '
         'GroupFooterSection1

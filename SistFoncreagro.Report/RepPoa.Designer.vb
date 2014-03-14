@@ -1225,836 +1225,836 @@ Partial Class RepPoa
             'nomTareaDataTextBox
             '
             Me.nomTareaDataTextBox.CanGrow = True
-            FormattingRule1.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule1.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
-            Me.nomTareaDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule1})
-            Me.nomTareaDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.nomTareaDataTextBox.Name = "nomTareaDataTextBox"
-            Me.nomTareaDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(16.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.nomTareaDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.nomTareaDataTextBox.Style.Font.Name = "Arial"
-            Me.nomTareaDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.nomTareaDataTextBox.StyleName = "Data"
-            Me.nomTareaDataTextBox.Value = "=Fields.NomTarea"
-            '
-            'unidadDataTextBox
-            '
-            Me.unidadDataTextBox.CanGrow = True
-            FormattingRule2.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule2.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.unidadDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule2})
-            Me.unidadDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(16.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.unidadDataTextBox.Name = "unidadDataTextBox"
-            Me.unidadDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(2.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.unidadDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.unidadDataTextBox.Style.Font.Name = "Arial"
-            Me.unidadDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.unidadDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.unidadDataTextBox.StyleName = "Data"
-            Me.unidadDataTextBox.Value = "=Fields.Unidad"
-            '
-            'eneProgDataTextBox
-            '
-            Me.eneProgDataTextBox.CanGrow = True
-            FormattingRule3.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule3.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.eneProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule3})
-            Me.eneProgDataTextBox.Format = "{0:N0}"
-            Me.eneProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(20.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.eneProgDataTextBox.Name = "eneProgDataTextBox"
-            Me.eneProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.eneProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.eneProgDataTextBox.Style.Font.Name = "Arial"
-            Me.eneProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.eneProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.eneProgDataTextBox.StyleName = "Data"
-            Me.eneProgDataTextBox.Value = "=Fields.EneProg"
-            '
-            'eneEjeDataTextBox
-            '
-            Me.eneEjeDataTextBox.CanGrow = True
-            FormattingRule4.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule4.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.eneEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule4})
-            Me.eneEjeDataTextBox.Format = "{0:N0}"
-            Me.eneEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(21.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.eneEjeDataTextBox.Name = "eneEjeDataTextBox"
-            Me.eneEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.eneEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.eneEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.eneEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.eneEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.eneEjeDataTextBox.StyleName = "Data"
-            Me.eneEjeDataTextBox.Value = "=Fields.EneEje"
-            '
-            'febProgDataTextBox
-            '
-            Me.febProgDataTextBox.CanGrow = True
-            FormattingRule5.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule5.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.febProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule5})
-            Me.febProgDataTextBox.Format = "{0:N0}"
-            Me.febProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(23.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.febProgDataTextBox.Name = "febProgDataTextBox"
-            Me.febProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.febProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.febProgDataTextBox.Style.Font.Name = "Arial"
-            Me.febProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.febProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.febProgDataTextBox.StyleName = "Data"
-            Me.febProgDataTextBox.Value = "=Fields.FebProg"
-            '
-            'febEjeDataTextBox
-            '
-            Me.febEjeDataTextBox.CanGrow = True
-            FormattingRule6.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule6.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.febEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule6})
-            Me.febEjeDataTextBox.Format = "{0:N0}"
-            Me.febEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(24.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.febEjeDataTextBox.Name = "febEjeDataTextBox"
-            Me.febEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.febEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.febEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.febEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.febEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.febEjeDataTextBox.StyleName = "Data"
-            Me.febEjeDataTextBox.Value = "=Fields.FebEje"
-            '
-            'marProgDataTextBox
-            '
-            Me.marProgDataTextBox.CanGrow = True
-            FormattingRule7.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule7.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.marProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule7})
-            Me.marProgDataTextBox.Format = "{0:N0}"
-            Me.marProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(26.000001907348633R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.marProgDataTextBox.Name = "marProgDataTextBox"
-            Me.marProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.marProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.marProgDataTextBox.Style.Font.Name = "Arial"
-            Me.marProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.marProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.marProgDataTextBox.StyleName = "Data"
-            Me.marProgDataTextBox.Value = "=Fields.MarProg"
-            '
-            'marEjeDataTextBox
-            '
-            Me.marEjeDataTextBox.CanGrow = True
-            FormattingRule8.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule8.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.marEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule8})
-            Me.marEjeDataTextBox.Format = "{0:N0}"
-            Me.marEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(26.999996185302734R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.marEjeDataTextBox.Name = "marEjeDataTextBox"
-            Me.marEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.marEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.marEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.marEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.marEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.marEjeDataTextBox.StyleName = "Data"
-            Me.marEjeDataTextBox.Value = "=Fields.MarEje"
-            '
-            'abrProgDataTextBox
-            '
-            Me.abrProgDataTextBox.CanGrow = True
-            FormattingRule9.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule9.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.abrProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule9})
-            Me.abrProgDataTextBox.Format = "{0:N0}"
-            Me.abrProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(29.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.abrProgDataTextBox.Name = "abrProgDataTextBox"
-            Me.abrProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.abrProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.abrProgDataTextBox.Style.Font.Name = "Arial"
-            Me.abrProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.abrProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.abrProgDataTextBox.StyleName = "Data"
-            Me.abrProgDataTextBox.Value = "=Fields.AbrProg"
-            '
-            'abrEjeDataTextBox
-            '
-            Me.abrEjeDataTextBox.CanGrow = True
-            FormattingRule10.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule10.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.abrEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule10})
-            Me.abrEjeDataTextBox.Format = "{0:N0}"
-            Me.abrEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(30.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.abrEjeDataTextBox.Name = "abrEjeDataTextBox"
-            Me.abrEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.abrEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.abrEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.abrEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.abrEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.abrEjeDataTextBox.StyleName = "Data"
-            Me.abrEjeDataTextBox.Value = "=Fields.AbrEje"
-            '
-            'mayProgDataTextBox
-            '
-            Me.mayProgDataTextBox.CanGrow = True
-            FormattingRule11.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule11.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.mayProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule11})
-            Me.mayProgDataTextBox.Format = "{0:N0}"
-            Me.mayProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(32.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.mayProgDataTextBox.Name = "mayProgDataTextBox"
-            Me.mayProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.mayProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.mayProgDataTextBox.Style.Font.Name = "Arial"
-            Me.mayProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.mayProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.mayProgDataTextBox.StyleName = "Data"
-            Me.mayProgDataTextBox.Value = "=Fields.MayProg"
-            '
-            'mayEjeDataTextBox
-            '
-            Me.mayEjeDataTextBox.CanGrow = True
-            FormattingRule12.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule12.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.mayEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule12})
-            Me.mayEjeDataTextBox.Format = "{0:N0}"
-            Me.mayEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(33.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.mayEjeDataTextBox.Name = "mayEjeDataTextBox"
-            Me.mayEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.mayEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.mayEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.mayEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.mayEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.mayEjeDataTextBox.StyleName = "Data"
-            Me.mayEjeDataTextBox.Value = "=Fields.MayEje"
-            '
-            'junProgDataTextBox
-            '
-            Me.junProgDataTextBox.CanGrow = True
-            FormattingRule13.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule13.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.junProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule13})
-            Me.junProgDataTextBox.Format = "{0:N0}"
-            Me.junProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(35.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.junProgDataTextBox.Name = "junProgDataTextBox"
-            Me.junProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.junProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.junProgDataTextBox.Style.Font.Name = "Arial"
-            Me.junProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.junProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.junProgDataTextBox.StyleName = "Data"
-            Me.junProgDataTextBox.Value = "=Fields.JunProg"
-            '
-            'junEjeDataTextBox
-            '
-            Me.junEjeDataTextBox.CanGrow = True
-            FormattingRule14.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule14.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.junEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule14})
-            Me.junEjeDataTextBox.Format = "{0:N0}"
-            Me.junEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(36.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.junEjeDataTextBox.Name = "junEjeDataTextBox"
-            Me.junEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.junEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.junEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.junEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.junEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.junEjeDataTextBox.StyleName = "Data"
-            Me.junEjeDataTextBox.Value = "=Fields.JunEje"
-            '
-            'julProgDataTextBox
-            '
-            Me.julProgDataTextBox.CanGrow = True
-            FormattingRule15.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule15.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.julProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule15})
-            Me.julProgDataTextBox.Format = "{0:N0}"
-            Me.julProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(38.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.julProgDataTextBox.Name = "julProgDataTextBox"
-            Me.julProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.julProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.julProgDataTextBox.Style.Font.Name = "Arial"
-            Me.julProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.julProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.julProgDataTextBox.StyleName = "Data"
-            Me.julProgDataTextBox.Value = "=Fields.JulProg"
-            '
-            'julEjeDataTextBox
-            '
-            Me.julEjeDataTextBox.CanGrow = True
-            FormattingRule16.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.julEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule16})
-            Me.julEjeDataTextBox.Format = "{0:N0}"
-            Me.julEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(39.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.julEjeDataTextBox.Name = "julEjeDataTextBox"
-            Me.julEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.julEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.julEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.julEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.julEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.julEjeDataTextBox.StyleName = "Data"
-            Me.julEjeDataTextBox.Value = "=Fields.JulEje"
-            '
-            'agoProgDataTextBox
-            '
-            Me.agoProgDataTextBox.CanGrow = True
-            FormattingRule17.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule17.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.agoProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule17})
-            Me.agoProgDataTextBox.Format = "{0:N0}"
-            Me.agoProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(41.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.agoProgDataTextBox.Name = "agoProgDataTextBox"
-            Me.agoProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.agoProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.agoProgDataTextBox.Style.Font.Name = "Arial"
-            Me.agoProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.agoProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.agoProgDataTextBox.StyleName = "Data"
-            Me.agoProgDataTextBox.Value = "=Fields.AgoProg"
-            '
-            'agoEjeDataTextBox
-            '
-            Me.agoEjeDataTextBox.CanGrow = True
-            FormattingRule18.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule18.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.agoEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule18})
-            Me.agoEjeDataTextBox.Format = "{0:N0}"
-            Me.agoEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(42.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.agoEjeDataTextBox.Name = "agoEjeDataTextBox"
-            Me.agoEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.agoEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.agoEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.agoEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.agoEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.agoEjeDataTextBox.StyleName = "Data"
-            Me.agoEjeDataTextBox.Value = "=Fields.AgoEje"
-            '
-            'sepProgDataTextBox
-            '
-            Me.sepProgDataTextBox.CanGrow = True
-            FormattingRule19.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.sepProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule19})
-            Me.sepProgDataTextBox.Format = "{0:N0}"
-            Me.sepProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(44.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.sepProgDataTextBox.Name = "sepProgDataTextBox"
-            Me.sepProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.sepProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.sepProgDataTextBox.Style.Font.Name = "Arial"
-            Me.sepProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.sepProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.sepProgDataTextBox.StyleName = "Data"
-            Me.sepProgDataTextBox.Value = "=Fields.SepProg"
-            '
-            'sepEjeDataTextBox
-            '
-            Me.sepEjeDataTextBox.CanGrow = True
-            FormattingRule20.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule20.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.sepEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule20})
-            Me.sepEjeDataTextBox.Format = "{0:N0}"
-            Me.sepEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(45.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.sepEjeDataTextBox.Name = "sepEjeDataTextBox"
-            Me.sepEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.sepEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.sepEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.sepEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.sepEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.sepEjeDataTextBox.StyleName = "Data"
-            Me.sepEjeDataTextBox.Value = "=Fields.SepEje"
-            '
-            'octProgDataTextBox
-            '
-            Me.octProgDataTextBox.CanGrow = True
-            FormattingRule21.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule21.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.octProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule21})
-            Me.octProgDataTextBox.Format = "{0:N0}"
-            Me.octProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(47.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.octProgDataTextBox.Name = "octProgDataTextBox"
-            Me.octProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.octProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.octProgDataTextBox.Style.Font.Name = "Arial"
-            Me.octProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.octProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.octProgDataTextBox.StyleName = "Data"
-            Me.octProgDataTextBox.Value = "=Fields.OctProg"
-            '
-            'octEjeDataTextBox
-            '
-            Me.octEjeDataTextBox.CanGrow = True
-            FormattingRule22.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule22.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.octEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule22})
-            Me.octEjeDataTextBox.Format = "{0:N0}"
-            Me.octEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(48.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.octEjeDataTextBox.Name = "octEjeDataTextBox"
-            Me.octEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.octEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.octEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.octEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.octEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.octEjeDataTextBox.StyleName = "Data"
-            Me.octEjeDataTextBox.Value = "=Fields.OctEje"
-            '
-            'novProgDataTextBox
-            '
-            Me.novProgDataTextBox.CanGrow = True
-            FormattingRule23.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule23.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.novProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule23})
-            Me.novProgDataTextBox.Format = "{0:N0}"
-            Me.novProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(50.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.novProgDataTextBox.Name = "novProgDataTextBox"
-            Me.novProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.novProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.novProgDataTextBox.Style.Font.Name = "Arial"
-            Me.novProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.novProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.novProgDataTextBox.StyleName = "Data"
-            Me.novProgDataTextBox.Value = "=Fields.NovProg"
-            '
-            'novEjeDataTextBox
-            '
-            Me.novEjeDataTextBox.CanGrow = True
-            FormattingRule24.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule24.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.novEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule24})
-            Me.novEjeDataTextBox.Format = "{0:N0}"
-            Me.novEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(51.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.novEjeDataTextBox.Name = "novEjeDataTextBox"
-            Me.novEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.novEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.novEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.novEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.novEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.novEjeDataTextBox.StyleName = "Data"
-            Me.novEjeDataTextBox.Value = "=Fields.NovEje"
-            '
-            'dicProgDataTextBox
-            '
-            Me.dicProgDataTextBox.CanGrow = True
-            FormattingRule25.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule25.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.dicProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule25})
-            Me.dicProgDataTextBox.Format = "{0:N0}"
-            Me.dicProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(53.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.dicProgDataTextBox.Name = "dicProgDataTextBox"
-            Me.dicProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.dicProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.dicProgDataTextBox.Style.Font.Name = "Arial"
-            Me.dicProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.dicProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.dicProgDataTextBox.StyleName = "Data"
-            Me.dicProgDataTextBox.Value = "=Fields.DicProg"
-            '
-            'dicEjeDataTextBox
-            '
-            Me.dicEjeDataTextBox.CanGrow = True
-            FormattingRule26.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule26.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.dicEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule26})
-            Me.dicEjeDataTextBox.Format = "{0:N0}"
-            Me.dicEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(54.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.dicEjeDataTextBox.Name = "dicEjeDataTextBox"
-            Me.dicEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.dicEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.dicEjeDataTextBox.Style.Font.Name = "Arial"
-            Me.dicEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.dicEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.dicEjeDataTextBox.StyleName = "Data"
-            Me.dicEjeDataTextBox.Value = "=Fields.DicEje"
-            '
-            'TextBox61
-            '
-            Me.TextBox61.CanGrow = True
-            FormattingRule27.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule27.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.TextBox61.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule27})
-            Me.TextBox61.Format = "{0:N0}"
-            Me.TextBox61.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(18.000200271606445R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox61.Name = "TextBox61"
-            Me.TextBox61.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox61.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-            Me.TextBox61.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox61.Style.Font.Name = "Arial"
-            Me.TextBox61.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox61.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox61.StyleName = "Data"
-            Me.TextBox61.Value = "= Fields.MetaTotal"
-            '
-            'TextBox62
-            '
-            Me.TextBox62.CanGrow = True
-            FormattingRule28.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, "S")})
-            FormattingRule28.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
-            Me.TextBox62.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule28})
-            Me.TextBox62.Format = "{0:N0}"
-            Me.TextBox62.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(19.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox62.Name = "TextBox62"
-            Me.TextBox62.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox62.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-            Me.TextBox62.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox62.Style.Font.Name = "Arial"
-            Me.TextBox62.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox62.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox62.StyleName = "Data"
-            Me.TextBox62.Value = "= Fields.MetaAnio"
-            '
-            'TextBox63
-            '
-            Me.TextBox63.CanGrow = True
-            FormattingRule29.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEne", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule29.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule30.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEne", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule30.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule31.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEne", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule31.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox63.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule29, FormattingRule30, FormattingRule31})
-            Me.TextBox63.Format = "{0:P0}"
-            Me.TextBox63.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(22.000200271606445R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox63.Name = "TextBox63"
-            Me.TextBox63.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox63.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox63.Style.Font.Name = "Arial"
-            Me.TextBox63.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox63.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox63.StyleName = "Data"
-            Me.TextBox63.Value = "= IsNull(Fields.PorcentajeEne,""-"")"
-            '
-            'TextBox64
-            '
-            Me.TextBox64.CanGrow = True
-            FormattingRule32.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule32.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule33.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule33.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule34.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule34.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox64.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule32, FormattingRule33, FormattingRule34})
-            Me.TextBox64.Format = "{0:P0}"
-            Me.TextBox64.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(25.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox64.Name = "TextBox64"
-            Me.TextBox64.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox64.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox64.Style.Font.Name = "Arial"
-            Me.TextBox64.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox64.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox64.StyleName = "Data"
-            Me.TextBox64.Value = "= IsNull(Fields.PorcentajeFeb,""-"")"
-            '
-            'TextBox65
-            '
-            Me.TextBox65.CanGrow = True
-            FormattingRule35.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMar", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule35.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule36.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMar", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule36.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule37.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMar", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule37.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox65.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule35, FormattingRule36, FormattingRule37})
-            Me.TextBox65.Format = "{0:P0}"
-            Me.TextBox65.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(28.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox65.Name = "TextBox65"
-            Me.TextBox65.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox65.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox65.Style.Font.Name = "Arial"
-            Me.TextBox65.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox65.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox65.StyleName = "Data"
-            Me.TextBox65.Value = "= IsNull(Fields.PorcentajeMar,""-"")"
-            '
-            'TextBox66
-            '
-            Me.TextBox66.CanGrow = True
-            FormattingRule38.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule38.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule39.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule39.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule40.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule40.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox66.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule38, FormattingRule39, FormattingRule40})
-            Me.TextBox66.Format = "{0:P0}"
-            Me.TextBox66.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(31.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox66.Name = "TextBox66"
-            Me.TextBox66.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox66.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox66.Style.Font.Name = "Arial"
-            Me.TextBox66.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox66.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox66.StyleName = "Data"
-            Me.TextBox66.Value = "= IsNull(Fields.PorcentajeAbr,""-"")"
-            '
-            'TextBox67
-            '
-            Me.TextBox67.CanGrow = True
-            FormattingRule41.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMay", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule41.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule42.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMay", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule42.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule43.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeMay", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule43.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox67.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule41, FormattingRule42, FormattingRule43})
-            Me.TextBox67.Format = "{0:P0}"
-            Me.TextBox67.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(34.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox67.Name = "TextBox67"
-            Me.TextBox67.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox67.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox67.Style.Font.Name = "Arial"
-            Me.TextBox67.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox67.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox67.StyleName = "Data"
-            Me.TextBox67.Value = "= IsNull(Fields.PorcentajeMay,""-"")"
-            '
-            'TextBox68
-            '
-            Me.TextBox68.CanGrow = True
-            FormattingRule44.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJun", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule44.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule45.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJun", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule45.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule46.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJun", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule46.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox68.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule44, FormattingRule45, FormattingRule46})
-            Me.TextBox68.Format = "{0:P0}"
-            Me.TextBox68.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(37.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox68.Name = "TextBox68"
-            Me.TextBox68.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox68.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox68.Style.Font.Name = "Arial"
-            Me.TextBox68.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox68.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox68.StyleName = "Data"
-            Me.TextBox68.Value = "= IsNull(Fields.PorcentajeJun,""-"")"
-            '
-            'TextBox69
-            '
-            Me.TextBox69.CanGrow = True
-            FormattingRule47.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJul", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule47.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule48.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJul", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule48.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule49.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeJul", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule49.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox69.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule47, FormattingRule48, FormattingRule49})
-            Me.TextBox69.Format = "{0:P0}"
-            Me.TextBox69.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(40.000198364257813R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox69.Name = "TextBox69"
-            Me.TextBox69.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox69.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox69.Style.Font.Name = "Arial"
-            Me.TextBox69.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox69.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox69.StyleName = "Data"
-            Me.TextBox69.Value = "= IsNull(Fields.PorcentajeJul,""-"")"
-            '
-            'TextBox70
-            '
-            Me.TextBox70.CanGrow = True
-            FormattingRule50.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule50.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule51.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule51.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule52.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule52.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox70.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule50, FormattingRule51, FormattingRule52})
-            Me.TextBox70.Format = "{0:P0}"
-            Me.TextBox70.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(43.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox70.Name = "TextBox70"
-            Me.TextBox70.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox70.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox70.Style.Font.Name = "Arial"
-            Me.TextBox70.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox70.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox70.StyleName = "Data"
-            Me.TextBox70.Value = "= IsNull(Fields.PorcentajeAgo,""-"")"
-            '
-            'TextBox71
-            '
-            Me.TextBox71.CanGrow = True
-            FormattingRule53.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeSep", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule53.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule54.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeSep", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule54.Style.BackgroundColor = System.Drawing.Color.Red
-            FormattingRule55.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeSep", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule55.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            Me.TextBox71.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule53, FormattingRule54, FormattingRule55})
-            Me.TextBox71.Format = "{0:P0}"
-            Me.TextBox71.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(45.999801635742188R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox71.Name = "TextBox71"
-            Me.TextBox71.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox71.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox71.Style.Font.Name = "Arial"
-            Me.TextBox71.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox71.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox71.StyleName = "Data"
-            Me.TextBox71.Value = "= IsNull(Fields.PorcentajeSep,""-"")"
-            '
-            'TextBox72
-            '
-            Me.TextBox72.CanGrow = True
-            FormattingRule56.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeOct", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule56.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule57.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeOct", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule57.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule58.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeOct", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule58.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox72.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule56, FormattingRule57, FormattingRule58})
-            Me.TextBox72.Format = "{0:P0}"
-            Me.TextBox72.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(49.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox72.Name = "TextBox72"
-            Me.TextBox72.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox72.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox72.Style.Font.Name = "Arial"
-            Me.TextBox72.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox72.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox72.StyleName = "Data"
-            Me.TextBox72.Value = "= IsNull(Fields.PorcentajeOct,""-"")"
-            '
-            'TextBox73
-            '
-            Me.TextBox73.CanGrow = True
-            FormattingRule59.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeNov", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule59.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule60.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeNov", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule60.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule61.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeNov", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule61.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox73.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule59, FormattingRule60, FormattingRule61})
-            Me.TextBox73.Format = "{0:P0}"
-            Me.TextBox73.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(52.000198364257813R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox73.Name = "TextBox73"
-            Me.TextBox73.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox73.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox73.Style.Font.Name = "Arial"
-            Me.TextBox73.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox73.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox73.StyleName = "Data"
-            Me.TextBox73.Value = "= IsNull(Fields.PorcentajeNov,""-"")"
-            '
-            'TextBox74
-            '
-            Me.TextBox74.CanGrow = True
-            FormattingRule62.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeDic", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule62.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule63.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeDic", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule63.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            FormattingRule64.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeDic", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule64.Style.BackgroundColor = System.Drawing.Color.Red
-            Me.TextBox74.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule62, FormattingRule63, FormattingRule64})
-            Me.TextBox74.Format = "{0:P0}"
-            Me.TextBox74.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(55.000194549560547R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox74.Name = "TextBox74"
-            Me.TextBox74.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox74.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox74.Style.Font.Name = "Arial"
-            Me.TextBox74.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox74.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox74.StyleName = "Data"
-            Me.TextBox74.Value = "= IsNull(Fields.PorcentajeDic,""-"")"
-            '
-            'TextBox77
-            '
-            Me.TextBox77.CanGrow = True
-            Me.TextBox77.Format = "{0:N0}"
-            Me.TextBox77.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(56.0004997253418R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox77.Name = "TextBox77"
-            Me.TextBox77.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox77.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-            Me.TextBox77.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox77.Style.Font.Name = "Arial"
-            Me.TextBox77.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox77.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox77.StyleName = "Data"
-            Me.TextBox77.Value = "= Fields.TotalEjecutado"
-            '
-            'TextBox78
-            '
-            Me.TextBox78.CanGrow = True
-            FormattingRule65.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
-            FormattingRule65.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
-            FormattingRule66.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
-            FormattingRule66.Style.BackgroundColor = System.Drawing.Color.Red
-            FormattingRule67.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
-            FormattingRule67.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
-            Me.TextBox78.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule65, FormattingRule66, FormattingRule67})
-            Me.TextBox78.Format = "{0:P0}"
-            Me.TextBox78.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(57.000698089599609R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox78.Name = "TextBox78"
-            Me.TextBox78.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox78.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-            Me.TextBox78.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox78.Style.Font.Name = "Arial"
-            Me.TextBox78.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox78.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-            Me.TextBox78.StyleName = "Data"
-            Me.TextBox78.Value = "= IsNull(Fields.PorcentajeEjecutado,""-"")"
-            '
-            'componente
-            '
-            Me.componente.GroupFooter = Me.GroupFooterSection1
-            Me.componente.GroupHeader = Me.GroupHeaderSection1
-            Me.componente.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Componente")})
-            Me.componente.Name = "componente"
-            '
-            'GroupFooterSection1
-            '
-            Me.GroupFooterSection1.Height = New Telerik.Reporting.Drawing.Unit(0.49999934434890747R, Telerik.Reporting.Drawing.UnitType.Cm)
-            Me.GroupFooterSection1.Name = "GroupFooterSection1"
-            Me.GroupFooterSection1.Style.Visible = False
-            '
-            'GroupHeaderSection1
-            '
-            Me.GroupHeaderSection1.Height = New Telerik.Reporting.Drawing.Unit(0.49999934434890747R, Telerik.Reporting.Drawing.UnitType.Cm)
-            Me.GroupHeaderSection1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox79})
-            Me.GroupHeaderSection1.Name = "GroupHeaderSection1"
-            '
-            'TextBox79
-            '
-            Me.TextBox79.CanGrow = True
-            Me.TextBox79.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox79.Name = "TextBox79"
-            Me.TextBox79.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(58.000698089599609R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox79.Style.BackgroundColor = System.Drawing.Color.CornflowerBlue
-            Me.TextBox79.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox79.Style.Font.Bold = True
-            Me.TextBox79.Style.Font.Name = "Arial"
-            Me.TextBox79.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox79.StyleName = "Data"
-            Me.TextBox79.Value = "= Fields.Componente"
-            '
-            'Group1
-            '
-            Me.Group1.GroupFooter = Me.GroupFooterSection2
-            Me.Group1.GroupHeader = Me.GroupHeaderSection2
-            Me.Group1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Actividad")})
-            Me.Group1.Name = "Group1"
-            '
-            'GroupFooterSection2
-            '
-            Me.GroupFooterSection2.Height = New Telerik.Reporting.Drawing.Unit(0.50000017881393433R, Telerik.Reporting.Drawing.UnitType.Cm)
-            Me.GroupFooterSection2.Name = "GroupFooterSection2"
-            Me.GroupFooterSection2.Style.Visible = False
-            '
-            'GroupHeaderSection2
-            '
-            Me.GroupHeaderSection2.Height = New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm)
-            Me.GroupHeaderSection2.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox80})
-            Me.GroupHeaderSection2.Name = "GroupHeaderSection2"
-            '
-            'TextBox80
-            '
-            Me.TextBox80.CanGrow = True
-            Me.TextBox80.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox80.Name = "TextBox80"
-            Me.TextBox80.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(58.000698089599609R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
-            Me.TextBox80.Style.BackgroundColor = System.Drawing.Color.PaleTurquoise
-            Me.TextBox80.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-            Me.TextBox80.Style.Font.Bold = True
-            Me.TextBox80.Style.Font.Name = "Arial"
-            Me.TextBox80.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
-            Me.TextBox80.StyleName = "Data"
-            Me.TextBox80.Value = "= Fields.Actividad"
-            '
-            'RepPoa
-            '
-            FormattingRule68.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("= Fields.Tipo", Telerik.Reporting.Data.FilterOperator.Equal, """S""")})
+        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule1.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.nomTareaDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule1})
+        Me.nomTareaDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.nomTareaDataTextBox.Name = "nomTareaDataTextBox"
+        Me.nomTareaDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(16.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.nomTareaDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.nomTareaDataTextBox.Style.Font.Name = "Arial"
+        Me.nomTareaDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.nomTareaDataTextBox.StyleName = "Data"
+        Me.nomTareaDataTextBox.Value = "=Fields.NomTarea"
+        '
+        'unidadDataTextBox
+        '
+        Me.unidadDataTextBox.CanGrow = True
+        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule2.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.unidadDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule2})
+        Me.unidadDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(16.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.unidadDataTextBox.Name = "unidadDataTextBox"
+        Me.unidadDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(2.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.unidadDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.unidadDataTextBox.Style.Font.Name = "Arial"
+        Me.unidadDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.unidadDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.unidadDataTextBox.StyleName = "Data"
+        Me.unidadDataTextBox.Value = "=Fields.Unidad"
+        '
+        'eneProgDataTextBox
+        '
+        Me.eneProgDataTextBox.CanGrow = True
+        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule3.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.eneProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule3})
+        Me.eneProgDataTextBox.Format = "{0:N0}"
+        Me.eneProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(20.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.eneProgDataTextBox.Name = "eneProgDataTextBox"
+        Me.eneProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.eneProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.eneProgDataTextBox.Style.Font.Name = "Arial"
+        Me.eneProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.eneProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.eneProgDataTextBox.StyleName = "Data"
+        Me.eneProgDataTextBox.Value = "=Fields.EneProg"
+        '
+        'eneEjeDataTextBox
+        '
+        Me.eneEjeDataTextBox.CanGrow = True
+        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule4.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.eneEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule4})
+        Me.eneEjeDataTextBox.Format = "{0:N0}"
+        Me.eneEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(21.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.eneEjeDataTextBox.Name = "eneEjeDataTextBox"
+        Me.eneEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.eneEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.eneEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.eneEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.eneEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.eneEjeDataTextBox.StyleName = "Data"
+        Me.eneEjeDataTextBox.Value = "=Fields.EneEje"
+        '
+        'febProgDataTextBox
+        '
+        Me.febProgDataTextBox.CanGrow = True
+        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule5.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.febProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule5})
+        Me.febProgDataTextBox.Format = "{0:N0}"
+        Me.febProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(23.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.febProgDataTextBox.Name = "febProgDataTextBox"
+        Me.febProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.febProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.febProgDataTextBox.Style.Font.Name = "Arial"
+        Me.febProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.febProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.febProgDataTextBox.StyleName = "Data"
+        Me.febProgDataTextBox.Value = "=Fields.FebProg"
+        '
+        'febEjeDataTextBox
+        '
+        Me.febEjeDataTextBox.CanGrow = True
+        FormattingRule6.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule6.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.febEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule6})
+        Me.febEjeDataTextBox.Format = "{0:N0}"
+        Me.febEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(24.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.febEjeDataTextBox.Name = "febEjeDataTextBox"
+        Me.febEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.febEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.febEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.febEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.febEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.febEjeDataTextBox.StyleName = "Data"
+        Me.febEjeDataTextBox.Value = "=Fields.FebEje"
+        '
+        'marProgDataTextBox
+        '
+        Me.marProgDataTextBox.CanGrow = True
+        FormattingRule7.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule7.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.marProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule7})
+        Me.marProgDataTextBox.Format = "{0:N0}"
+        Me.marProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(26.000001907348633R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.marProgDataTextBox.Name = "marProgDataTextBox"
+        Me.marProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.marProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.marProgDataTextBox.Style.Font.Name = "Arial"
+        Me.marProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.marProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.marProgDataTextBox.StyleName = "Data"
+        Me.marProgDataTextBox.Value = "=Fields.MarProg"
+        '
+        'marEjeDataTextBox
+        '
+        Me.marEjeDataTextBox.CanGrow = True
+        FormattingRule8.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule8.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.marEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule8})
+        Me.marEjeDataTextBox.Format = "{0:N0}"
+        Me.marEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(26.999996185302734R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.marEjeDataTextBox.Name = "marEjeDataTextBox"
+        Me.marEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.marEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.marEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.marEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.marEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.marEjeDataTextBox.StyleName = "Data"
+        Me.marEjeDataTextBox.Value = "=Fields.MarEje"
+        '
+        'abrProgDataTextBox
+        '
+        Me.abrProgDataTextBox.CanGrow = True
+        FormattingRule9.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule9.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.abrProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule9})
+        Me.abrProgDataTextBox.Format = "{0:N0}"
+        Me.abrProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(29.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.abrProgDataTextBox.Name = "abrProgDataTextBox"
+        Me.abrProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.abrProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.abrProgDataTextBox.Style.Font.Name = "Arial"
+        Me.abrProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.abrProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.abrProgDataTextBox.StyleName = "Data"
+        Me.abrProgDataTextBox.Value = "=Fields.AbrProg"
+        '
+        'abrEjeDataTextBox
+        '
+        Me.abrEjeDataTextBox.CanGrow = True
+        FormattingRule10.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule10.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.abrEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule10})
+        Me.abrEjeDataTextBox.Format = "{0:N0}"
+        Me.abrEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(30.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.abrEjeDataTextBox.Name = "abrEjeDataTextBox"
+        Me.abrEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.abrEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.abrEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.abrEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.abrEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.abrEjeDataTextBox.StyleName = "Data"
+        Me.abrEjeDataTextBox.Value = "=Fields.AbrEje"
+        '
+        'mayProgDataTextBox
+        '
+        Me.mayProgDataTextBox.CanGrow = True
+        FormattingRule11.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule11.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.mayProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule11})
+        Me.mayProgDataTextBox.Format = "{0:N0}"
+        Me.mayProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(32.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.mayProgDataTextBox.Name = "mayProgDataTextBox"
+        Me.mayProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.mayProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.mayProgDataTextBox.Style.Font.Name = "Arial"
+        Me.mayProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.mayProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.mayProgDataTextBox.StyleName = "Data"
+        Me.mayProgDataTextBox.Value = "=Fields.MayProg"
+        '
+        'mayEjeDataTextBox
+        '
+        Me.mayEjeDataTextBox.CanGrow = True
+        FormattingRule12.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule12.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.mayEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule12})
+        Me.mayEjeDataTextBox.Format = "{0:N0}"
+        Me.mayEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(33.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.mayEjeDataTextBox.Name = "mayEjeDataTextBox"
+        Me.mayEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.mayEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.mayEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.mayEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.mayEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.mayEjeDataTextBox.StyleName = "Data"
+        Me.mayEjeDataTextBox.Value = "=Fields.MayEje"
+        '
+        'junProgDataTextBox
+        '
+        Me.junProgDataTextBox.CanGrow = True
+        FormattingRule13.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule13.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.junProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule13})
+        Me.junProgDataTextBox.Format = "{0:N0}"
+        Me.junProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(35.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.junProgDataTextBox.Name = "junProgDataTextBox"
+        Me.junProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.junProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.junProgDataTextBox.Style.Font.Name = "Arial"
+        Me.junProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.junProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.junProgDataTextBox.StyleName = "Data"
+        Me.junProgDataTextBox.Value = "=Fields.JunProg"
+        '
+        'junEjeDataTextBox
+        '
+        Me.junEjeDataTextBox.CanGrow = True
+        FormattingRule14.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule14.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.junEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule14})
+        Me.junEjeDataTextBox.Format = "{0:N0}"
+        Me.junEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(36.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.junEjeDataTextBox.Name = "junEjeDataTextBox"
+        Me.junEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.junEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.junEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.junEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.junEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.junEjeDataTextBox.StyleName = "Data"
+        Me.junEjeDataTextBox.Value = "=Fields.JunEje"
+        '
+        'julProgDataTextBox
+        '
+        Me.julProgDataTextBox.CanGrow = True
+        FormattingRule15.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule15.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.julProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule15})
+        Me.julProgDataTextBox.Format = "{0:N0}"
+        Me.julProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(38.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.julProgDataTextBox.Name = "julProgDataTextBox"
+        Me.julProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.julProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.julProgDataTextBox.Style.Font.Name = "Arial"
+        Me.julProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.julProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.julProgDataTextBox.StyleName = "Data"
+        Me.julProgDataTextBox.Value = "=Fields.JulProg"
+        '
+        'julEjeDataTextBox
+        '
+        Me.julEjeDataTextBox.CanGrow = True
+        FormattingRule16.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.julEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule16})
+        Me.julEjeDataTextBox.Format = "{0:N0}"
+        Me.julEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(39.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.julEjeDataTextBox.Name = "julEjeDataTextBox"
+        Me.julEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.julEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.julEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.julEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.julEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.julEjeDataTextBox.StyleName = "Data"
+        Me.julEjeDataTextBox.Value = "=Fields.JulEje"
+        '
+        'agoProgDataTextBox
+        '
+        Me.agoProgDataTextBox.CanGrow = True
+        FormattingRule17.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule17.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.agoProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule17})
+        Me.agoProgDataTextBox.Format = "{0:N0}"
+        Me.agoProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(41.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.agoProgDataTextBox.Name = "agoProgDataTextBox"
+        Me.agoProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.agoProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.agoProgDataTextBox.Style.Font.Name = "Arial"
+        Me.agoProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.agoProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.agoProgDataTextBox.StyleName = "Data"
+        Me.agoProgDataTextBox.Value = "=Fields.AgoProg"
+        '
+        'agoEjeDataTextBox
+        '
+        Me.agoEjeDataTextBox.CanGrow = True
+        FormattingRule18.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule18.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.agoEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule18})
+        Me.agoEjeDataTextBox.Format = "{0:N0}"
+        Me.agoEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(42.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.agoEjeDataTextBox.Name = "agoEjeDataTextBox"
+        Me.agoEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.agoEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.agoEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.agoEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.agoEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.agoEjeDataTextBox.StyleName = "Data"
+        Me.agoEjeDataTextBox.Value = "=Fields.AgoEje"
+        '
+        'sepProgDataTextBox
+        '
+        Me.sepProgDataTextBox.CanGrow = True
+        FormattingRule19.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.sepProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule19})
+        Me.sepProgDataTextBox.Format = "{0:N0}"
+        Me.sepProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(44.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.sepProgDataTextBox.Name = "sepProgDataTextBox"
+        Me.sepProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.sepProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.sepProgDataTextBox.Style.Font.Name = "Arial"
+        Me.sepProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.sepProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.sepProgDataTextBox.StyleName = "Data"
+        Me.sepProgDataTextBox.Value = "=Fields.SepProg"
+        '
+        'sepEjeDataTextBox
+        '
+        Me.sepEjeDataTextBox.CanGrow = True
+        FormattingRule20.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule20.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.sepEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule20})
+        Me.sepEjeDataTextBox.Format = "{0:N0}"
+        Me.sepEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(45.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.sepEjeDataTextBox.Name = "sepEjeDataTextBox"
+        Me.sepEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.sepEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.sepEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.sepEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.sepEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.sepEjeDataTextBox.StyleName = "Data"
+        Me.sepEjeDataTextBox.Value = "=Fields.SepEje"
+        '
+        'octProgDataTextBox
+        '
+        Me.octProgDataTextBox.CanGrow = True
+        FormattingRule21.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule21.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.octProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule21})
+        Me.octProgDataTextBox.Format = "{0:N0}"
+        Me.octProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(47.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.octProgDataTextBox.Name = "octProgDataTextBox"
+        Me.octProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.octProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.octProgDataTextBox.Style.Font.Name = "Arial"
+        Me.octProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.octProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.octProgDataTextBox.StyleName = "Data"
+        Me.octProgDataTextBox.Value = "=Fields.OctProg"
+        '
+        'octEjeDataTextBox
+        '
+        Me.octEjeDataTextBox.CanGrow = True
+        FormattingRule22.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule22.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.octEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule22})
+        Me.octEjeDataTextBox.Format = "{0:N0}"
+        Me.octEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(48.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.octEjeDataTextBox.Name = "octEjeDataTextBox"
+        Me.octEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.octEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.octEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.octEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.octEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.octEjeDataTextBox.StyleName = "Data"
+        Me.octEjeDataTextBox.Value = "=Fields.OctEje"
+        '
+        'novProgDataTextBox
+        '
+        Me.novProgDataTextBox.CanGrow = True
+        FormattingRule23.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule23.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.novProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule23})
+        Me.novProgDataTextBox.Format = "{0:N0}"
+        Me.novProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(50.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.novProgDataTextBox.Name = "novProgDataTextBox"
+        Me.novProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.novProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.novProgDataTextBox.Style.Font.Name = "Arial"
+        Me.novProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.novProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.novProgDataTextBox.StyleName = "Data"
+        Me.novProgDataTextBox.Value = "=Fields.NovProg"
+        '
+        'novEjeDataTextBox
+        '
+        Me.novEjeDataTextBox.CanGrow = True
+        FormattingRule24.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule24.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.novEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule24})
+        Me.novEjeDataTextBox.Format = "{0:N0}"
+        Me.novEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(51.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.novEjeDataTextBox.Name = "novEjeDataTextBox"
+        Me.novEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.novEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.novEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.novEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.novEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.novEjeDataTextBox.StyleName = "Data"
+        Me.novEjeDataTextBox.Value = "=Fields.NovEje"
+        '
+        'dicProgDataTextBox
+        '
+        Me.dicProgDataTextBox.CanGrow = True
+        FormattingRule25.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule25.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.dicProgDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule25})
+        Me.dicProgDataTextBox.Format = "{0:N0}"
+        Me.dicProgDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(53.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.dicProgDataTextBox.Name = "dicProgDataTextBox"
+        Me.dicProgDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.dicProgDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.dicProgDataTextBox.Style.Font.Name = "Arial"
+        Me.dicProgDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.dicProgDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.dicProgDataTextBox.StyleName = "Data"
+        Me.dicProgDataTextBox.Value = "=Fields.DicProg"
+        '
+        'dicEjeDataTextBox
+        '
+        Me.dicEjeDataTextBox.CanGrow = True
+        FormattingRule26.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule26.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.dicEjeDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule26})
+        Me.dicEjeDataTextBox.Format = "{0:N0}"
+        Me.dicEjeDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(54.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.dicEjeDataTextBox.Name = "dicEjeDataTextBox"
+        Me.dicEjeDataTextBox.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.dicEjeDataTextBox.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.dicEjeDataTextBox.Style.Font.Name = "Arial"
+        Me.dicEjeDataTextBox.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.dicEjeDataTextBox.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.dicEjeDataTextBox.StyleName = "Data"
+        Me.dicEjeDataTextBox.Value = "=Fields.DicEje"
+        '
+        'TextBox61
+        '
+        Me.TextBox61.CanGrow = True
+        FormattingRule27.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule27.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.TextBox61.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule27})
+        Me.TextBox61.Format = "{0:N0}"
+        Me.TextBox61.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(18.000200271606445R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox61.Name = "TextBox61"
+        Me.TextBox61.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox61.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TextBox61.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox61.Style.Font.Name = "Arial"
+        Me.TextBox61.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox61.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox61.StyleName = "Data"
+        Me.TextBox61.Value = "= Fields.MetaTotal"
+        '
+        'TextBox62
+        '
+        Me.TextBox62.CanGrow = True
+        FormattingRule28.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, "S")})
+        FormattingRule28.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(245, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.TextBox62.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule28})
+        Me.TextBox62.Format = "{0:N0}"
+        Me.TextBox62.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(19.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox62.Name = "TextBox62"
+        Me.TextBox62.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox62.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TextBox62.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox62.Style.Font.Name = "Arial"
+        Me.TextBox62.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox62.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox62.StyleName = "Data"
+        Me.TextBox62.Value = "= Fields.MetaAnio"
+        '
+        'TextBox63
+        '
+        Me.TextBox63.CanGrow = True
+        FormattingRule29.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEne", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule29.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule30.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEne", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule30.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule31.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEne", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule31.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox63.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule29, FormattingRule30, FormattingRule31})
+        Me.TextBox63.Format = "{0:P0}"
+        Me.TextBox63.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(22.000200271606445R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox63.Name = "TextBox63"
+        Me.TextBox63.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox63.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox63.Style.Font.Name = "Arial"
+        Me.TextBox63.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox63.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox63.StyleName = "Data"
+        Me.TextBox63.Value = "= IsNull(Fields.PorcentajeEne,""-"")"
+        '
+        'TextBox64
+        '
+        Me.TextBox64.CanGrow = True
+        FormattingRule32.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule32.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule33.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule33.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule34.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeFeb", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule34.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox64.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule32, FormattingRule33, FormattingRule34})
+        Me.TextBox64.Format = "{0:P0}"
+        Me.TextBox64.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(25.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox64.Name = "TextBox64"
+        Me.TextBox64.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox64.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox64.Style.Font.Name = "Arial"
+        Me.TextBox64.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox64.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox64.StyleName = "Data"
+        Me.TextBox64.Value = "= IsNull(Fields.PorcentajeFeb,""-"")"
+        '
+        'TextBox65
+        '
+        Me.TextBox65.CanGrow = True
+        FormattingRule35.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMar", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule35.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule36.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMar", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule36.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule37.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMar", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule37.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox65.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule35, FormattingRule36, FormattingRule37})
+        Me.TextBox65.Format = "{0:P0}"
+        Me.TextBox65.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(28.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox65.Name = "TextBox65"
+        Me.TextBox65.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox65.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox65.Style.Font.Name = "Arial"
+        Me.TextBox65.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox65.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox65.StyleName = "Data"
+        Me.TextBox65.Value = "= IsNull(Fields.PorcentajeMar,""-"")"
+        '
+        'TextBox66
+        '
+        Me.TextBox66.CanGrow = True
+        FormattingRule38.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule38.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule39.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule39.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule40.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAbr", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule40.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox66.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule38, FormattingRule39, FormattingRule40})
+        Me.TextBox66.Format = "{0:P0}"
+        Me.TextBox66.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(31.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox66.Name = "TextBox66"
+        Me.TextBox66.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox66.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox66.Style.Font.Name = "Arial"
+        Me.TextBox66.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox66.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox66.StyleName = "Data"
+        Me.TextBox66.Value = "= IsNull(Fields.PorcentajeAbr,""-"")"
+        '
+        'TextBox67
+        '
+        Me.TextBox67.CanGrow = True
+        FormattingRule41.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMay", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule41.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule42.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMay", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule42.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule43.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeMay", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule43.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox67.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule41, FormattingRule42, FormattingRule43})
+        Me.TextBox67.Format = "{0:P0}"
+        Me.TextBox67.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(34.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox67.Name = "TextBox67"
+        Me.TextBox67.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox67.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox67.Style.Font.Name = "Arial"
+        Me.TextBox67.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox67.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox67.StyleName = "Data"
+        Me.TextBox67.Value = "= IsNull(Fields.PorcentajeMay,""-"")"
+        '
+        'TextBox68
+        '
+        Me.TextBox68.CanGrow = True
+        FormattingRule44.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJun", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule44.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule45.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJun", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule45.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule46.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJun", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule46.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox68.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule44, FormattingRule45, FormattingRule46})
+        Me.TextBox68.Format = "{0:P0}"
+        Me.TextBox68.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(37.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox68.Name = "TextBox68"
+        Me.TextBox68.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox68.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox68.Style.Font.Name = "Arial"
+        Me.TextBox68.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox68.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox68.StyleName = "Data"
+        Me.TextBox68.Value = "= IsNull(Fields.PorcentajeJun,""-"")"
+        '
+        'TextBox69
+        '
+        Me.TextBox69.CanGrow = True
+        FormattingRule47.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJul", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule47.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule48.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJul", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule48.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule49.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeJul", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule49.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox69.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule47, FormattingRule48, FormattingRule49})
+        Me.TextBox69.Format = "{0:P0}"
+        Me.TextBox69.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(40.000198364257813R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox69.Name = "TextBox69"
+        Me.TextBox69.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox69.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox69.Style.Font.Name = "Arial"
+        Me.TextBox69.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox69.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox69.StyleName = "Data"
+        Me.TextBox69.Value = "= IsNull(Fields.PorcentajeJul,""-"")"
+        '
+        'TextBox70
+        '
+        Me.TextBox70.CanGrow = True
+        FormattingRule50.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule50.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule51.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule51.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule52.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeAgo", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule52.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox70.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule50, FormattingRule51, FormattingRule52})
+        Me.TextBox70.Format = "{0:P0}"
+        Me.TextBox70.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(43.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox70.Name = "TextBox70"
+        Me.TextBox70.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox70.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox70.Style.Font.Name = "Arial"
+        Me.TextBox70.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox70.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox70.StyleName = "Data"
+        Me.TextBox70.Value = "= IsNull(Fields.PorcentajeAgo,""-"")"
+        '
+        'TextBox71
+        '
+        Me.TextBox71.CanGrow = True
+        FormattingRule53.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeSep", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule53.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule54.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeSep", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule54.Style.BackgroundColor = System.Drawing.Color.Red
+        FormattingRule55.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeSep", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule55.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox71.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule53, FormattingRule54, FormattingRule55})
+        Me.TextBox71.Format = "{0:P0}"
+        Me.TextBox71.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(45.999801635742188R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox71.Name = "TextBox71"
+        Me.TextBox71.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox71.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox71.Style.Font.Name = "Arial"
+        Me.TextBox71.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox71.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox71.StyleName = "Data"
+        Me.TextBox71.Value = "= IsNull(Fields.PorcentajeSep,""-"")"
+        '
+        'TextBox72
+        '
+        Me.TextBox72.CanGrow = True
+        FormattingRule56.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeOct", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule56.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule57.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeOct", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule57.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule58.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeOct", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule58.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox72.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule56, FormattingRule57, FormattingRule58})
+        Me.TextBox72.Format = "{0:P0}"
+        Me.TextBox72.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(49.000202178955078R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox72.Name = "TextBox72"
+        Me.TextBox72.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox72.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox72.Style.Font.Name = "Arial"
+        Me.TextBox72.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox72.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox72.StyleName = "Data"
+        Me.TextBox72.Value = "= IsNull(Fields.PorcentajeOct,""-"")"
+        '
+        'TextBox73
+        '
+        Me.TextBox73.CanGrow = True
+        FormattingRule59.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeNov", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule59.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule60.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeNov", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule60.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule61.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeNov", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule61.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox73.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule59, FormattingRule60, FormattingRule61})
+        Me.TextBox73.Format = "{0:P0}"
+        Me.TextBox73.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(52.000198364257813R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox73.Name = "TextBox73"
+        Me.TextBox73.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox73.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox73.Style.Font.Name = "Arial"
+        Me.TextBox73.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox73.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox73.StyleName = "Data"
+        Me.TextBox73.Value = "= IsNull(Fields.PorcentajeNov,""-"")"
+        '
+        'TextBox74
+        '
+        Me.TextBox74.CanGrow = True
+        FormattingRule62.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeDic", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule62.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule63.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeDic", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule63.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        FormattingRule64.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeDic", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule64.Style.BackgroundColor = System.Drawing.Color.Red
+        Me.TextBox74.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule62, FormattingRule63, FormattingRule64})
+        Me.TextBox74.Format = "{0:P0}"
+        Me.TextBox74.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(55.000194549560547R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox74.Name = "TextBox74"
+        Me.TextBox74.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox74.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox74.Style.Font.Name = "Arial"
+        Me.TextBox74.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox74.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox74.StyleName = "Data"
+        Me.TextBox74.Value = "= IsNull(Fields.PorcentajeDic,""-"")"
+        '
+        'TextBox77
+        '
+        Me.TextBox77.CanGrow = True
+        Me.TextBox77.Format = "{0:N0}"
+        Me.TextBox77.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(56.0004997253418R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox77.Name = "TextBox77"
+        Me.TextBox77.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox77.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TextBox77.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox77.Style.Font.Name = "Arial"
+        Me.TextBox77.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox77.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox77.StyleName = "Data"
+        Me.TextBox77.Value = "= Fields.TotalEjecutado"
+        '
+        'TextBox78
+        '
+        Me.TextBox78.CanGrow = True
+        FormattingRule65.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.FilterOperator.Equal, "0.5")})
+        FormattingRule65.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(47, Byte), Integer))
+        FormattingRule66.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
+        FormattingRule66.Style.BackgroundColor = System.Drawing.Color.Red
+        FormattingRule67.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcentajeEjecutado", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule67.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox78.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule65, FormattingRule66, FormattingRule67})
+        Me.TextBox78.Format = "{0:P0}"
+        Me.TextBox78.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(57.000698089599609R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox78.Name = "TextBox78"
+        Me.TextBox78.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox78.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TextBox78.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox78.Style.Font.Name = "Arial"
+        Me.TextBox78.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox78.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox78.StyleName = "Data"
+        Me.TextBox78.Value = "= IsNull(Fields.PorcentajeEjecutado,""-"")"
+        '
+        'componente
+        '
+        Me.componente.GroupFooter = Me.GroupFooterSection1
+        Me.componente.GroupHeader = Me.GroupHeaderSection1
+        Me.componente.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Componente")})
+        Me.componente.Name = "componente"
+        '
+        'GroupFooterSection1
+        '
+        Me.GroupFooterSection1.Height = New Telerik.Reporting.Drawing.Unit(0.49999934434890747R, Telerik.Reporting.Drawing.UnitType.Cm)
+        Me.GroupFooterSection1.Name = "GroupFooterSection1"
+        Me.GroupFooterSection1.Style.Visible = False
+        '
+        'GroupHeaderSection1
+        '
+        Me.GroupHeaderSection1.Height = New Telerik.Reporting.Drawing.Unit(0.49999934434890747R, Telerik.Reporting.Drawing.UnitType.Cm)
+        Me.GroupHeaderSection1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox79})
+        Me.GroupHeaderSection1.Name = "GroupHeaderSection1"
+        '
+        'TextBox79
+        '
+        Me.TextBox79.CanGrow = True
+        Me.TextBox79.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox79.Name = "TextBox79"
+        Me.TextBox79.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(58.000698089599609R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox79.Style.BackgroundColor = System.Drawing.Color.CornflowerBlue
+        Me.TextBox79.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox79.Style.Font.Bold = True
+        Me.TextBox79.Style.Font.Name = "Arial"
+        Me.TextBox79.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox79.StyleName = "Data"
+        Me.TextBox79.Value = "= Fields.Componente"
+        '
+        'Group1
+        '
+        Me.Group1.GroupFooter = Me.GroupFooterSection2
+        Me.Group1.GroupHeader = Me.GroupHeaderSection2
+        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Actividad")})
+        Me.Group1.Name = "Group1"
+        '
+        'GroupFooterSection2
+        '
+        Me.GroupFooterSection2.Height = New Telerik.Reporting.Drawing.Unit(0.50000017881393433R, Telerik.Reporting.Drawing.UnitType.Cm)
+        Me.GroupFooterSection2.Name = "GroupFooterSection2"
+        Me.GroupFooterSection2.Style.Visible = False
+        '
+        'GroupHeaderSection2
+        '
+        Me.GroupHeaderSection2.Height = New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm)
+        Me.GroupHeaderSection2.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox80})
+        Me.GroupHeaderSection2.Name = "GroupHeaderSection2"
+        '
+        'TextBox80
+        '
+        Me.TextBox80.CanGrow = True
+        Me.TextBox80.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox80.Name = "TextBox80"
+        Me.TextBox80.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(58.000698089599609R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
+        Me.TextBox80.Style.BackgroundColor = System.Drawing.Color.PaleTurquoise
+        Me.TextBox80.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox80.Style.Font.Bold = True
+        Me.TextBox80.Style.Font.Name = "Arial"
+        Me.TextBox80.Style.Font.Size = New Telerik.Reporting.Drawing.Unit(6.0R, Telerik.Reporting.Drawing.UnitType.Point)
+        Me.TextBox80.StyleName = "Data"
+        Me.TextBox80.Value = "= Fields.Actividad"
+        '
+        'RepPoa
+        '
+        FormattingRule68.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("= Fields.Tipo", Telerik.Reporting.FilterOperator.Equal, """S""")})
             FormattingRule68.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
             Me.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule68})
             Me.DataSource = Me.SDSRepPoa

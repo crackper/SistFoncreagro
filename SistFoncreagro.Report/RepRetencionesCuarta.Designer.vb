@@ -191,7 +191,7 @@ Partial Class RepRetencionesCuarta
         '
         Me.Group2.GroupFooter = Me.GroupFooterSection2
         Me.Group2.GroupHeader = Me.GroupHeaderSection2
-        Me.Group2.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Ruc")})
+        Me.Group2.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Ruc")})
         Me.Group2.Name = "Group2"
         '
         'GroupFooterSection2

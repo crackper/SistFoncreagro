@@ -266,7 +266,7 @@ Partial Class RepListaRetencionesCuarta
         '
         Me.razonSocialGroup.GroupFooter = Me.razonSocialGroupFooter
         Me.razonSocialGroup.GroupHeader = Me.razonSocialGroupHeader
-        Me.razonSocialGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.RazonSocial")})
+        Me.razonSocialGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.RazonSocial")})
         Me.razonSocialGroup.Name = "razonSocialGroup"
         '
         'reportFooter

@@ -307,7 +307,7 @@ Partial Class RepLibroCajaBanco
         '
         Me.bancoGroup.GroupFooter = Me.bancoGroupFooter
         Me.bancoGroup.GroupHeader = Me.bancoGroupHeader
-        Me.bancoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Banco")})
+        Me.bancoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Banco")})
         Me.bancoGroup.Name = "bancoGroup"
         '
         'cuentaGroupHeader
@@ -389,7 +389,7 @@ Partial Class RepLibroCajaBanco
         '
         Me.cuentaGroup.GroupFooter = Me.cuentaGroupFooter
         Me.cuentaGroup.GroupHeader = Me.cuentaGroupHeader
-        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Cuenta")})
+        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Cuenta")})
         Me.cuentaGroup.Name = "cuentaGroup"
         '
         'reportFooter
@@ -709,7 +709,7 @@ Partial Class RepLibroCajaBanco
         '
         Me.cuentaCorriente.GroupFooter = Me.GroupFooterSection1
         Me.cuentaCorriente.GroupHeader = Me.GroupHeaderSection1
-        Me.cuentaCorriente.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NroCta")})
+        Me.cuentaCorriente.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NroCta")})
         Me.cuentaCorriente.Name = "cuentaCorriente"
         '
         'GroupFooterSection1

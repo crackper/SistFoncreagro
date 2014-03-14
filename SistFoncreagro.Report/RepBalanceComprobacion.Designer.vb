@@ -549,7 +549,7 @@ Partial Class RepBalanceComprobacion
         '
         Me.codigoN2Group.GroupFooter = Me.codigoN2GroupFooter
         Me.codigoN2Group.GroupHeader = Me.codigoN2GroupHeader
-        Me.codigoN2Group.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CodigoN2")})
+        Me.codigoN2Group.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CodigoN2")})
         Me.codigoN2Group.Name = "codigoN2Group"
         '
         'reportFooter

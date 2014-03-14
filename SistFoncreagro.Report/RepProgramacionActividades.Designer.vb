@@ -191,7 +191,7 @@ Partial Class RepProgramacionActividades
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox8, Me.TextBox7, Me.TextBox9, Me.TextBox11, Me.TextBox16, Me.TextBox2})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.000099778175354R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table1.Name = "Table1"
-        TableGroup7.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup7.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup7.Name = "Detail"
         Me.Table1.RowGroups.Add(TableGroup7)
         Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(27.500003814697266R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))

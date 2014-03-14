@@ -456,7 +456,7 @@ Partial Class RepSaldoCuenta12
         '
         Me.Group1.GroupFooter = Me.GroupFooterSection1
         Me.Group1.GroupHeader = Me.GroupHeaderSection1
-        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Cuenta")})
+        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Cuenta")})
         Me.Group1.Name = "Group1"
         '
         'GroupFooterSection1

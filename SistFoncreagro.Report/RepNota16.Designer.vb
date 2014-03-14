@@ -189,7 +189,7 @@ Partial Class RepNota16
         '
         Me.codigoGroup.GroupFooter = Me.codigoGroupFooter
         Me.codigoGroup.GroupHeader = Me.codigoGroupHeader
-        Me.codigoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Codigo")})
+        Me.codigoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Codigo")})
         Me.codigoGroup.Name = "codigoGroup"
         '
         'proyectoGroupHeader
@@ -245,7 +245,7 @@ Partial Class RepNota16
         '
         Me.proyectoGroup.GroupFooter = Me.proyectoGroupFooter
         Me.proyectoGroup.GroupHeader = Me.proyectoGroupHeader
-        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proyecto")})
+        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proyecto")})
         Me.proyectoGroup.Name = "proyectoGroup"
         '
         'reportFooter

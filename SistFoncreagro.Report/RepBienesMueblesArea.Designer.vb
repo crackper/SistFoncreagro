@@ -274,7 +274,7 @@ Partial Class RepBienesMueblesArea
         '
         Me.nomProyectoGroup.GroupFooter = Me.nomProyectoGroupFooter
         Me.nomProyectoGroup.GroupHeader = Me.nomProyectoGroupHeader
-        Me.nomProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NomProyecto")})
+        Me.nomProyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NomProyecto")})
         Me.nomProyectoGroup.Name = "nomProyectoGroup"
         '
         'pageHeader
@@ -610,7 +610,7 @@ Partial Class RepBienesMueblesArea
         Me.PageSettings.Margins.Right = New Telerik.Reporting.Drawing.Unit(0.30000001192092896R, Telerik.Reporting.Drawing.UnitType.Cm)
         Me.PageSettings.Margins.Top = New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm)
         Me.PageSettings.PaperKind = System.Drawing.Printing.PaperKind.A4
-        Me.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Proyecto", Telerik.Reporting.Data.SortDirection.Asc), New Telerik.Reporting.Data.Sorting("=Fields.Codigo", Telerik.Reporting.Data.SortDirection.Asc)})
+        Me.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Proyecto", Telerik.Reporting.SortDirection.Asc), New Telerik.Reporting.Sorting("=Fields.Codigo", Telerik.Reporting.SortDirection.Asc)})
         Me.Style.BackgroundColor = System.Drawing.Color.White
         Me.Style.Padding.Left = New Telerik.Reporting.Drawing.Unit(0.20000000298023224R, Telerik.Reporting.Drawing.UnitType.Cm)
         StyleRule1.Selectors.AddRange(New Telerik.Reporting.Drawing.ISelector() {New Telerik.Reporting.Drawing.StyleSelector("Title")})

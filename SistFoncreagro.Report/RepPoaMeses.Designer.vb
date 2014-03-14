@@ -263,7 +263,7 @@ Partial Class RepPoaMeses
         '
         Me.componenteGroup.GroupFooter = Me.componenteGroupFooter
         Me.componenteGroup.GroupHeader = Me.componenteGroupHeader
-        Me.componenteGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Componente")})
+        Me.componenteGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Componente")})
         Me.componenteGroup.Name = "componenteGroup"
         '
         'actividadGroupHeader
@@ -296,7 +296,7 @@ Partial Class RepPoaMeses
         '
         Me.actividadGroup.GroupFooter = Me.actividadGroupFooter
         Me.actividadGroup.GroupHeader = Me.actividadGroupHeader
-        Me.actividadGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Actividad")})
+        Me.actividadGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Actividad")})
         Me.actividadGroup.Name = "actividadGroup"
         '
         'pageHeader
@@ -523,13 +523,13 @@ Partial Class RepPoaMeses
         'TextBox4
         '
         Me.TextBox4.CanGrow = True
-        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Porc", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Porc", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule1.Style.BackgroundColor = System.Drawing.Color.Red
-        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Porc", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Porc", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule2.Style.BackgroundColor = System.Drawing.Color.Yellow
-        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Porc", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Porc", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule3.Style.BackgroundColor = System.Drawing.Color.Lime
-        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.Porc", Telerik.Reporting.Data.FilterOperator.Equal, "-1")})
+        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.Porc", Telerik.Reporting.FilterOperator.Equal, "-1")})
         Me.TextBox4.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule1, FormattingRule2, FormattingRule3, FormattingRule4})
         Me.TextBox4.Format = "{0:P0}"
         Me.TextBox4.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(21.999795913696289R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -559,13 +559,13 @@ Partial Class RepPoaMeses
         'TextBox10
         '
         Me.TextBox10.CanGrow = True
-        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcAcum", Telerik.Reporting.Data.FilterOperator.LessThan, "0.5")})
+        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcAcum", Telerik.Reporting.FilterOperator.LessThan, "0.5")})
         FormattingRule5.Style.BackgroundColor = System.Drawing.Color.Red
-        FormattingRule6.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcAcum", Telerik.Reporting.Data.FilterOperator.Equal, "0.5")})
+        FormattingRule6.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcAcum", Telerik.Reporting.FilterOperator.Equal, "0.5")})
         FormattingRule6.Style.BackgroundColor = System.Drawing.Color.Yellow
-        FormattingRule7.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcAcum", Telerik.Reporting.Data.FilterOperator.GreaterThan, "0.5")})
+        FormattingRule7.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcAcum", Telerik.Reporting.FilterOperator.GreaterThan, "0.5")})
         FormattingRule7.Style.BackgroundColor = System.Drawing.Color.Lime
-        FormattingRule8.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.PorcAcum", Telerik.Reporting.Data.FilterOperator.Equal, "-1")})
+        FormattingRule8.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.PorcAcum", Telerik.Reporting.FilterOperator.Equal, "-1")})
         Me.TextBox10.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule5, FormattingRule6, FormattingRule7, FormattingRule8})
         Me.TextBox10.Format = "{0:P0}"
         Me.TextBox10.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(24.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))

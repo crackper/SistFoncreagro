@@ -251,7 +251,7 @@ Partial Class ReporteComprobantesFinal
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox26, Me.TextBox27, Me.TextBox28, Me.TextBox23, Me.TextBox24, Me.TextBox25, Me.TextBox29, Me.TextBox30, Me.TextBox31, Me.TextBox32, Me.TextBox33, Me.TextBox8, Me.TextBox22, Me.TextBox34, Me.TextBox11, Me.TextBox36, Me.TextBox38})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(3.5R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table1.Name = "Table1"
-        TableGroup18.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup18.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup18.Name = "DetailGroup"
         Me.Table1.RowGroups.Add(TableGroup18)
         Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(27.700000762939453R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))

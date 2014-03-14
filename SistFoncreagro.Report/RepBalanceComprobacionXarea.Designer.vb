@@ -418,7 +418,7 @@ Partial Class RepBalanceComprobacionXarea
         '
         Me.proyectoGroup.GroupFooter = Me.proyectoGroupFooter
         Me.proyectoGroup.GroupHeader = Me.proyectoGroupHeader
-        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proyecto")})
+        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proyecto")})
         Me.proyectoGroup.Name = "proyectoGroup"
         '
         'codigoN2GroupHeader
@@ -588,7 +588,7 @@ Partial Class RepBalanceComprobacionXarea
         '
         Me.codigoN2Group.GroupFooter = Me.codigoN2GroupFooter
         Me.codigoN2Group.GroupHeader = Me.codigoN2GroupHeader
-        Me.codigoN2Group.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CodigoN2")})
+        Me.codigoN2Group.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CodigoN2")})
         Me.codigoN2Group.Name = "codigoN2Group"
         '
         'reportFooter
@@ -902,7 +902,7 @@ Partial Class RepBalanceComprobacionXarea
         'saldoInicialMNDataTextBox
         '
         Me.saldoInicialMNDataTextBox.CanGrow = True
-        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.SaldoInicialMN", Telerik.Reporting.Data.FilterOperator.LessThan, "0")})
+        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.SaldoInicialMN", Telerik.Reporting.FilterOperator.LessThan, "0")})
         Me.saldoInicialMNDataTextBox.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule1})
         Me.saldoInicialMNDataTextBox.Format = "{0:N2}"
         Me.saldoInicialMNDataTextBox.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(8.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))

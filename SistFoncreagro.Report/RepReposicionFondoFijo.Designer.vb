@@ -292,7 +292,7 @@ Partial Class RepReposicionFondoFijo
         '
         Me.montoCajaGroup.GroupFooter = Me.montoCajaGroupFooter
         Me.montoCajaGroup.GroupHeader = Me.montoCajaGroupHeader
-        Me.montoCajaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.MontoCaja")})
+        Me.montoCajaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.MontoCaja")})
         Me.montoCajaGroup.Name = "montoCajaGroup"
         '
         'reportFooter

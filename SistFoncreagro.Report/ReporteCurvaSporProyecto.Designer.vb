@@ -329,10 +329,10 @@ Partial Class ReporteCurvaSporProyecto
         TableGroup1.ChildGroups.Add(TableGroup2)
         TableGroup1.ChildGroups.Add(TableGroup3)
         TableGroup1.ChildGroups.Add(TableGroup4)
-        TableGroup1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Mes")})
+        TableGroup1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Mes")})
         TableGroup1.Name = "Mes"
         TableGroup1.ReportItem = Me.TextBox5
-        TableGroup1.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Mes", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup1.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Mes", Telerik.Reporting.SortDirection.Asc)})
         TableGroup6.Name = "Group3"
         TableGroup6.ReportItem = Me.TextBox26
         TableGroup5.ChildGroups.Add(TableGroup6)
@@ -360,25 +360,25 @@ Partial Class ReporteCurvaSporProyecto
         TableGroup13.Name = "Group1"
         TableGroup13.ReportItem = Me.TextBox22
         TableGroup12.ChildGroups.Add(TableGroup13)
-        TableGroup12.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CCosto")})
+        TableGroup12.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CCosto")})
         TableGroup12.Name = "CCosto"
         TableGroup12.ReportItem = Me.TextBox12
-        TableGroup12.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.CCosto", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup12.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.CCosto", Telerik.Reporting.SortDirection.Asc)})
         TableGroup11.ChildGroups.Add(TableGroup12)
-        TableGroup11.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Actividad")})
+        TableGroup11.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Actividad")})
         TableGroup11.Name = "Actividad"
         TableGroup11.ReportItem = Me.TextBox11
-        TableGroup11.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Actividad", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup11.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Actividad", Telerik.Reporting.SortDirection.Asc)})
         TableGroup10.ChildGroups.Add(TableGroup11)
-        TableGroup10.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Componente")})
+        TableGroup10.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Componente")})
         TableGroup10.Name = "Componente"
         TableGroup10.ReportItem = Me.TextBox10
-        TableGroup10.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Componente", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup10.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Componente", Telerik.Reporting.SortDirection.Asc)})
         TableGroup9.ChildGroups.Add(TableGroup10)
-        TableGroup9.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proyecto")})
+        TableGroup9.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proyecto")})
         TableGroup9.Name = "Proyecto"
         TableGroup9.ReportItem = Me.TextBox9
-        TableGroup9.Sortings.AddRange(New Telerik.Reporting.Data.Sorting() {New Telerik.Reporting.Data.Sorting("=Fields.Proyecto", Telerik.Reporting.Data.SortDirection.Asc)})
+        TableGroup9.Sortings.AddRange(New Telerik.Reporting.Sorting() {New Telerik.Reporting.Sorting("=Fields.Proyecto", Telerik.Reporting.SortDirection.Asc)})
         Me.Crosstab1.RowGroups.Add(TableGroup9)
         Me.Crosstab1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(23.200000762939453R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.9999998807907104R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Crosstab1.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
@@ -510,7 +510,7 @@ Partial Class ReporteCurvaSporProyecto
         Me.List1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.Panel1})
         Me.List1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(10.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.69999963045120239R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.List1.Name = "List1"
-        TableGroup15.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup15.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup15.Name = "RowGroup1"
         Me.List1.RowGroups.Add(TableGroup15)
         Me.List1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(3.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(2.0R, Telerik.Reporting.Drawing.UnitType.Cm))

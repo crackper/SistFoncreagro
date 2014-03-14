@@ -248,7 +248,7 @@ Partial Class RepDetracciones
         '
         Me.proveedorGroup.GroupFooter = Me.proveedorGroupFooter
         Me.proveedorGroup.GroupHeader = Me.proveedorGroupHeader
-        Me.proveedorGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proveedor")})
+        Me.proveedorGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proveedor")})
         Me.proveedorGroup.Name = "proveedorGroup"
         '
         'reportFooter
@@ -705,7 +705,7 @@ Partial Class RepDetracciones
         '
         Me.Group1.GroupFooter = Me.GroupFooterSection1
         Me.Group1.GroupHeader = Me.GroupHeaderSection1
-        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Documento")})
+        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Documento")})
         Me.Group1.Name = "Group1"
         '
         'GroupHeaderSection1

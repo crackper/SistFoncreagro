@@ -188,7 +188,7 @@ Partial Class ReportSoulSource
         Me.Table7.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox44})
         Me.Table7.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(11.99666690826416R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(6.99970006942749R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table7.Name = "Table7"
-        TableGroup2.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup2.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup2.Name = "DetailGroup"
         Me.Table7.RowGroups.Add(TableGroup2)
         Me.Table7.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.5R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.75000005960464478R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -237,7 +237,7 @@ Partial Class ReportSoulSource
         Me.Table9.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox41})
         Me.Table9.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(8.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(7.8997001647949219R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table9.Name = "Table9"
-        TableGroup4.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup4.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup4.Name = "DetailGroup"
         Me.Table9.RowGroups.Add(TableGroup4)
         Me.Table9.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(6.5R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.75000005960464478R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -278,7 +278,7 @@ Partial Class ReportSoulSource
         Me.Table8.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox50})
         Me.Table8.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(1.1772835254669189R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(6.99970006942749R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table8.Name = "Table8"
-        TableGroup6.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup6.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup6.Name = "DetailGroup"
         Me.Table8.RowGroups.Add(TableGroup6)
         Me.Table8.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.6000000238418579R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.75000005960464478R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -319,7 +319,7 @@ Partial Class ReportSoulSource
         Me.Table10.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox46})
         Me.Table10.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(4.5002002716064453R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(9.3997001647949219R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table10.Name = "Table10"
-        TableGroup8.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup8.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup8.Name = "DetailGroup"
         Me.Table10.RowGroups.Add(TableGroup8)
         Me.Table10.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(1.4000000953674316R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.75000005960464478R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -360,7 +360,7 @@ Partial Class ReportSoulSource
         Me.Table6.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox51})
         Me.Table6.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(6.9999995231628418R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(6.99970006942749R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table6.Name = "Table6"
-        TableGroup10.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup10.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup10.Name = "DetailGroup"
         Me.Table6.RowGroups.Add(TableGroup10)
         Me.Table6.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(2.2500002384185791R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.75000005960464478R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -401,7 +401,7 @@ Partial Class ReportSoulSource
         Me.Table5.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox35})
         Me.Table5.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(1.7999999523162842R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(4.7613668441772461R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table5.Name = "Table5"
-        TableGroup12.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup12.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup12.Name = "DetailGroup"
         Me.Table5.RowGroups.Add(TableGroup12)
         Me.Table5.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(2.2500002384185791R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.75000005960464478R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -497,7 +497,7 @@ Partial Class ReportSoulSource
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox68, Me.TextBox69})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.00010012308484874666R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.75R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table1.Name = "Table1"
-        TableGroup15.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup15.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup15.Name = "Detail"
         Me.Table1.RowGroups.Add(TableGroup15)
         Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(18.999597549438477R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -737,7 +737,7 @@ Partial Class ReportSoulSource
         Me.Table2.Name = "Table2"
         TableGroup38.Name = "Group14"
         TableGroup37.ChildGroups.Add(TableGroup38)
-        TableGroup37.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup37.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup37.Name = "DetailGroup"
         Me.Table2.RowGroups.Add(TableGroup37)
         Me.Table2.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(19.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.2480629682540894R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -1306,7 +1306,7 @@ Partial Class ReportSoulSource
         Me.Table3.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox24, Me.TextBox25, Me.TextBox26})
         Me.Table3.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.466866672039032R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(4.49970006942749R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table3.Name = "Table3"
-        TableGroup42.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup42.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup42.Name = "DetailGroup"
         Me.Table3.RowGroups.Add(TableGroup42)
         Me.Table3.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(6.1000003814697266R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.1500002145767212R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -1336,7 +1336,7 @@ Partial Class ReportSoulSource
         'ReportSoulSource
         '
         Me.DataSource = Me.dsSoulSource
-        Me.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.IdCotizacion", Telerik.Reporting.Data.FilterOperator.Equal, "=Parameters.IdCot.Value")})
+        Me.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.IdCotizacion", Telerik.Reporting.FilterOperator.Equal, "=Parameters.IdCot.Value")})
         Me.Groups.AddRange(New Telerik.Reporting.Group() {Me.labelsGroup})
         Me.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.labelsGroupHeader, Me.labelsGroupFooter, Me.pageHeader, Me.pageFooter, Me.reportHeader, Me.reportFooter, Me.detail})
         Me.PageSettings.Landscape = False

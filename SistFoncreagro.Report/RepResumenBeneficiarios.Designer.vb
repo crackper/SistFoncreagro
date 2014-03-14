@@ -183,7 +183,7 @@ Partial Class RepResumenBeneficiarios
         '
         Me.caserioGroup.GroupFooter = Me.caserioGroupFooter
         Me.caserioGroup.GroupHeader = Me.caserioGroupHeader
-        Me.caserioGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Caserio")})
+        Me.caserioGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Caserio")})
         Me.caserioGroup.Name = "caserioGroup"
         '
         'descripcionGroupHeader
@@ -229,7 +229,7 @@ Partial Class RepResumenBeneficiarios
         '
         Me.descripcionGroup.GroupFooter = Me.descripcionGroupFooter
         Me.descripcionGroup.GroupHeader = Me.descripcionGroupHeader
-        Me.descripcionGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Descripcion")})
+        Me.descripcionGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Descripcion")})
         Me.descripcionGroup.Name = "descripcionGroup"
         '
         'reportFooter

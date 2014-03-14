@@ -240,7 +240,7 @@ Partial Class RepSaldoCuenta46
         '
         Me.codigoGroup.GroupFooter = Me.codigoGroupFooter
         Me.codigoGroup.GroupHeader = Me.codigoGroupHeader
-        Me.codigoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Codigo")})
+        Me.codigoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Codigo")})
         Me.codigoGroup.Name = "codigoGroup"
         '
         'reportFooter

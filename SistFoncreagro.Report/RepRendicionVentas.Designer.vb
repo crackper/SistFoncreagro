@@ -274,7 +274,7 @@ Partial Class RepRendicionVentas
         '
         Me.nroSerieGroup.GroupFooter = Me.nroSerieGroupFooter
         Me.nroSerieGroup.GroupHeader = Me.nroSerieGroupHeader
-        Me.nroSerieGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NroSerie")})
+        Me.nroSerieGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NroSerie")})
         Me.nroSerieGroup.Name = "nroSerieGroup"
         '
         'reportFooter

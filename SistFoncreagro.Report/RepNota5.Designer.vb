@@ -160,7 +160,7 @@ Partial Class RepNota5
         '
         Me.cuentaGroup.GroupFooter = Me.cuentaGroupFooter
         Me.cuentaGroup.GroupHeader = Me.cuentaGroupHeader
-        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Cuenta")})
+        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Cuenta")})
         Me.cuentaGroup.Name = "cuentaGroup"
         '
         'proyectoGroupHeader
@@ -216,7 +216,7 @@ Partial Class RepNota5
         '
         Me.proyectoGroup.GroupFooter = Me.proyectoGroupFooter
         Me.proyectoGroup.GroupHeader = Me.proyectoGroupHeader
-        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proyecto")})
+        Me.proyectoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proyecto")})
         Me.proyectoGroup.Name = "proyectoGroup"
         '
         'reportFooter

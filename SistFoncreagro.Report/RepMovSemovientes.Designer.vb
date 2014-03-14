@@ -306,7 +306,7 @@ Partial Class RepMovSemovientes
         '
         Me.EstadoGroup.GroupFooter = Me.pROYECTOGroupFooter
         Me.EstadoGroup.GroupHeader = Me.pROYECTOGroupHeader
-        Me.EstadoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NomEstadoSemoviente")})
+        Me.EstadoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NomEstadoSemoviente")})
         Me.EstadoGroup.Name = "EstadoGroup"
         '
         'reportFooter
@@ -640,7 +640,7 @@ Partial Class RepMovSemovientes
         '
         Me.Group1.GroupFooter = Me.GroupFooterSection1
         Me.Group1.GroupHeader = Me.GroupHeaderSection1
-        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.PROYECTO")})
+        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.PROYECTO")})
         Me.Group1.Name = "Group1"
         '
         'GroupHeaderSection1

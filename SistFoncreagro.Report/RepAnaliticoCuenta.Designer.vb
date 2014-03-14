@@ -461,7 +461,7 @@ Partial Class RepAnaliticoCuenta
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox47, Me.TextBox48, Me.TextBox49, Me.TextBox20, Me.TextBox22, Me.TextBox24, Me.TextBox26, Me.TextBox28, Me.TextBox31, Me.TextBox33, Me.TextBox35, Me.TextBox37, Me.TextBox42, Me.TextBox50, Me.TextBox52, Me.TextBox54, Me.TextBox56, Me.TextBox58, Me.TextBox60, Me.TextBox62, Me.TextBox64, Me.TextBox44, Me.TextBox45, Me.TextBox46, Me.TextBox19, Me.TextBox21, Me.TextBox23, Me.TextBox25, Me.TextBox27, Me.TextBox29, Me.TextBox32, Me.TextBox34, Me.TextBox36, Me.TextBox41, Me.TextBox43, Me.TextBox51, Me.TextBox53, Me.TextBox55, Me.TextBox57, Me.TextBox59, Me.TextBox61, Me.TextBox63})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.00010012308484874666R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table1.Name = "Table1"
-        TableGroup22.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup22.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup22.Name = "DetailGroup"
         Me.Table1.RowGroups.Add(TableGroup22)
         Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(35.997295379638672R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(1.0R, Telerik.Reporting.Drawing.UnitType.Cm))

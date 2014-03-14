@@ -294,7 +294,7 @@ Partial Class RepSemovientes
         '
         Me.pROYECTOGroup.GroupFooter = Me.pROYECTOGroupFooter
         Me.pROYECTOGroup.GroupHeader = Me.pROYECTOGroupHeader
-        Me.pROYECTOGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.PROYECTO")})
+        Me.pROYECTOGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.PROYECTO")})
         Me.pROYECTOGroup.Name = "pROYECTOGroup"
         '
         'cPDGroupHeader
@@ -382,7 +382,7 @@ Partial Class RepSemovientes
         '
         Me.cPDGroup.GroupFooter = Me.cPDGroupFooter
         Me.cPDGroup.GroupHeader = Me.cPDGroupHeader
-        Me.cPDGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.CPD")})
+        Me.cPDGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.CPD")})
         Me.cPDGroup.Name = "cPDGroup"
         '
         'reportFooter

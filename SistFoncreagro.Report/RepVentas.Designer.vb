@@ -296,7 +296,7 @@ Partial Class RepVentas
         '
         Me.tipoDocumentoGroup.GroupFooter = Me.tipoDocumentoGroupFooter
         Me.tipoDocumentoGroup.GroupHeader = Me.tipoDocumentoGroupHeader
-        Me.tipoDocumentoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.TipoDocumento")})
+        Me.tipoDocumentoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.TipoDocumento")})
         Me.tipoDocumentoGroup.Name = "tipoDocumentoGroup"
         '
         'nroSerieGroupHeader
@@ -328,7 +328,7 @@ Partial Class RepVentas
         '
         Me.nroSerieGroup.GroupFooter = Me.nroSerieGroupFooter
         Me.nroSerieGroup.GroupHeader = Me.nroSerieGroupHeader
-        Me.nroSerieGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NroSerie")})
+        Me.nroSerieGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NroSerie")})
         Me.nroSerieGroup.Name = "nroSerieGroup"
         '
         'reportFooter
@@ -683,7 +683,7 @@ Partial Class RepVentas
         '
         Me.Group1.GroupFooter = Me.GroupFooterSection1
         Me.Group1.GroupHeader = Me.GroupHeaderSection1
-        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NroDocumento")})
+        Me.Group1.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NroDocumento")})
         Me.Group1.Name = "Group1"
         '
         'GroupHeaderSection1

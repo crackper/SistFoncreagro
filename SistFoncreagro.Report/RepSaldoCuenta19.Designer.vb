@@ -255,7 +255,7 @@ Partial Class RepSaldoCuenta19
         '
         Me.cuentaGroup.GroupFooter = Me.cuentaGroupFooter
         Me.cuentaGroup.GroupHeader = Me.cuentaGroupHeader
-        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Cuenta")})
+        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Cuenta")})
         Me.cuentaGroup.Name = "cuentaGroup"
         '
         'reportFooter

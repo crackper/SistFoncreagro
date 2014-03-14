@@ -266,7 +266,7 @@ Partial Class RepMovCtaProveedores
         '
         Me.cuentaGroup.GroupFooter = Me.cuentaGroupFooter
         Me.cuentaGroup.GroupHeader = Me.cuentaGroupHeader
-        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Cuenta")})
+        Me.cuentaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Cuenta")})
         Me.cuentaGroup.Name = "cuentaGroup"
         '
         'proveedorGroupHeader
@@ -381,7 +381,7 @@ Partial Class RepMovCtaProveedores
         '
         Me.proveedorGroup.GroupFooter = Me.proveedorGroupFooter
         Me.proveedorGroup.GroupHeader = Me.proveedorGroupHeader
-        Me.proveedorGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Proveedor")})
+        Me.proveedorGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Proveedor")})
         Me.proveedorGroup.Name = "proveedorGroup"
         '
         'reportFooter
@@ -676,7 +676,7 @@ Partial Class RepMovCtaProveedores
         '
         Me.RegistroGroup.GroupFooter = Me.GroupFooterSection1
         Me.RegistroGroup.GroupHeader = Me.GroupHeaderSection1
-        Me.RegistroGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Registro")})
+        Me.RegistroGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Registro")})
         Me.RegistroGroup.Name = "RegistroGroup"
         '
         'GroupFooterSection1

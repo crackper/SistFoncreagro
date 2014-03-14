@@ -189,7 +189,7 @@ Partial Class RepClimaSocial
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox26, Me.TextBox27, Me.TextBox28, Me.TextBox23, Me.TextBox24, Me.TextBox25, Me.TextBox29, Me.TextBox30, Me.TextBox22, Me.TextBox18, Me.TextBox19, Me.TextBox20, Me.TextBox21, Me.TextBox31, Me.TextBox32, Me.TextBox33, Me.TextBox34, Me.TextBox35, Me.TextBox36})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(New Telerik.Reporting.Drawing.Unit(0.0R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.00030158041045069695R, Telerik.Reporting.Drawing.UnitType.Cm))
         Me.Table1.Name = "Table1"
-        TableGroup20.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("")})
+        TableGroup20.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("")})
         TableGroup20.Name = "DetailGroup"
         Me.Table1.RowGroups.Add(TableGroup20)
         Me.Table1.Size = New Telerik.Reporting.Drawing.SizeU(New Telerik.Reporting.Drawing.Unit(63.999984741210938R, Telerik.Reporting.Drawing.UnitType.Cm), New Telerik.Reporting.Drawing.Unit(0.5R, Telerik.Reporting.Drawing.UnitType.Cm))
@@ -389,15 +389,15 @@ Partial Class RepClimaSocial
         '
         'TextBox33
         '
-        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.NivelApoyo", Telerik.Reporting.Data.FilterOperator.Equal, "APOYO TOTAL")})
+        FormattingRule1.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.NivelApoyo", Telerik.Reporting.FilterOperator.Equal, "APOYO TOTAL")})
         FormattingRule1.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(16, Byte), Integer))
-        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.NivelApoyo", Telerik.Reporting.Data.FilterOperator.Equal, "APOYO MODERADO")})
+        FormattingRule2.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.NivelApoyo", Telerik.Reporting.FilterOperator.Equal, "APOYO MODERADO")})
         FormattingRule2.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(176, Byte), Integer), CType(CType(240, Byte), Integer))
-        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.NivelApoyo", Telerik.Reporting.Data.FilterOperator.Equal, "NEUTRAL")})
+        FormattingRule3.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.NivelApoyo", Telerik.Reporting.FilterOperator.Equal, "NEUTRAL")})
         FormattingRule3.Style.BackgroundColor = System.Drawing.Color.Yellow
-        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.NivelApoyo", Telerik.Reporting.Data.FilterOperator.Equal, "OPOSICION MODERADA")})
+        FormattingRule4.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.NivelApoyo", Telerik.Reporting.FilterOperator.Equal, "OPOSICION MODERADA")})
         FormattingRule4.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(118, Byte), Integer), CType(CType(18, Byte), Integer))
-        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Data.Filter() {New Telerik.Reporting.Data.Filter("=Fields.NivelApoyo", Telerik.Reporting.Data.FilterOperator.Equal, "OPOSICION RADICAL")})
+        FormattingRule5.Filters.AddRange(New Telerik.Reporting.Filter() {New Telerik.Reporting.Filter("=Fields.NivelApoyo", Telerik.Reporting.FilterOperator.Equal, "OPOSICION RADICAL")})
         FormattingRule5.Style.BackgroundColor = System.Drawing.Color.Red
         Me.TextBox33.ConditionalFormatting.AddRange(New Telerik.Reporting.Drawing.FormattingRule() {FormattingRule1, FormattingRule2, FormattingRule3, FormattingRule4, FormattingRule5})
         Me.TextBox33.Name = "TextBox33"

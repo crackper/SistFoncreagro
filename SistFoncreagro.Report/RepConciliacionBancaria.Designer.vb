@@ -176,7 +176,7 @@ Partial Class RepConciliacionBancaria
         '
         Me.movimientoGroup.GroupFooter = Me.movimientoGroupFooter
         Me.movimientoGroup.GroupHeader = Me.movimientoGroupHeader
-        Me.movimientoGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.Movimiento")})
+        Me.movimientoGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.Movimiento")})
         Me.movimientoGroup.Name = "movimientoGroup"
         '
         'reportFooter

@@ -155,7 +155,7 @@ Partial Class RepNota4FlujoEfectivo
         '
         Me.nombreNotaGroup.GroupFooter = Me.nombreNotaGroupFooter
         Me.nombreNotaGroup.GroupHeader = Me.nombreNotaGroupHeader
-        Me.nombreNotaGroup.Groupings.AddRange(New Telerik.Reporting.Data.Grouping() {New Telerik.Reporting.Data.Grouping("=Fields.NombreNota")})
+        Me.nombreNotaGroup.Groupings.AddRange(New Telerik.Reporting.Grouping() {New Telerik.Reporting.Grouping("=Fields.NombreNota")})
         Me.nombreNotaGroup.Name = "nombreNotaGroup"
         '
         'reportFooter

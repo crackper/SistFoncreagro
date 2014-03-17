@@ -1,4 +1,5 @@
-﻿Imports SistFoncreagro.BussinessEntities
+﻿Imports Microsoft.Practices.EnterpriseLibrary.Data
+Imports SistFoncreagro.BussinessEntities
 Imports SistFoncreagro.DataAccess
 Imports System.Data.SqlClient
 Imports System.Data
@@ -545,5 +546,10 @@ Public Class PersonalRepository : Inherits MasterDataAccess : Implements IPerson
         End Using
 
         Return asignacion
+    End Function
+
+    Public Function GetPersonalByCriterio(criterio As String) As System.Collections.Generic.IEnumerable(Of BussinessEntities.Personal) Implements IPersonalRepository.GetPersonalByCriterio
+        Dim query = db.ExecuteSprocAccessor(Of Personal)("GetPersonalByCriterio", criterio)
+        Return query
     End Function
 End Class

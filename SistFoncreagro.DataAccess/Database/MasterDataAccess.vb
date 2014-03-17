@@ -1,12 +1,18 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Configuration
+Imports Microsoft.Practices.EnterpriseLibrary.Data
+Imports Microsoft.Practices.EnterpriseLibrary.Common.Configuration
 
 Public Class MasterDataAccess
+
     Dim cnx As SqlConnection
+    Public Property db As Database
 
     Public Sub New()
         cnx = New SqlConnection
         cnx.ConnectionString = ConfigurationManager.ConnectionStrings("cnx").ConnectionString
+
+        db = EnterpriseLibraryContainer.Current.GetInstance(Of Database)()
     End Sub
 
     Public Function CreateSPCommand(ByVal query As String) As SqlCommand

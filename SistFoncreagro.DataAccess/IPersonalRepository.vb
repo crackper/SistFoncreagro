@@ -1,4 +1,5 @@
 ﻿Imports SistFoncreagro.BussinessEntities
+Imports System.Collections.Generic
 Public Interface IPersonalRepository
     Function GetAllFromPersonal() As List(Of Personal)
     Function GetPersonalByIdPersonal(ByVal idPersonal As Integer) As Personal
@@ -24,4 +25,13 @@ Public Interface IPersonalRepository
 
     Function GetCertificadoTipoSangrePERSONALByIdPersonal(ByVal IdPersonal As Int32) As String
     Function GetAsignacionFamiliarByIdPersonal(ByVal Idpersonal As Int32) As Decimal
+
+    ''' <summary>
+    ''' Metodo Devuelve una coleccion de Tipo Personal segun criterio
+    ''' </summary>
+    ''' <param name="criterio">apellidos o nombres</param>
+    ''' <returns>Coleccion tipo Personal</returns>
+    ''' <remarks></remarks>
+    Function GetPersonalByCriterio(ByVal criterio As String) As IEnumerable(Of Personal)
+
 End Interface

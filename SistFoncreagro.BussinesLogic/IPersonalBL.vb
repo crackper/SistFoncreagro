@@ -25,4 +25,12 @@ Public Interface IPersonalBL
     Function GetCertificadoTipoSangrePERSONALByIdPersonal(ByVal IdPersonal As Int32) As String
     Function GetAsignacionFamiliarByIdPersonal(ByVal Idpersonal As Int32) As Decimal
 
+    ''' <summary>
+    ''' Metodo Devuelve una coleccion de Tipo Personal segun criterio
+    ''' </summary>
+    ''' <param name="criterio">apellidos o nombres</param>
+    ''' <returns>Coleccion tipo Personal</returns>
+    ''' <remarks></remarks>
+    Function GetPersonalByCriterio(ByVal criterio As String) As IEnumerable(Of Personal)
+
 End Interface

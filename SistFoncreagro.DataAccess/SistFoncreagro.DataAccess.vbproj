@@ -423,7 +423,7 @@
     <Compile Include="LineaRepository.vb" />
     <Compile Include="LocalRepository.vb" />
     <Compile Include="MarcaRepository.vb" />
-    <Compile Include="MasterDataAccess.vb" />
+    <Compile Include="Database\MasterDataAccess.vb" />
     <Compile Include="MonedaRepository.vb" />
     <Compile Include="MotivoAusenciaRepository.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

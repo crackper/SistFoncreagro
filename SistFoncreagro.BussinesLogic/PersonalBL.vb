@@ -1,8 +1,7 @@
 ﻿Imports SistFoncreagro.BussinessEntities
 Imports SistFoncreagro.DataAccess
 Public Class PersonalBL : Implements IPersonalBL
-
-
+    
     Dim factoryrepository As IPersonalRepository
 
     Public Sub New()
@@ -147,5 +146,9 @@ Public Class PersonalBL : Implements IPersonalBL
 
     Public Function GetAsignacionFamiliarByIdPersonal(ByVal Idpersonal As Integer) As Decimal Implements IPersonalBL.GetAsignacionFamiliarByIdPersonal
         Return factoryrepository.GetAsignacionFamiliarByIdPersonal(Idpersonal)
+    End Function
+
+    Public Function GetPersonalByCriterio(criterio As String) As System.Collections.Generic.IEnumerable(Of BussinessEntities.Personal) Implements IPersonalBL.GetPersonalByCriterio
+        Return factoryrepository.GetPersonalByCriterio(criterio)
     End Function
 End Class

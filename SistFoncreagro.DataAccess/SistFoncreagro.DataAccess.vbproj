@@ -146,6 +146,7 @@
     <Compile Include="ControlRepository.vb" />
     <Compile Include="ConveMarcoRepository.vb" />
     <Compile Include="Convenio\ConvenioRepository.vb" />
+    <Compile Include="Convenio\ConvenioRepositorySam.vb" />
     <Compile Include="Proyecto\ConveProyRepository.vb" />
     <Compile Include="CoordinaParteProyectoRepository.vb" />
     <Compile Include="CorrelativoFactory.vb" />

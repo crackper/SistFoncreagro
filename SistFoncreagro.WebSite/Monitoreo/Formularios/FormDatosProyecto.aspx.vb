@@ -15,10 +15,10 @@ Public Class FormDatosProyecto
 
     Protected Overrides Sub OnInit(ByVal e As EventArgs)
         MyBase.OnInit(e)
-        If Not Page.IsPostBack Then
-            _personalBL = New PersonalBL()
-            _proyectoBL = New ProyectoBL()
-        End If
+        'If Not Page.IsPostBack Then
+        _personalBL = New PersonalBL()
+        _proyectoBL = New ProyectoBL()
+        'End If
 
     End Sub
 
@@ -26,13 +26,16 @@ Public Class FormDatosProyecto
         Dim accion = Request.QueryString("accion")
         Dim idProyecto = Request.QueryString("id")
 
-        If IsNothing(accion) <> True And IsNothing(idProyecto) <> True Then
-            If accion = "update" Then
-                _proyecto = _proyectoBL.GetProyectoDtoyIdProyecto(idProyecto)
-                BindProyecto(_proyecto)
-            End If
+        If Not Page.IsPostBack Then
+            If IsNothing(accion) <> True And IsNothing(idProyecto) <> True Then
+                If accion = "update" Then
+                    _proyecto = _proyectoBL.GetProyectoDtoyIdProyecto(idProyecto)
+                    BindProyecto(_proyecto)
+                End If
 
+            End If
         End If
+
 
     End Sub
 
@@ -58,5 +61,21 @@ Public Class FormDatosProyecto
 
     Protected Sub odsPersonal_ObjectCreating(sender As Object, e As System.Web.UI.WebControls.ObjectDataSourceEventArgs) Handles odsPersonal.ObjectCreating
         e.ObjectInstance = _personalBL
+    End Sub
+
+    Protected Sub rgConvenios_SelectedIndexChanged(sender As Object, e As EventArgs) Handles rgConvenios.SelectedIndexChanged
+        Dim idConvProy = rgConvenios.SelectedValue
+
+        Dim proyecto As ProyectoDto = Cache.Get("proyecto")
+
+        Dim convenio = (From p In proyecto.Convenios
+                       Where p.IdConvProy.Equals(idConvProy)
+                       Select p).SingleOrDefault()
+
+        _proyectoBL.LoadComponentes(convenio)
+
+        gvComponentes.DataSource = convenio.Componentes
+        gvComponentes.DataBind()
+
     End Sub
 End Class

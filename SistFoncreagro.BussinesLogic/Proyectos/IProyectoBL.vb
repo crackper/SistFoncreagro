@@ -10,4 +10,5 @@ Public Interface IProyectoBL
     Function GetCodigoFromPROYECTO(ByVal IdProyecto As Int32) As Proyecto
     Function GetAllFromProyectoDatosGenerales() As List(Of Proyecto)
     Function GetProyectoDtoyIdProyecto(ByVal idProyecto As Integer) As ProyectoDto
+    Sub LoadComponentes(ByVal convenio As ConvenioDto)
 End Interface

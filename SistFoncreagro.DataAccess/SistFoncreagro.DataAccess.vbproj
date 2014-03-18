@@ -135,7 +135,8 @@
     <Compile Include="ClasificacionCatalogoVentasRepository.vb" />
     <Compile Include="ClasificacionRepository.vb" />
     <Compile Include="ClimaSocialRepository.vb" />
-    <Compile Include="ComponenteRepository.vb" />
+    <Compile Include="Componentes\ComponenteRepository.vb" />
+    <Compile Include="Componentes\ComponenteRepositorySam.vb" />
     <Compile Include="ConceptoPlanillaRepository.vb" />
     <Compile Include="ConciliacionBancariaRepository.vb" />
     <Compile Include="CondicionesContratoRepository.vb" />
@@ -242,7 +243,7 @@
     <Compile Include="ICierreContableRepository.vb" />
     <Compile Include="IClasificacionCatalogoVentasRepository.vb" />
     <Compile Include="IClasificacionRepository.vb" />
-    <Compile Include="IComponenteRepository.vb" />
+    <Compile Include="Componentes\IComponenteRepository.vb" />
     <Compile Include="IConceptoPlanillaRepository.vb" />
     <Compile Include="IConciliacionBancariaRepository.vb" />
     <Compile Include="ICondicionesContratoRepository.vb" />

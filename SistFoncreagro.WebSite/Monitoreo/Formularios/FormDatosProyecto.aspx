@@ -91,6 +91,8 @@
                             <HeaderStyle Width="20px"></HeaderStyle>
                         </ExpandCollapseColumn>
                         <Columns>
+                            <telerik:GridButtonColumn Text="Seleccionar" CommandName="Select"/>
+                            
                             <telerik:GridBoundColumn DataField="IdConvProy" DataType="System.Int32" 
                                 FilterControlAltText="Filter IdConvProy column" HeaderText="IdConvProy" 
                                 SortExpression="IdConvProy" UniqueName="IdConvProy" Visible="False">
@@ -116,6 +118,10 @@
                          <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Default"/>
                      </telerik:RadGrid>
                 </fieldset>
+                <legend>
+                    <fieldset>Componentes</fieldset>
+                    <asp:GridView ID="gvComponentes" runat="server"/>
+                </legend>
             </telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" alt="Adjuntos">
                 <fieldset>

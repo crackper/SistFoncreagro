@@ -4,4 +4,6 @@
     Property IdProyecto As Int32
     Property Convenio As String
     Property MontoAprobado As Decimal
+
+    Property Componentes As List(Of ComponenteDto)
 End Class

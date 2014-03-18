@@ -128,7 +128,8 @@
     <Compile Include="ClasificacionCatalogo.vb" />
     <Compile Include="ClasificacionCatalogoVentas.vb" />
     <Compile Include="ClimaSocial.vb" />
-    <Compile Include="Componente.vb" />
+    <Compile Include="Componentes\Componente.vb" />
+    <Compile Include="Componentes\ComponenteDto.vb" />
     <Compile Include="ConceptoPlanilla.vb" />
     <Compile Include="ConciliacionBancaria.vb" />
     <Compile Include="CondicionesContrato.vb" />

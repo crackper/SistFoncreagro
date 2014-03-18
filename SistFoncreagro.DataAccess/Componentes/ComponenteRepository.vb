@@ -2,7 +2,7 @@
 Imports System.Data.SqlClient
 Imports System.Data
 
-Public Class ComponenteRepository : Inherits MasterDataAccess : Implements IComponenteRepository
+Partial Public Class ComponenteRepository : Inherits MasterDataAccess : Implements IComponenteRepository
 
     Public Function GetAllFromComponente() As System.Collections.Generic.List(Of BussinessEntities.Componente) Implements IComponenteRepository.GetAllFromComponente
         Dim command As SqlCommand = MyBase.CreateSPCommand("GetAllFromCOMPONENTE")

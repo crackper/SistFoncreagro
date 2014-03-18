@@ -7,4 +7,5 @@ Public Interface IComponenteRepository
     Function GetFromComponenteByIdProyAndIdConv(ByVal _IdProy As Int32, ByVal _IdConv As Int32) As List(Of Componente)
     Function SaveComponente(ByVal _Componente As Componente) As Int32
     Function DeleteComponente(ByVal _id As Int32) As String
+    Function GetComponentesConvenioProyByIdComProy(ByVal idConvProy As Int32)
 End Interface

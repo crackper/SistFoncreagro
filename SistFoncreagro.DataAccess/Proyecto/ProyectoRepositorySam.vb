@@ -5,7 +5,9 @@ Imports System.Data
 
 Partial Public Class ProyectoRepository : Inherits MasterDataAccess : Implements IProyectoRepository
 
+
     Dim _convenioFactory As IConvenioRepository
+    Dim _componenteFactory As IComponenteRepository
 
     Public Function GetProyectoDtoyIdProyecto(idProyecto As Integer) As BussinessEntities.ProyectoDto Implements IProyectoRepository.GetProyectoDtoyIdProyecto
         _convenioFactory = New ConvenioRepository()
@@ -17,6 +19,13 @@ Partial Public Class ProyectoRepository : Inherits MasterDataAccess : Implements
         _proyecto.Convenios = _convenioFactory.GetConveniosByIdProyecto(_proyecto.IdProyecto)
 
         Return _proyecto
-       
+
     End Function
+
+    Public Sub LoadComponentes(convenio As BussinessEntities.ConvenioDto) Implements IProyectoRepository.LoadComponentes
+        _componenteFactory = New ComponenteRepository()
+
+        convenio.Componentes = _componenteFactory.GetComponentesConvenioProyByIdComProy(convenio.IdConvProy)
+
+    End Sub
 End Class

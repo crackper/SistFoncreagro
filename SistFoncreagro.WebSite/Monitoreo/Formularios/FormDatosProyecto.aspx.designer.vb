@@ -158,13 +158,13 @@ Partial Public Class FormDatosProyecto
     Protected WithEvents RadPageView1 As Global.Telerik.Web.UI.RadPageView
 
     '''<summary>
-    '''Control RadGrid1.
+    '''Control rgConvenios.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents RadGrid1 As Global.Telerik.Web.UI.RadGrid
+    Protected WithEvents rgConvenios As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
     '''Control RadPageView2.

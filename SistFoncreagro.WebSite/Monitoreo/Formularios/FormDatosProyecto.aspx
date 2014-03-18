@@ -70,16 +70,51 @@
             <telerik:RadPageView ID="RadPageView1" runat="server" alt="Estructura">
                 <fieldset>
                     <legend>Convenios</legend>
-                    <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" 
-                        CellSpacing="0" Culture="es-ES" GridLines="None">
-                        <MasterTableView>
-                            <CommandItemSettings AddNewRecordText="Asociar Convenio con el Proyecto"/>
-                            <Columns>
-                                <telerik:GridBoundColumn HeaderText="Convenio"/>
-                                <telerik:GridBoundColumn HeaderText="Monto"/>
-                            </Columns>
+                    
+                    <telerik:RadGrid ID="rgConvenios" runat="server" AutoGenerateColumns="False" 
+                        CellSpacing="0" 
+                        GridLines="None" 
+                        ShowFooter="True" 
+                        AllowPaging="True" 
+                        Skin="Hay">
+                        <ClientSettings>
+                            <Selecting AllowRowSelect="True" />
+                        </ClientSettings>
+                        <MasterTableView  ClientDataKeyNames="IdConvProy" 
+                            DataKeyNames="IdConvProy">
+                        <CommandItemSettings ExportToPdfText="Export to PDF"/>
+
+                        <RowIndicatorColumn FilterControlAltText="Filter RowIndicator column">
+                            <HeaderStyle Width="20px"/>
+                        </RowIndicatorColumn>
+                        <ExpandCollapseColumn FilterControlAltText="Filter ExpandColumn column">
+                            <HeaderStyle Width="20px"></HeaderStyle>
+                        </ExpandCollapseColumn>
+                        <Columns>
+                            <telerik:GridBoundColumn DataField="IdConvProy" DataType="System.Int32" 
+                                FilterControlAltText="Filter IdConvProy column" HeaderText="IdConvProy" 
+                                SortExpression="IdConvProy" UniqueName="IdConvProy" Visible="False">
+                                <HeaderStyle Width="0%" />
+                            </telerik:GridBoundColumn>
+                            <telerik:GridBoundColumn DataField="Convenio" 
+                                FilterControlAltText="Filter column column" HeaderText="Convenio" 
+                                UniqueName="column">
+                            </telerik:GridBoundColumn>
+                            <telerik:GridBoundColumn Aggregate="Sum" DataField="MontoAprobado" 
+                                DataFormatString="{0:0,0.00}" DataType="System.Decimal" 
+                                FilterControlAltText="Filter MontoAprobado column" HeaderText="Monto" 
+                                SortExpression="MontoAprobado" UniqueName="MontoAprobado" 
+                                FooterText="TOTAL">
+                            </telerik:GridBoundColumn>
+                        </Columns>
+
+                        <EditFormSettings>
+<EditColumn FilterControlAltText="Filter EditCommandColumn column"></EditColumn>
+</EditFormSettings>
                         </MasterTableView>
-                    </telerik:RadGrid>
+                         <FilterMenu EnableImageSprites="False"/>
+                         <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Default"/>
+                     </telerik:RadGrid>
                 </fieldset>
             </telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" alt="Adjuntos">

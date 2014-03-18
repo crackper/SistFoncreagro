@@ -15,4 +15,6 @@
     Public Property IdResponsable As Int32
     Public Property Responsable As String
 
+    ''Convenios
+    Public Property Convenios As List(Of ConvenioDto)
 End Class

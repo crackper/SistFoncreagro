@@ -50,6 +50,9 @@ Public Class FormDatosProyecto
         cbEstado.Text = proyecto.Estado
         txtCodigoAdicional.Text = proyecto.CodigoAdicional
 
+        rgConvenios.DataSource = proyecto.Convenios
+        rgConvenios.DataBind()
+
         Cache.Insert("proyecto", proyecto)
     End Sub
 

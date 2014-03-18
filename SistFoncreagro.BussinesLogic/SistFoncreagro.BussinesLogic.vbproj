@@ -327,7 +327,7 @@
     <Compile Include="IProyActBL.vb" />
     <Compile Include="IProyCompBL.vb" />
     <Compile Include="IProyectoAreaBL.vb" />
-    <Compile Include="IProyectoBL.vb" />
+    <Compile Include="Proyectos\IProyectoBL.vb" />
     <Compile Include="IRazonSoulSourceBL.vb" />
     <Compile Include="IReciboBL.vb" />
     <Compile Include="IRecibosRendicionBL.vb" />
@@ -434,7 +434,8 @@
     <Compile Include="ProyActBL.vb" />
     <Compile Include="ProyCompBL.vb" />
     <Compile Include="ProyectoAreaBL.vb" />
-    <Compile Include="ProyectoBL.vb" />
+    <Compile Include="Proyectos\ProyectoBL.vb" />
+    <Compile Include="Proyectos\ProyectoBLSam.vb" />
     <Compile Include="RazonSoulSourceBL.vb" />
     <Compile Include="ReciboBL.vb" />
     <Compile Include="RecibosRendicionBL.vb" />
@@ -544,6 +545,7 @@
     <Content Include="obj\Debug\SistFoncreagro.BussinesLogic.xml" />
     <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

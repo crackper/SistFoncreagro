@@ -2,7 +2,7 @@
 Imports System.Data.SqlClient
 Imports System.Data
 
-Public Class ProyectoRepository : Inherits MasterDataAccess : Implements IProyectoRepository
+Partial Public Class ProyectoRepository : Inherits MasterDataAccess : Implements IProyectoRepository
 
     Public Function GetAllFromProyecto() As System.Collections.Generic.List(Of BussinessEntities.Proyecto) Implements IProyectoRepository.GetAllFromProyecto
         Dim command As SqlCommand = MyBase.CreateSPCommand("GetAllFromPROYECTO")

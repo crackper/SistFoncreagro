@@ -122,6 +122,15 @@ Partial Public Class FormDatosProyecto
     Protected WithEvents cbEstado As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
+    '''Control txtCodigoAdicional.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtCodigoAdicional As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Control rtsEstructura.
     '''</summary>
     '''<remarks>
@@ -147,6 +156,15 @@ Partial Public Class FormDatosProyecto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents RadPageView1 As Global.Telerik.Web.UI.RadPageView
+
+    '''<summary>
+    '''Control RadGrid1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RadGrid1 As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
     '''Control RadPageView2.

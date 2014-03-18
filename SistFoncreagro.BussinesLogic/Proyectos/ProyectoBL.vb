@@ -1,6 +1,6 @@
 ﻿Imports SistFoncreagro.BussinessEntities
 Imports SistFoncreagro.DataAccess
-Public Class ProyectoBL : Implements IProyectoBL
+Partial Public Class ProyectoBL : Implements IProyectoBL
 
     Dim factoryrepository As IProyectoRepository
 

@@ -1,5 +1,5 @@
 ﻿Imports SistFoncreagro.BussinessEntities
-Public Interface IProyectoBL
+Public Interface IProyectoRepository
     Function GetAllFromProyecto() As List(Of Proyecto)
     Function GetProyectoVigente() As List(Of Proyecto)
     Function GetFromProyectoByIdProyecto(ByVal idproyecto As Int32) As Proyecto
@@ -9,4 +9,5 @@ Public Interface IProyectoBL
     Function GetPROYECTOBInTransaccion(ByVal Anio As Int32, ByVal Mes As Int32, ByVal Flag As String) As List(Of Proyecto)
     Function GetCodigoFromPROYECTO(ByVal IdProyecto As Int32) As Proyecto
     Function GetAllFromProyectoDatosGenerales() As List(Of Proyecto)
+    Function GetProyectoDtoyIdProyecto(ByVal idProyecto As Integer) As ProyectoDto
 End Interface

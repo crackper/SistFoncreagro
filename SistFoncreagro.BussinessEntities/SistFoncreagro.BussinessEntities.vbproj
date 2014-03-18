@@ -137,9 +137,9 @@
     <Compile Include="Control.vb" />
     <Compile Include="Controlar.vb" />
     <Compile Include="ControlAsistencia.vb" />
-    <Compile Include="ConveMarco.vb" />
-    <Compile Include="Convenio.vb" />
-    <Compile Include="ConveProy.vb" />
+    <Compile Include="Covenio\ConveMarco.vb" />
+    <Compile Include="Covenio\Convenio.vb" />
+    <Compile Include="Covenio\ConveProy.vb" />
     <Compile Include="CoordinaParteProyecto.vb" />
     <Compile Include="Correlativo.vb" />
     <Compile Include="Cotizacion.vb" />
@@ -237,6 +237,8 @@
     <Compile Include="ProyAct.vb" />
     <Compile Include="ProyComp.vb" />
     <Compile Include="ProyectoArea.vb" />
+    <Compile Include="Covenio\ConvenioDto.vb" />
+    <Compile Include="Proyectos\ProyectoDto.vb" />
     <Compile Include="RazonSoulSource.vb" />
     <Compile Include="Recibo.vb" />
     <Compile Include="RecibosRendicion.vb" />
@@ -290,7 +292,7 @@
     <Compile Include="Personal.vb" />
     <Compile Include="PlanContable.vb" />
     <Compile Include="Presupuesto.vb" />
-    <Compile Include="Proyecto.vb" />
+    <Compile Include="Proyectos\Proyecto.vb" />
     <Compile Include="Subdiario.vb" />
     <Compile Include="TipoBaseImponible.vb" />
     <Compile Include="TipoCambio.vb" />

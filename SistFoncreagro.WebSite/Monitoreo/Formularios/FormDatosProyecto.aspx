@@ -53,7 +53,9 @@
                 <asp:ListItem>IMPLEMENTACION</asp:ListItem>
                 <asp:ListItem>EJECUCION</asp:ListItem>
                 <asp:ListItem>CIERRE</asp:ListItem>
-            </asp:DropDownList>              
+            </asp:DropDownList>     
+            <label>Código Adicional:</label>  
+            <asp:TextBox ID="txtCodigoAdicional" runat="server"/>       
         </fieldset>
     </div>
     <div class="span8">
@@ -68,6 +70,16 @@
             <telerik:RadPageView ID="RadPageView1" runat="server" alt="Estructura">
                 <fieldset>
                     <legend>Convenios</legend>
+                    <telerik:RadGrid ID="RadGrid1" runat="server" AutoGenerateColumns="False" 
+                        CellSpacing="0" Culture="es-ES" GridLines="None">
+                        <MasterTableView>
+                            <CommandItemSettings AddNewRecordText="Asociar Convenio con el Proyecto"/>
+                            <Columns>
+                                <telerik:GridBoundColumn HeaderText="Convenio"/>
+                                <telerik:GridBoundColumn HeaderText="Monto"/>
+                            </Columns>
+                        </MasterTableView>
+                    </telerik:RadGrid>
                 </fieldset>
             </telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" alt="Adjuntos">

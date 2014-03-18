@@ -145,8 +145,9 @@
     <Compile Include="ControlAsistenciaRepository.vb" />
     <Compile Include="ControlRepository.vb" />
     <Compile Include="ConveMarcoRepository.vb" />
-    <Compile Include="ConvenioRepository.vb" />
-    <Compile Include="ConveProyRepository.vb" />
+    <Compile Include="Convenio\ConvenioRepository.vb" />
+    <Compile Include="Copia de ConvenioRepository.vb" />
+    <Compile Include="Proyecto\ConveProyRepository.vb" />
     <Compile Include="CoordinaParteProyectoRepository.vb" />
     <Compile Include="CorrelativoFactory.vb" />
     <Compile Include="CotizacionRepository.vb" />
@@ -251,8 +252,8 @@
     <Compile Include="IControlAsistenciaRepository.vb" />
     <Compile Include="IControlRepository.vb" />
     <Compile Include="IConveMarcoRepository.vb" />
-    <Compile Include="IConvenioRepository.vb" />
-    <Compile Include="IConveProyRepository.vb" />
+    <Compile Include="Convenio\IConvenioRepository.vb" />
+    <Compile Include="Proyecto\IConveProyRepository.vb" />
     <Compile Include="ICoordinaProyectoRepository.vb" />
     <Compile Include="ICorrelativoFactory.vb" />
     <Compile Include="ICotizacionRepository.vb" />
@@ -357,7 +358,7 @@
     <Compile Include="IProyActRepository.vb" />
     <Compile Include="IProyCompRepository.vb" />
     <Compile Include="IProyectoAreaRepository.vb" />
-    <Compile Include="IProyectoRepository.vb" />
+    <Compile Include="Proyecto\IProyectoRepository.vb" />
     <Compile Include="IRazonSoulSourceRepository.vb" />
     <Compile Include="IReciboRepository.vb" />
     <Compile Include="IRecibosRendicionRepository.vb" />
@@ -470,7 +471,8 @@
     <Compile Include="ProyActRepository.vb" />
     <Compile Include="ProyCompRepository.vb" />
     <Compile Include="ProyectoAreaRepository.vb" />
-    <Compile Include="ProyectoRepository.vb" />
+    <Compile Include="Proyecto\ProyectoRepository.vb" />
+    <Compile Include="Proyecto\ProyectoRepositorySam.vb" />
     <Compile Include="RazonSoulSourceRepository.vb" />
     <Compile Include="ReciboRepository.vb" />
     <Compile Include="RecibosRendicionRepository.vb" />
@@ -575,6 +577,7 @@
     <Content Include="obj\Debug\SistFoncreagro.DataAccess.xml" />
     <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

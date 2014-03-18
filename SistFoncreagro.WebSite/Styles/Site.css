@@ -714,3 +714,36 @@ overflow: auto;
 width: 95%;
 
 }
+
+/************ MAQUETAR FORMULARIOS *************/
+.formc{
+	width: 70%; margin: auto;
+}
+.formc ol{margin:0; padding:0; list-style:none;}
+.formc  label{
+	display: block;
+	width: 10em;
+	float: left;
+    font-weight: bold;
+}
+.formc ul li{clear: both;}
+.formc  fieldset {
+	border:0; 
+	margin:0;
+}
+.formc  legend{display:none;}
+.formc  legend.lblVisible{
+	display:block;
+	width:4em;
+	margin: 0; padding: 0;
+}
+.formc  label.lblMid{
+	clear: both;
+	display: block;
+	margin: 0 0 0 9em;
+}
+		
+/*************************/
+label{
+    font-weight: bold;
+}

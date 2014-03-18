@@ -170,6 +170,14 @@
     <Content Include="Archivos\RRHH\Fotos\foto20111230-2_0.jpg" />
     <Content Include="Archivos\RRHH\Fotos\foto2012110-5_6.jpg" />
     <Content Include="bin\jquery-1.6.2.min.js" />
+    <Content Include="bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="Contabilidad\Controles\ControlBonificacion.ascx" />
     <Content Include="Contabilidad\Controles\ControlCatalogoVenta.ascx" />
     <Content Include="Contabilidad\Controles\ControlClasificacionVentas.ascx" />
@@ -383,6 +391,8 @@
     <Content Include="Contabilidad\Formularios\Validacion.aspx" />
     <Content Include="Contabilidad\Formularios\Voucher.aspx" />
     <Content Include="Contabilidad\Formularios\ListaSerieVentas.aspx" />
+    <Content Include="img\clip16x16.png" />
+    <Content Include="img\category16x16.png" />
     <Content Include="img\Aceptar.gif" />
     <Content Include="img\AddRecord.gif" />
     <Content Include="img\Adjuntar.gif" />
@@ -4244,7 +4254,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="False" UseAjaxifiedTemplates="False" />
+      <UserProperties UseAjaxifiedTemplates="False" UseJQuerySupport="False" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="FrmListaPersonal.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmListaPersonal" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 
 

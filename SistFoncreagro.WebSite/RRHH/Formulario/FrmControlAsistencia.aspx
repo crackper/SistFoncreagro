@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Control de Asistencia" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="FrmControlAsistencia.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmControlAsistencia" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table style="width: 100%" class="tabla5">

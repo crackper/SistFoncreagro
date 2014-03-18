@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlElementoGasto.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlElementoGasto" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <table class= "Texto">
     <tr>

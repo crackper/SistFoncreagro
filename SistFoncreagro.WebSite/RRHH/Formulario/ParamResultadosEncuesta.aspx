@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Resultados Encuesta" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="ParamResultadosEncuesta.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamResultadosEncuesta" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <script type="text/javascript">
     function onRequestStart(sender, args) {

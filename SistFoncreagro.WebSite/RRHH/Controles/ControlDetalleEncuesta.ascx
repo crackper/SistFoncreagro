@@ -1,6 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlDetalleEncuesta.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlDetalleEncuesta" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <style type="text/css">
     .style1
     {

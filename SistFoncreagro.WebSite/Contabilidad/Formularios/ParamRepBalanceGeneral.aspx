@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Balance General" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepBalanceGeneral.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepBalanceGeneral" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

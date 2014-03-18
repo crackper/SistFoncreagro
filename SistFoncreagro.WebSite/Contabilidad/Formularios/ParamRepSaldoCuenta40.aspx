@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libro de Inventarios y Balances - Detalle del saldo de la Cuenta 42 - Tributos por Pagar" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepSaldoCuenta40.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepSaldoCuenta40" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

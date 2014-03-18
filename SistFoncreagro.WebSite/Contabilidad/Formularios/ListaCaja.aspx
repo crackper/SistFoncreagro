@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Caja y Bancos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaCaja.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaCajaIngresos"  %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function onRequestStart(sender, args) {

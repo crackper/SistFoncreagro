@@ -1,6 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlSubActividad.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlSubActividad" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
 
 

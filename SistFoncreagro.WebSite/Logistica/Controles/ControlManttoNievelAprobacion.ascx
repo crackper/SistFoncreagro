@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlManttoNievelAprobacion.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlManttoNievelAprobacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <table style="width: 620px">
     <tr>
         <td class="style2" style="width: 9%">

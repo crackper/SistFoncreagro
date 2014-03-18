@@ -1,6 +1,4 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="ReporteCopiasSunat.aspx.vb" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" Inherits="SistFoncreagro.WebSite.ReporteCopiasSunat" %>
-
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="Telerik.ReportViewer.WebForms, Version=7.0.13.228, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" namespace="Telerik.ReportViewer.WebForms" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
         <table align="center" class="tabla4">

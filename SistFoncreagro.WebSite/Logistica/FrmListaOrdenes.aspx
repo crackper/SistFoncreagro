@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="FrmListaOrdenes.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmListaOrdenes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:SqlDataSource ID="DSListOrdenes" runat="server" 
     ConnectionString="<%$ ConnectionStrings:cnx %>" 

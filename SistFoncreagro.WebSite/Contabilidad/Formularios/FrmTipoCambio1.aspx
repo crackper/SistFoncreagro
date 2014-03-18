@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Tipo de Cambio" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="FrmTipoCambio1.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmTipoCambio1" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla3">

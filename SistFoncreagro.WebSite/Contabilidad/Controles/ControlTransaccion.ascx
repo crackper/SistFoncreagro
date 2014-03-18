@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlTransaccion.ascx.vb" Inherits="SistFoncreagro.WebSite.LineaCompras_Control" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <style type="text/css">
     .style1

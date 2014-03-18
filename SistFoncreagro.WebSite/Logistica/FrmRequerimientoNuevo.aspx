@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="FrmRequerimientoNuevo.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmRequerimientoNuevo" %>
-<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
       <fieldset class="jcv">
        <legend class="legendJcv">NUEVO REQUERIMIENTO</legend>

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Consolidado de Gastos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepGastos.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepGastos" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

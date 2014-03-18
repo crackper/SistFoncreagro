@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Generar PDT de Operaciones con Terceros" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="FrmGenerarDAOT.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmGenerarDAOT" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <script type="text/javascript">
     function onRequestStart(sender, args) {

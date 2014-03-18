@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Estado de Ingresos, Desembolsos y Saldos de Efectivo" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepFlujoEfectivo1.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepFlujoEfectivo1" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

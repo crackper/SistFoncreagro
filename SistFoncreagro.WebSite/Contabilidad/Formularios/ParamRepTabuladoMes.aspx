@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Reporte de Movimiento Tabulado Por Mes" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepTabuladoMes.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepTabuladoMes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     &nbsp;<table align="center" class="tabla6">
         <tr>

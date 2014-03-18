@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Estado de Ingresos y Gastos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepEstadoIngresosGastos.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepEstadoIngresosGastos" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

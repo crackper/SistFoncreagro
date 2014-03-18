@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Factores de Evaluación" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="ListaFactorEvaluacion.aspx.vb" Inherits="SistFoncreagro.WebSite.ListFactorEvaluacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function onRequestStart(sender, args) {

@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Logistica/MasterPageLogistica.master" CodeBehind="aPrueba.aspx.vb" Inherits="SistFoncreagro.WebSite.aPrueba" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
         <br />
         <table style="width: 100%" class="tabla5">

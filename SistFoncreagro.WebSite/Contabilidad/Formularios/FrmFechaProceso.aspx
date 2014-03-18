@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="Fecha de Proceso" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="FrmFechaProceso.aspx.vb" Inherits="SistFoncreagro.WebSite.ElegirEmpresa" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla1">

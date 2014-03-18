@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlConveMarco.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlConveMarco" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <table >
     <tr>

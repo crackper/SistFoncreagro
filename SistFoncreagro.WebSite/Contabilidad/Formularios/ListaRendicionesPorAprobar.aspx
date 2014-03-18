@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Lista de Rendiciones Para Aprobar" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaRendicionesPorAprobar.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaRendicionesPorAprobar" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

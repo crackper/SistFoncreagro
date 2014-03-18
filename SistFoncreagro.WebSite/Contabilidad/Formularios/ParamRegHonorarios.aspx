@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libro de Retenciones" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRegHonorarios.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRegHonorarios" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="Validar Bienes Muebles" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaValidarMuebles.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaValidarMuebles" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function onRequestStart(sender, args) {

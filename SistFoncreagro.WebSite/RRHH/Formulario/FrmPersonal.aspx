@@ -1,6 +1,5 @@
 ﻿
  <%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="FrmPersonal.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmPersonal" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     &nbsp;<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
                  <script type="text/javascript">

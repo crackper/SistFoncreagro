@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Autorizacion para enviar Requerimientos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="FrmAutorizacion.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmAutorizacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
    
         <fieldset>

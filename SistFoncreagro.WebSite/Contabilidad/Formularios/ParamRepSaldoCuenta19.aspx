@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libro de Inventarios y Balances - Detalle del saldo de la Cuenta 19 - Provisión de Cuentas de Cobranza Dudosa" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepSaldoCuenta19.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepSaldoCuenta19" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

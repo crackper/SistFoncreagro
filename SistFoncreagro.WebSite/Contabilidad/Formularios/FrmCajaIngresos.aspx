@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Caja y Bancos - Ingresos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterContabilidad1.master" CodeBehind="FrmCajaIngresos.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmCaja" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 

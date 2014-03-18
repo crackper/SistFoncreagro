@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Generar Plantilla de Datos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="FrmPlantilla.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmPlantilla" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

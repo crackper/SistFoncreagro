@@ -1,7 +1,5 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmAsignarCentroCostoPorPersona.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmAsignarCentroCostoPorPersona" %>
 
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

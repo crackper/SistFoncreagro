@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Parametros para Validar Votación" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="ParamVotacion.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamVotacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <script type="text/javascript">
     function onRequestStart(sender, args) {

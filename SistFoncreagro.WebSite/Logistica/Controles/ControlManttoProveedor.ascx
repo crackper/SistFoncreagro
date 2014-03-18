@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlManttoProveedor.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlManttoProveedor" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <style type="text/css">
     .style2

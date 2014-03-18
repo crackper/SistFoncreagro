@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Balance de Comprobación - Flujo de Efectivo" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepBalanceFlujoEfectivo.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepBalanceFlujoEfectivo" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

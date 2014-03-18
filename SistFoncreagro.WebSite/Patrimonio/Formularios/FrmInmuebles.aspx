@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Bienes Inmuebles" Language="vb" AutoEventWireup="false" MasterPageFile="~/Patrimonio/MasterPatrimonio1.master" CodeBehind="FrmInmuebles.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmInmuebles" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
  <telerik:RadWindowManager ID="RadWindowManager1" runat="server" 

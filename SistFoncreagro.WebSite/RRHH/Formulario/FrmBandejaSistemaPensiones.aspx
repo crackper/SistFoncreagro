@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/RRHH/MasterPageRRHH.master" CodeBehind="FrmBandejaSistemaPensiones.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmBandejaSistemaPensiones" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div style="width: 931px; margin-left: 0px">
         <fieldset>

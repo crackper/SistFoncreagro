@@ -1,7 +1,5 @@
 ﻿<%@ Control Language ="VB"  AutoEventWireup ="false" CodeBehind="Datos_Convenio.ascx.vb" Inherits="SistFoncreagro.WebSite.Datos_Convenio" %>
 
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
 <style type="text/css">

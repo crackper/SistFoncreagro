@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Balance de Comprobación" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="BalanceComprobacionGeneral.aspx.vb" Inherits="SistFoncreagro.WebSite.BalanceComprobacionGeneral" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <table class="style1">

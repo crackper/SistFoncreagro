@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libro de Inventarios y Balances - Detalle del saldo de la Cuenta 12 - Clientes" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepSaldoCuenta12.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepSaldoClientes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

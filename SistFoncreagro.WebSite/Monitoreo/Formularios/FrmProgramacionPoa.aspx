@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="Progrmacion POA Tecnico" Language="vb" AutoEventWireup="false" MasterPageFile="~/Monitoreo/MasterPageMonitoreo.master" CodeBehind="FrmProgramacionPoa.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmProgramacionPoa" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
  <SCRIPT type = "text/javascript">

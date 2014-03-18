@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Saldos Cuentas Bancarias" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepSaldoCuentaBancaria.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepSaldoCuentaBancaria" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

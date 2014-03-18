@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Asiento de Traslado de Saldos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="FrmTrasladoSaldos.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmTrasladoSaldos" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
         <AjaxSettings>

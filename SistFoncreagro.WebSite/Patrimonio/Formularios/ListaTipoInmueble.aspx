@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Tipos de Inmuebles" Language="vb" AutoEventWireup="false" MasterPageFile="~/Patrimonio/MasterPagePatrimonio.master" CodeBehind="ListaTipoInmueble.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmTipoInmueble" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function onRequestStart(sender, args) {

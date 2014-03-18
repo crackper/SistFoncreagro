@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Registro de Bienes Muebles" Language="vb" AutoEventWireup="false" MasterPageFile="~/Patrimonio/MasterPatrimonio1.master" CodeBehind="FrmBienes.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmBienes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 

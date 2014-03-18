@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libros Electrónicos - Libro Diario" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepDiarioSunat.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepDiarioSunat" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <script type="text/javascript">
     function onRequestStart(sender, args) {

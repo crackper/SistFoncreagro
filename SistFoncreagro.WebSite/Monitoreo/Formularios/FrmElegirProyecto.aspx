@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="Seleccionar Proyecto" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="FrmElegirProyecto.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmElegirProyecto" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 

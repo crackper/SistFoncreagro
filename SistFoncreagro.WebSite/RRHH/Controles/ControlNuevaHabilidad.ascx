@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlNuevaHabilidad.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlNuevaHabilidad" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <style type="text/css">
     .style1

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libro de Inventarios y Balances - Balance de Comprobación" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepBalanceComprobacion.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepBalanceComprobacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

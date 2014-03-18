@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Asiento de Depreciación del Ejercicio" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="FrmAsientoDepreciacion.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmAsientoDepreciacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
         <AjaxSettings>

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Validar Bienes Muebles" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterContabilidad.Master" CodeBehind="FrmValidarMueble.aspx.vb" Inherits="SistFoncreagro.WebSite.FrmValidarMueble" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 

@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="ControlEjerPresup.ascx.vb" Inherits="SistFoncreagro.WebSite.ControlEjerPresup" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <table>
     <tr>

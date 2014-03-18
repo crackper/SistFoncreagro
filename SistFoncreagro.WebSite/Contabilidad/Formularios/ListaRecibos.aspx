@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Lista de Recibos Provisionales de Fondo Fijo" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaRecibos.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaRecibos" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

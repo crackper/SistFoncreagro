@@ -577,6 +577,7 @@
     <Content Include="Monitoreo\Formularios\ExcelStakeholder.aspx" />
     <Content Include="Monitoreo\Formularios\ExcelTareasCaserio.aspx" />
     <Content Include="Monitoreo\Formularios\ExcelTareasPersonal.aspx" />
+    <Content Include="Monitoreo\Formularios\FormDatosProyecto.aspx" />
     <Content Include="Monitoreo\Formularios\FrmActivarPresupuesto.aspx" />
     <Content Include="Monitoreo\Formularios\FrmActividad.aspx" />
     <Content Include="Monitoreo\Formularios\FrmBuscar.aspx" />
@@ -3124,6 +3125,13 @@
     <Compile Include="Monitoreo\Formularios\ExcelTareasPersonal.aspx.vb">
       <DependentUpon>ExcelTareasPersonal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoreo\Formularios\FormDatosProyecto.aspx.designer.vb">
+      <DependentUpon>FormDatosProyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoreo\Formularios\FormDatosProyecto.aspx.vb">
+      <DependentUpon>FormDatosProyecto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Monitoreo\Formularios\FrmActivarPresupuesto.aspx.designer.vb">
       <DependentUpon>FrmActivarPresupuesto.aspx</DependentUpon>

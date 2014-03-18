@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Registro y Facturación de Ventas" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaVentas.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaVentas" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">

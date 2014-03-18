@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Libro Diario" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepLibroDiario.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepLibroDiario" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

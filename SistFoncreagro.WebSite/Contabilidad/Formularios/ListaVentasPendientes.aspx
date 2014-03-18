@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Ventas Pendientes de Aprobar" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaVentasPendientes.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaVentasPendientes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla3">
         <tr>

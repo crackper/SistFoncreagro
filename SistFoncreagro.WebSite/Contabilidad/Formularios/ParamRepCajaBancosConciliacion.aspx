@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Reporte de Caja y Bancos para Conciliación" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepCajaBancosConciliacion.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepCajaBancosConciliacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

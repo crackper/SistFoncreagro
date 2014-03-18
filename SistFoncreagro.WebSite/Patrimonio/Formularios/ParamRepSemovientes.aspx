@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Activos Biológicos" Language="vb" AutoEventWireup="false" MasterPageFile="~/Patrimonio/MasterPagePatrimonio.master" CodeBehind="ParamRepSemovientes.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepSemovientes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

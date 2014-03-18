@@ -1,6 +1,4 @@
 ﻿<%@ Master Language="VB" MasterPageFile="~/Patrimonio/MasterPatrimonio.Master" AutoEventWireup="false" CodeBehind="MasterPatrimonio1.master.vb" Inherits="SistFoncreagro.WebSite.MasterPatrimonio1" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 
     <style type="text/css">

@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Listado de Conciliaciones Bancarias" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ListaConciliacion.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaConciliacion" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function onRequestStart(sender, args) {

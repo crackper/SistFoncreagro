@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Relación de Activo Biológico" Language="vb" AutoEventWireup="false" MasterPageFile="~/Patrimonio/MasterPagePatrimonio.master" CodeBehind="ListaSemovientes.aspx.vb" Inherits="SistFoncreagro.WebSite.ListaSemovientes" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script type="text/javascript">
         function onRequestStart(sender, args) {

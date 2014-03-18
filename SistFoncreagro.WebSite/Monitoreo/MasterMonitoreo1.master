@@ -1,7 +1,4 @@
 ﻿<%@ Master Language="VB" MasterPageFile="~/Monitoreo/MasterMonitoreo.master" AutoEventWireup="false" CodeBehind="MasterMonitoreo1.master.vb" Inherits="SistFoncreagro.WebSite.MasterMonitoreo1" %>
-
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 
     <style type="text/css">

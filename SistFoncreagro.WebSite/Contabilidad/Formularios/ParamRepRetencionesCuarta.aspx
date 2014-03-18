@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="Retenciones de Cuarta Categoria" Language="vb" AutoEventWireup="false" MasterPageFile="~/Contabilidad/MasterPageContabilidad.master" CodeBehind="ParamRepRetencionesCuarta.aspx.vb" Inherits="SistFoncreagro.WebSite.ParamRepretencionesCuarta" %>
-<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table align="center" class="tabla6">
         <tr>

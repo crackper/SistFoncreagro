@@ -74,8 +74,8 @@ Public Class FormDatosProyecto
 
         _proyectoBL.LoadComponentes(convenio)
 
-        gvComponentes.DataSource = convenio.Componentes
-        gvComponentes.DataBind()
+        rgComponentes.DataSource = convenio.Componentes
+        rgComponentes.DataBind()
 
     End Sub
 End Class

@@ -58,7 +58,7 @@
             <asp:TextBox ID="txtCodigoAdicional" runat="server"/>       
         </fieldset>
     </div>
-    <div class="span8">
+    <div class="span10">
         <telerik:RadTabStrip ID="rtsEstructura" runat="server" 
             MultiPageID="rmpEstructura" SelectedIndex="0">
             <Tabs>
@@ -77,9 +77,6 @@
                         ShowFooter="True" 
                         AllowPaging="True" 
                         Skin="Hay">
-                        <ClientSettings>
-                            <Selecting AllowRowSelect="True" />
-                        </ClientSettings>
                         <MasterTableView  ClientDataKeyNames="IdConvProy" 
                             DataKeyNames="IdConvProy">
                         <CommandItemSettings ExportToPdfText="Export to PDF"/>
@@ -100,7 +97,7 @@
                             </telerik:GridBoundColumn>
                             <telerik:GridBoundColumn DataField="Convenio" 
                                 FilterControlAltText="Filter column column" HeaderText="Convenio" 
-                                UniqueName="column">
+                                UniqueName="column" FooterText="TOTAL">
                             </telerik:GridBoundColumn>
                             <telerik:GridBoundColumn Aggregate="Sum" DataField="MontoAprobado" 
                                 DataFormatString="{0:0,0.00}" DataType="System.Decimal" 
@@ -118,10 +115,26 @@
                          <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Default"/>
                      </telerik:RadGrid>
                 </fieldset>
-                <legend>
-                    <fieldset>Componentes</fieldset>
-                    <asp:GridView ID="gvComponentes" runat="server"/>
-                </legend>
+                <fieldset>
+                    <legend>Componentes</legend>
+                    <telerik:RadGrid runat="server" ID="rgComponentes"
+                        AutoGenerateColumns="False"
+                        CellSpacing="0" 
+                        GridLines="None" 
+                        ShowFooter="True" Skin="Web20">
+                        <MasterTableView ClientDataKeyNames="IdProyComp" DataKeyNames="IdProyComp">
+                            <Columns>
+                                <telerik:GridButtonColumn Text="Seleccionar" CommandName="Select"/>
+                                <telerik:GridBoundColumn HeaderText="Componente" DataField="Componente" FooterText="TOTAL"/>
+                                <telerik:GridBoundColumn HeaderText="Porcentaje" Aggregate="Sum" DataField="Porcentaje"
+                                DataType="System.Decimal" DataFormatString="{0:0,0.00}" />
+                            </Columns>    
+                        </MasterTableView>
+                    </telerik:RadGrid>
+                </fieldset>
+                <fieldset>
+                    <legend>Actividades</legend>
+                </fieldset>
             </telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" alt="Adjuntos">
                 <fieldset>

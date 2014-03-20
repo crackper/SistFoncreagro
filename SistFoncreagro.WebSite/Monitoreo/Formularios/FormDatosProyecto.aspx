@@ -75,8 +75,7 @@
                         CellSpacing="0" 
                         GridLines="None" 
                         ShowFooter="True" 
-                        AllowPaging="True" 
-                        Skin="Hay">
+                        AllowPaging="True">
                         <MasterTableView  ClientDataKeyNames="IdConvProy" 
                             DataKeyNames="IdConvProy">
                         <CommandItemSettings ExportToPdfText="Export to PDF"/>
@@ -121,7 +120,7 @@
                         AutoGenerateColumns="False"
                         CellSpacing="0" 
                         GridLines="None" 
-                        ShowFooter="True" Skin="Web20">
+                        ShowFooter="True">
                         <MasterTableView ClientDataKeyNames="IdProyComp" DataKeyNames="IdProyComp">
                             <Columns>
                                 <telerik:GridButtonColumn Text="Seleccionar" CommandName="Select"/>
@@ -134,6 +133,16 @@
                 </fieldset>
                 <fieldset>
                     <legend>Actividades</legend>
+                    <telerik:RadGrid ID="rgActividades" AutoGenerateColumns="False" CellPadding="0" GridLines="None" ShowFooter="True" runat="server">
+                        <MasterTableView ClientDataKeyNames="IdProyAct" DataKeyNames="IdProyAct">
+                            <Columns>
+                                <telerik:GridButtonColumn Text="Seleccionar" CommandName="Select"/>
+                                <telerik:GridBoundColumn HeaderText="Actividad" DataField="Actividad" FooterText="TOTAL"/>
+                                <telerik:GridBoundColumn HeaderText="Porcentaje" Aggregate="Sum" DataField="Porcentaje"
+                                DataType="System.Decimal" DataFormatString="{0:0,0.00}" />
+                            </Columns>
+                        </MasterTableView>
+                    </telerik:RadGrid>
                 </fieldset>
             </telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" alt="Adjuntos">

@@ -1,5 +1,9 @@
 ﻿Public Class ProyectoDto
 
+    Public Sub New()
+        Convenios = New List(Of ConvenioDto)()
+    End Sub
+
     Public Property IdProyecto As Int32
     Public Property Codigo As String
     Public Property Nombre As String

@@ -74,8 +74,38 @@ Public Class FormDatosProyecto
 
         _proyectoBL.LoadComponentes(convenio)
 
+        Cache.Insert("proyecto", proyecto)
+
         rgComponentes.DataSource = convenio.Componentes
         rgComponentes.DataBind()
+
+        rgActividades.DataSource = Nothing
+        rgActividades.DataBind()
+
+
+    End Sub
+
+    Protected Sub rgComponentes_SelectedIndexChanged(sender As Object, e As EventArgs) Handles rgComponentes.SelectedIndexChanged
+        Dim IdProycomp = rgComponentes.SelectedValue
+        Dim idConvProy = rgConvenios.SelectedValue
+
+        Dim proyecto As ProyectoDto = Cache.Get("proyecto")
+
+        Dim convenio = (From p In proyecto.Convenios
+                       Where p.IdConvProy.Equals(idConvProy)
+                       Select p).SingleOrDefault()
+
+
+        Dim componente = (From c In convenio.Componentes
+                         Where c.IdProyComp.Equals(IdProycomp)
+                         Select c).SingleOrDefault()
+
+        _proyectoBL.LoadActividades(componente)
+
+        Cache.Insert("proyecto", proyecto)
+
+        rgActividades.DataSource = componente.Actividades
+        rgActividades.DataBind()
 
     End Sub
 End Class

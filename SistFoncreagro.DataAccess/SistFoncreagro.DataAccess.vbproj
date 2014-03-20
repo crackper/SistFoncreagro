@@ -99,7 +99,8 @@
   <ItemGroup>
     <Compile Include="ActitudInteresadoRepository.vb" />
     <Compile Include="ActivarPresupuestoRepository.vb" />
-    <Compile Include="ActividadRepository.vb" />
+    <Compile Include="Actividades\ActividadRepository.vb" />
+    <Compile Include="Actividades\ActividadRepositorySam.vb" />
     <Compile Include="AdendaRepository.vb" />
     <Compile Include="AdjMonitRepository.vb" />
     <Compile Include="AdjuntoCotizacionRepository.vb" />
@@ -208,7 +209,7 @@
     <Compile Include="HorarioRepository.vb" />
     <Compile Include="IActitudInteresadoRepository.vb" />
     <Compile Include="IActivarPresupuestoRepository.vb" />
-    <Compile Include="IActividadRepository.vb" />
+    <Compile Include="Actividades\IActividadRepository.vb" />
     <Compile Include="IAdendaRepository.vb" />
     <Compile Include="IAdjMonitRepository.vb" />
     <Compile Include="IAdjuntoCotizacionRepository.vb" />

@@ -2,7 +2,7 @@
 Imports System.Data.SqlClient
 Imports System.Data
 
-Public Class ActividadRepository : Inherits MasterDataAccess : Implements IActividadRepository
+Partial Public Class ActividadRepository : Inherits MasterDataAccess : Implements IActividadRepository
 
     Public Function GetAllFromActividad() As System.Collections.Generic.List(Of BussinessEntities.Actividad) Implements IActividadRepository.GetAllFromActividad
         Dim command As SqlCommand = MyBase.CreateSPCommand("GetAllFromACTIVIDAD")

@@ -176,6 +176,15 @@ Partial Public Class FormDatosProyecto
     Protected WithEvents rgComponentes As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
+    '''Control rgActividades.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rgActividades As Global.Telerik.Web.UI.RadGrid
+
+    '''<summary>
     '''Control RadPageView2.
     '''</summary>
     '''<remarks>

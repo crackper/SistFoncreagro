@@ -79,7 +79,8 @@
   <ItemGroup>
     <Compile Include="ActitudInteresado.vb" />
     <Compile Include="ActivarPresupuesto.vb" />
-    <Compile Include="Actividad.vb" />
+    <Compile Include="Actividades\Actividad.vb" />
+    <Compile Include="Actividades\ActividadDto.vb" />
     <Compile Include="Adenda.vb" />
     <Compile Include="AdjMonit.vb" />
     <Compile Include="AdjuntoCotizacion.vb" />
@@ -138,9 +139,9 @@
     <Compile Include="Control.vb" />
     <Compile Include="Controlar.vb" />
     <Compile Include="ControlAsistencia.vb" />
-    <Compile Include="Covenio\ConveMarco.vb" />
-    <Compile Include="Covenio\Convenio.vb" />
-    <Compile Include="Covenio\ConveProy.vb" />
+    <Compile Include="Covenios\ConveMarco.vb" />
+    <Compile Include="Covenios\Convenio.vb" />
+    <Compile Include="Covenios\ConveProy.vb" />
     <Compile Include="CoordinaParteProyecto.vb" />
     <Compile Include="Correlativo.vb" />
     <Compile Include="Cotizacion.vb" />
@@ -238,7 +239,7 @@
     <Compile Include="ProyAct.vb" />
     <Compile Include="ProyComp.vb" />
     <Compile Include="ProyectoArea.vb" />
-    <Compile Include="Covenio\ConvenioDto.vb" />
+    <Compile Include="Covenios\ConvenioDto.vb" />
     <Compile Include="Proyectos\ProyectoDto.vb" />
     <Compile Include="RazonSoulSource.vb" />
     <Compile Include="Recibo.vb" />

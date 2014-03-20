@@ -11,4 +11,5 @@ Public Interface IProyectoRepository
     Function GetAllFromProyectoDatosGenerales() As List(Of Proyecto)
     Function GetProyectoDtoyIdProyecto(ByVal idProyecto As Integer) As ProyectoDto
     Sub LoadComponentes(ByVal convenio As ConvenioDto)
+    Sub LoadActividades(ByVal componente As ComponenteDto)
 End Interface

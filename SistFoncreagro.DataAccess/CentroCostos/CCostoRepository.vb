@@ -2,7 +2,7 @@
 Imports System.Data.SqlClient
 Imports System.Data
 
-Public Class CCostoRepository : Inherits MasterDataAccess : Implements ICCostoRepository
+Partial Public Class CCostoRepository : Inherits MasterDataAccess : Implements ICCostoRepository
 
     Public Function GetAllFromCCosto() As System.Collections.Generic.List(Of BussinessEntities.CCosto) Implements ICCostoRepository.GetAllFromCCosto
         Dim command As SqlCommand = MyBase.CreateSPCommand("GetAllFromCCOSTO")

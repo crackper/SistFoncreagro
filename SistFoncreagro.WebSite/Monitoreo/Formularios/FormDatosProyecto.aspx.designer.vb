@@ -185,6 +185,105 @@ Partial Public Class FormDatosProyecto
     Protected WithEvents rgActividades As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
+    '''Control btnShowAddCCosto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnShowAddCCosto As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control mpeAddCCostos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents mpeAddCCostos As Global.AjaxControlToolkit.ModalPopupExtender
+
+    '''<summary>
+    '''Control pnlAddCCostos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents pnlAddCCostos As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''Control rtxtDescActividad.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rtxtDescActividad As Global.Telerik.Web.UI.RadTextBox
+
+    '''<summary>
+    '''Control radcbElementoGasto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents radcbElementoGasto As Global.Telerik.Web.UI.RadAutoCompleteBox
+
+    '''<summary>
+    '''Control OdsElementoGasto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents OdsElementoGasto As Global.System.Web.UI.WebControls.ObjectDataSource
+
+    '''<summary>
+    '''Control rtxtUnidad.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rtxtUnidad As Global.Telerik.Web.UI.RadTextBox
+
+    '''<summary>
+    '''Control rntxtPorcentaje.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rntxtPorcentaje As Global.Telerik.Web.UI.RadNumericTextBox
+
+    '''<summary>
+    '''Control btnAddCCosto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnAddCCosto As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control btnCancelAddCCosto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnCancelAddCCosto As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control rgCCostos.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rgCCostos As Global.Telerik.Web.UI.RadGrid
+
+    '''<summary>
     '''Control RadPageView2.
     '''</summary>
     '''<remarks>

@@ -12,4 +12,5 @@ Public Interface IProyectoBL
     Function GetProyectoDtoyIdProyecto(ByVal idProyecto As Integer) As ProyectoDto
     Sub LoadComponentes(ByVal convenio As ConvenioDto)
     Sub LoadActividades(ByVal componente As ComponenteDto)
+    Sub LoadCCostos(ByVal actividad As ActividadDto)
 End Interface

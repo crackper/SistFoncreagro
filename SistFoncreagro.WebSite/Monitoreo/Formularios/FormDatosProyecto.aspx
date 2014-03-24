@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     </telerik:RadAjaxManager>
-    
+    <br/>
     <div class="row">
     <div class="span4">
         <fieldset>
@@ -140,6 +140,63 @@
                                 <telerik:GridBoundColumn HeaderText="Actividad" DataField="Actividad" FooterText="TOTAL"/>
                                 <telerik:GridBoundColumn HeaderText="Porcentaje" Aggregate="Sum" DataField="Porcentaje"
                                 DataType="System.Decimal" DataFormatString="{0:0,0.00}" />
+                            </Columns>
+                        </MasterTableView>
+                    </telerik:RadGrid>
+                </fieldset>
+                <fieldset>
+                    <legend>Centros de Costo</legend>
+                    <asp:Button ID="btnShowAddCCosto" Text="Agregar Centro de Costo" CssClass="btn btn-success" Visible="False" runat="server" />
+                    <ajaxToolkit:ModalPopupExtender ID="mpeAddCCostos"
+                        BackgroundCssClass="modalBackground"
+                        TargetControlID="btnShowAddCCosto"
+                        PopupControlID="pnlAddCCostos"
+                        OkControlID="btnAddCCosto"
+                        CancelControlID="btnCancelAddCCosto"
+                     runat="server"/>
+                    <br/><br/>
+                    <asp:Panel ID="pnlAddCCostos" Visible="False" CssClass="modalPopup" runat="server">
+                       <fieldset>
+                           <legend>Agregar Centro de Costo</legend>
+                            <label>Actividad:</label>
+                           <telerik:RadTextBox ID="rtxtDescActividad" TextMode="MultiLine" runat="server" 
+                               Width="350px"/>
+                           <label>Elemento de Gasto:</label>
+                           
+                           <telerik:RadAutoCompleteBox ID="radcbElementoGasto" runat="server" Culture="es-ES"  
+                            DataSourceID="OdsElementoGasto"
+                           AutoPostBack="True" 
+                            EmptyMessage="Ingrese criterio"
+                            DataTextField="NomElemGasto" 
+                            DataValueField="IdElemGasto"  
+                            DropDownWidth="350px"
+                            Width="350px"
+                            TextSettings-SelectionMode="Single" InputType="Text">
+                            <TextSettings SelectionMode="Single"></TextSettings>
+                        </telerik:RadAutoCompleteBox>   
+                        <asp:ObjectDataSource ID="OdsElementoGasto" runat="server" 
+                                    SelectMethod="GetAllFromElementoGasto" 
+                                    TypeName="SistFoncreagro.BussinesLogic.ElementoGastoBL">
+                                </asp:ObjectDataSource>
+                           <label>Unidad:</label>
+                           <telerik:RadTextBox ID="rtxtUnidad" runat="server" Width="200px"/>
+                           <label>Porcentaje</label>
+                           <telerik:RadNumericTextBox ID="rntxtPorcentaje" runat="server" MaxValue="100" 
+                               MinValue="0" ShowSpinButtons="True" Type="Percent">
+                               <NumberFormat ZeroPattern="n %" />
+                           </telerik:RadNumericTextBox>
+                       </fieldset>
+                        <br/>
+                        <asp:Button ID="btnAddCCosto" Text="Agregar" CssClass="btn btn-info" runat="server"/>
+                                &nbsp;<asp:Button ID="btnCancelAddCCosto" Text="Cancelar" CssClass="btn btn-info" runat="server"/>
+                    </asp:Panel>
+                    <telerik:RadGrid ID="rgCCostos" AutoGenerateColumns="False" CellPadding="0" GridLines="none" ShowFooter="True" runat="server">
+                        <MasterTableView ClientDataKeyNames="IdCCosto" DataKeyNames="IdCCosto">
+                            <Columns>
+                                <telerik:GridBoundColumn HeaderText="Codigo" DataField="Codigo"/>
+                                <telerik:GridBoundColumn HeaderText="Elemento de Gasto" DataField="NomElemGasto"/>
+                                <telerik:GridBoundColumn HeaderText="Unidad" DataField="Unidad" FooterText="TOTAL"/>
+                                <telerik:GridBoundColumn HeaderText="Porcentaje" DataField="Porcentaje" Aggregate="Sum" DataType="System.Decimal" DataFormatString="{0:0,0.00}"/>
                             </Columns>
                         </MasterTableView>
                     </telerik:RadGrid>

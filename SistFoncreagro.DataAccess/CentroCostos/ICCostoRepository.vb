@@ -7,4 +7,5 @@ Public Interface ICCostoRepository
     Function GetCCOSTOByIdOrdenCompra(ByVal IdOrden As Int32) As List(Of CCosto)
     Function SaveCCosto(ByVal _cCosto As CCosto) As String
     Function DeleteCCostos(ByVal _id As Int32) As String
+    Function GetCCostoByIdProyAct(ByVal idProyAct As Int32) As List(Of CCostoDto)
 End Interface

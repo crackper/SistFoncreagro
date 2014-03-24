@@ -129,9 +129,10 @@
     <Compile Include="CatalogoRepository.vb" />
     <Compile Include="CatalogoVentaRepository.vb" />
     <Compile Include="CategoriaRrhhRepository.vb" />
-    <Compile Include="CCostoDetalleRequerimientoRepository.vb" />
-    <Compile Include="CCostoRepository.vb" />
-    <Compile Include="CCostoxDetalleOrdenRepository.vb" />
+    <Compile Include="CentroCostos\CCostoDetalleRequerimientoRepository.vb" />
+    <Compile Include="CentroCostos\CCostoRepository.vb" />
+    <Compile Include="CentroCostos\CCostoRepositorySam.vb" />
+    <Compile Include="CentroCostos\CCostoxDetalleOrdenRepository.vb" />
     <Compile Include="CierreContableRepository.vb" />
     <Compile Include="ClasificacionCatalogoVentasRepository.vb" />
     <Compile Include="ClasificacionRepository.vb" />
@@ -238,9 +239,9 @@
     <Compile Include="ICatalogoRepository.vb" />
     <Compile Include="ICatalogoVentaRepository.vb" />
     <Compile Include="ICategoriaRrhhRepository.vb" />
-    <Compile Include="ICCostoDetalleRequerimientoRepository.vb" />
-    <Compile Include="ICCostoRepository.vb" />
-    <Compile Include="ICCostoxDetalleOrden.vb" />
+    <Compile Include="CentroCostos\ICCostoDetalleRequerimientoRepository.vb" />
+    <Compile Include="CentroCostos\ICCostoRepository.vb" />
+    <Compile Include="CentroCostos\ICCostoxDetalleOrden.vb" />
     <Compile Include="ICierreContableRepository.vb" />
     <Compile Include="IClasificacionCatalogoVentasRepository.vb" />
     <Compile Include="IClasificacionRepository.vb" />

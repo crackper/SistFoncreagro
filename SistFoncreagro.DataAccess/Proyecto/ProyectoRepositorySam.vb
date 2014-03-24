@@ -4,10 +4,12 @@ Imports SistFoncreagro.BussinessEntities
 Imports System.Data
 
 Partial Public Class ProyectoRepository : Inherits MasterDataAccess : Implements IProyectoRepository
-    
+
+
     Dim _convenioFactory As IConvenioRepository
     Dim _componenteFactory As IComponenteRepository
     Dim _actividadFactory As IActividadRepository
+    Dim _ccostosFactory As ICCostoRepository
 
     Public Function GetProyectoDtoyIdProyecto(idProyecto As Integer) As BussinessEntities.ProyectoDto Implements IProyectoRepository.GetProyectoDtoyIdProyecto
         _convenioFactory = New ConvenioRepository()
@@ -33,5 +35,11 @@ Partial Public Class ProyectoRepository : Inherits MasterDataAccess : Implements
         _actividadFactory = New ActividadRepository
         componente.Actividades = _actividadFactory.GetActividadesByIdProycomp(componente.IdProyComp)
 
+    End Sub
+
+    Public Sub LoadCCostos(actividad As BussinessEntities.ActividadDto) Implements IProyectoRepository.LoadCCostos
+        _ccostosFactory = New CCostoRepository()
+
+        actividad.CCostos = _ccostosFactory.GetCCostoByIdProyAct(actividad.IdProyAct)
     End Sub
 End Class

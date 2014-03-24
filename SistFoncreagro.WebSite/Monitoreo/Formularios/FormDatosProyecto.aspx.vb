@@ -82,6 +82,9 @@ Public Class FormDatosProyecto
         rgActividades.DataSource = Nothing
         rgActividades.DataBind()
 
+        rgCCostos.DataSource = Nothing
+        rgCCostos.DataBind()
+
 
     End Sub
 
@@ -106,6 +109,52 @@ Public Class FormDatosProyecto
 
         rgActividades.DataSource = componente.Actividades
         rgActividades.DataBind()
+
+        rgCCostos.DataSource = Nothing
+        rgCCostos.DataBind()
+
+    End Sub
+
+    Protected Sub rgActividades_SelectedIndexChanged(sender As Object, e As EventArgs) Handles rgActividades.SelectedIndexChanged
+        Dim IdProycomp = rgComponentes.SelectedValue
+        Dim idConvProy = rgConvenios.SelectedValue
+        Dim IdProyAct = rgActividades.SelectedValue
+
+        Dim proyecto As ProyectoDto = Cache.Get("proyecto")
+
+        Dim convenio = (From p In proyecto.Convenios
+                       Where p.IdConvProy.Equals(idConvProy)
+                       Select p).SingleOrDefault()
+
+
+        Dim componente = (From c In convenio.Componentes
+                         Where c.IdProyComp.Equals(IdProycomp)
+                         Select c).SingleOrDefault()
+
+        Dim actividad = (From act In componente.Actividades
+                        Where act.IdProyAct.Equals(IdProyAct)
+                        Select act).SingleOrDefault()
+
+        If Not actividad Is Nothing Then
+
+            _proyectoBL.LoadCCostos(actividad)
+
+            btnShowAddCCosto.Visible = IIf(actividad.CCostos.Count > 0, True, False)
+            pnlAddCCostos.Visible = btnShowAddCCosto.Visible
+
+            ''''''''' Bideo Cajas '''''''''''
+            rtxtDescActividad.Text = actividad.Actividad
+
+        End If
+
+        
+
+        Cache.Insert("proyecto", proyecto)
+
+        rgCCostos.DataSource = actividad.CCostos
+        rgCCostos.DataBind()
+
+        
 
     End Sub
 End Class

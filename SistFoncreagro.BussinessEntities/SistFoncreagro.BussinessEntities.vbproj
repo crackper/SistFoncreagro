@@ -120,9 +120,10 @@
     <Compile Include="Catalogo.vb" />
     <Compile Include="CatalogoVenta.vb" />
     <Compile Include="CategoriaRrhh.vb" />
-    <Compile Include="CCosto.vb" />
-    <Compile Include="CCostoxDetalleOrden.vb" />
-    <Compile Include="CCostoxDetalleRequerimiento.vb" />
+    <Compile Include="CentroCostos\CCosto.vb" />
+    <Compile Include="CentroCostos\CCostoDto.vb" />
+    <Compile Include="CentroCostos\CCostoxDetalleOrden.vb" />
+    <Compile Include="CentroCostos\CCostoxDetalleRequerimiento.vb" />
     <Compile Include="CentroDeFormacionEducativa.vb" />
     <Compile Include="CierreContable.vb" />
     <Compile Include="Clasificacion.vb" />

@@ -1,4 +1,8 @@
 ﻿Public Class ActividadDto
+    Public Sub New()
+        CCostos = New List(Of CCostoDto)()
+    End Sub
+
     Public Property IdProyAct As Int32
     Public Property IdProycomp As Int32
     Public Property Actividad As String

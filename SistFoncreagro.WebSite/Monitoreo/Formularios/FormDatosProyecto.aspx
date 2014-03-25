@@ -2,7 +2,35 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+        <AjaxSettings>
+            <telerik:AjaxSetting AjaxControlID="rgConvenios">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridComponentes" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridActividades" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridCCostos" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="rgComponentes">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridActividades" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridCCostos" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="rgActividades">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridCCostos" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                    <telerik:AjaxUpdatedControl ControlID="rwShowAddCCosto" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="btnAddCCosto">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="rapGridCCostos" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                </UpdatedControls>
+            </telerik:AjaxSetting>
+        </AjaxSettings>
     </telerik:RadAjaxManager>
+    <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server"/>
+    <telerik:RadWindowManager ID="rwmMessages" runat="server"/>
     <br/>
     <div class="row">
     <div class="span4">
@@ -71,6 +99,7 @@
                 <fieldset>
                     <legend>Convenios</legend>
                     
+                    <telerik:RadAjaxPanel ID="rapGridConvenios" runat="server" EnableAJAX="True">
                     <telerik:RadGrid ID="rgConvenios" runat="server" AutoGenerateColumns="False" 
                         CellSpacing="0" 
                         GridLines="None" 
@@ -113,9 +142,11 @@
                          <FilterMenu EnableImageSprites="False"/>
                          <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Default"/>
                      </telerik:RadGrid>
+                     </telerik:RadAjaxPanel>
                 </fieldset>
                 <fieldset>
                     <legend>Componentes</legend>
+                    <telerik:RadAjaxPanel ID="rapGridComponentes" EnableAJAX="True" runat="server">
                     <telerik:RadGrid runat="server" ID="rgComponentes"
                         AutoGenerateColumns="False"
                         CellSpacing="0" 
@@ -130,9 +161,11 @@
                             </Columns>    
                         </MasterTableView>
                     </telerik:RadGrid>
+                    </telerik:RadAjaxPanel>
                 </fieldset>
                 <fieldset>
                     <legend>Actividades</legend>
+                    <telerik:RadAjaxPanel ID="rapGridActividades" runat="server" EnableAJAX="True">
                     <telerik:RadGrid ID="rgActividades" AutoGenerateColumns="False" CellPadding="0" GridLines="None" ShowFooter="True" runat="server">
                         <MasterTableView ClientDataKeyNames="IdProyAct" DataKeyNames="IdProyAct">
                             <Columns>
@@ -143,53 +176,57 @@
                             </Columns>
                         </MasterTableView>
                     </telerik:RadGrid>
+                    </telerik:RadAjaxPanel>
                 </fieldset>
                 <fieldset>
                     <legend>Centros de Costo</legend>
-                    <asp:Button ID="btnShowAddCCosto" Text="Agregar Centro de Costo" CssClass="btn btn-success" Visible="False" runat="server" />
-                    <ajaxToolkit:ModalPopupExtender ID="mpeAddCCostos"
-                        BackgroundCssClass="modalBackground"
-                        TargetControlID="btnShowAddCCosto"
-                        PopupControlID="pnlAddCCostos"
-                        OkControlID="btnAddCCosto"
-                        CancelControlID="btnCancelAddCCosto"
-                     runat="server"/>
-                    <br/><br/>
-                    <asp:Panel ID="pnlAddCCostos" Visible="False" CssClass="modalPopup" runat="server">
-                       <fieldset>
-                           <legend>Agregar Centro de Costo</legend>
-                            <label>Actividad:</label>
-                           <telerik:RadTextBox ID="rtxtDescActividad" TextMode="MultiLine" runat="server" 
-                               Width="350px"/>
-                           <label>Elemento de Gasto:</label>
-                           
-                           <telerik:RadAutoCompleteBox ID="radcbElementoGasto" runat="server" Culture="es-ES"  
-                            DataSourceID="OdsElementoGasto"
-                           AutoPostBack="True" 
-                            EmptyMessage="Ingrese criterio"
-                            DataTextField="NomElemGasto" 
-                            DataValueField="IdElemGasto"  
-                            DropDownWidth="350px"
-                            Width="350px"
-                            TextSettings-SelectionMode="Single" InputType="Text">
-                            <TextSettings SelectionMode="Single"></TextSettings>
-                        </telerik:RadAutoCompleteBox>   
-                        <asp:ObjectDataSource ID="OdsElementoGasto" runat="server" 
-                                    SelectMethod="GetAllFromElementoGasto" 
-                                    TypeName="SistFoncreagro.BussinesLogic.ElementoGastoBL">
-                                </asp:ObjectDataSource>
-                           <label>Unidad:</label>
-                           <telerik:RadTextBox ID="rtxtUnidad" runat="server" Width="200px"/>
-                           <label>Porcentaje</label>
-                           <telerik:RadNumericTextBox ID="rntxtPorcentaje" runat="server" MaxValue="100" 
-                               MinValue="0" ShowSpinButtons="True" Type="Percent">
-                               <NumberFormat ZeroPattern="n %" />
-                           </telerik:RadNumericTextBox>
-                       </fieldset>
-                        <br/>
-                        <asp:Button ID="btnAddCCosto" Text="Agregar" CssClass="btn btn-info" runat="server"/>
-                                &nbsp;<asp:Button ID="btnCancelAddCCosto" Text="Cancelar" CssClass="btn btn-info" runat="server"/>
-                    </asp:Panel>
+                    <div style="padding-bottom: 8px;">
+                        <asp:Button ID="btnShowAddCCosto" runat="server" Text="Agregar Centro de Costo" CssClass="btn btn-success" 
+                            OnClientClick="rbShowAddCCosto_OnClientClicked(); return false;"/>
+                    </div>
+                    <telerik:RadFormDecorator ID="rfdAddCCosto" DecorationZoneID="fsAddCCosto" DecoratedControls="All" runat="server"/>
+                         <telerik:RadWindow ID="rwShowAddCCosto" runat="server" Modal="True" Behaviors="Close"  
+                         AutoSize="True" AutoSizeBehaviors="Width" Height="450px" >
+                         <ContentTemplate>
+                             <telerik:RadAjaxPanel ID="rapShowAddCCosto" runat="server" EnableAJAX="True" LoadingPanelID="RadAjaxLoadingPanel1">
+                             <fieldset id="fsAddCCosto" style="padding: 10px;">
+                               <legend>Agregar Centro de Costo</legend>
+                               <asp:HiddenField ID="hfIdProyAct" runat="server"/>
+                               <asp:HiddenField ID="hfIdProycomp" runat="server"/>
+                                <label>Actividad:</label>
+                               <telerik:RadTextBox ID="rtxtDescActividad" ReadOnly="True" TextMode="MultiLine" runat="server" 
+                                   Width="400px"/>
+                               <label>Elemento de Gasto:</label>
+                               <telerik:RadAutoCompleteBox ID="radcbElementoGasto" runat="server" Culture="es-ES"  
+                                DataSourceID="OdsElementoGasto"
+                               AutoPostBack="True" 
+                                EmptyMessage="Ingrese criterio"
+                                DataTextField="NomElemGasto" 
+                                DataValueField="IdElemGasto"  
+                                DropDownWidth="400px"
+                                Width="400px"
+                                TextSettings-SelectionMode="Single" InputType="Text">
+                                <TextSettings SelectionMode="Single"></TextSettings>
+                            </telerik:RadAutoCompleteBox>   
+                            <asp:ObjectDataSource ID="OdsElementoGasto" runat="server" 
+                                        SelectMethod="GetAllFromElementoGasto" 
+                                        TypeName="SistFoncreagro.BussinesLogic.ElementoGastoBL">
+                                    </asp:ObjectDataSource>
+                               <label>Unidad:</label>
+                               <telerik:RadTextBox ID="rtxtUnidad" runat="server" Width="200px"/>
+                               <label>Porcentaje</label>
+                               <telerik:RadNumericTextBox ID="rntxtPorcentaje" runat="server" MaxValue="100" 
+                                   MinValue="0" ShowSpinButtons="True" Type="Percent">
+                                   <NumberFormat ZeroPattern="n %" />
+                               </telerik:RadNumericTextBox>
+                               <br/> <br/>
+                               <asp:Button ID="btnAddCCosto" Text="Agregar" CssClass="btn btn-info" runat="server" OnClick="btnAddCCosto_Click"/>
+                               <asp:Button  ID="btnCloseAddCCosto" Text="Terminar" CssClass="btn btn-warning" OnClientClick="CloseAddCCosto(); return false;" runat="server"/>
+                           </fieldset>
+                           </telerik:RadAjaxPanel>
+                         </ContentTemplate>
+                     </telerik:RadWindow>
+                   <telerik:RadAjaxPanel ID="rapGridCCostos" runat="server">
                     <telerik:RadGrid ID="rgCCostos" AutoGenerateColumns="False" CellPadding="0" GridLines="none" ShowFooter="True" runat="server">
                         <MasterTableView ClientDataKeyNames="IdCCosto" DataKeyNames="IdCCosto">
                             <Columns>
@@ -200,6 +237,7 @@
                             </Columns>
                         </MasterTableView>
                     </telerik:RadGrid>
+                    </telerik:RadAjaxPanel>
                 </fieldset>
             </telerik:RadPageView>
             <telerik:RadPageView ID="RadPageView2" runat="server" alt="Adjuntos">
@@ -210,6 +248,17 @@
         </telerik:RadMultiPage>
     </div>
  </div>
+ <telerik:RadCodeBlock runat="server" ID="rdbScripts">
+     <script type="text/javascript">
+         function rbShowAddCCosto_OnClientClicked() {
+             var radWindow = $find('<%= rwShowAddCCosto.ClientID %>');
+             radWindow.show();
+         }
 
-       
+         function CloseAddCCosto() {
+             var radWindow = $find('<%= rwShowAddCCosto.ClientID %>');
+             radWindow.close();
+         }
+    </script>
+ </telerik:RadCodeBlock>
 </asp:Content>

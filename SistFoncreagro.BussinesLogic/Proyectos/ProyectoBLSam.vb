@@ -8,14 +8,20 @@ Partial Class ProyectoBL : Implements IProyectoBL
     End Function
 
     Public Sub LoadComponentes(convenio As BussinessEntities.ConvenioDto) Implements IProyectoBL.LoadComponentes
-        factoryrepository.LoadComponentes(convenio)
+        If convenio.Componentes.Count.Equals(0) Then
+            factoryrepository.LoadComponentes(convenio)
+        End If
     End Sub
 
     Public Sub LoadActividades(componente As BussinessEntities.ComponenteDto) Implements IProyectoBL.LoadActividades
-        factoryrepository.LoadActividades(componente)
+        If componente.Actividades.Count.Equals(0) Then
+            factoryrepository.LoadActividades(componente)
+        End If
     End Sub
 
     Public Sub LoadCCostos(actividad As BussinessEntities.ActividadDto) Implements IProyectoBL.LoadCCostos
-        factoryrepository.LoadCCostos(actividad)
+        If actividad.CCostos.Count.Equals(0) Then
+            factoryrepository.LoadCCostos(actividad)
+        End If
     End Sub
 End Class

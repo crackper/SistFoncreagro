@@ -139,11 +139,10 @@ Public Class FormDatosProyecto
 
             _proyectoBL.LoadCCostos(actividad)
 
-            btnShowAddCCosto.Visible = IIf(actividad.CCostos.Count > 0, True, False)
-            pnlAddCCostos.Visible = btnShowAddCCosto.Visible
-
             ''''''''' Bideo Cajas '''''''''''
             rtxtDescActividad.Text = actividad.Actividad
+            hfIdProyAct.Value = actividad.IdProyAct
+            hfIdProycomp.Value = actividad.IdProycomp
 
         End If
 
@@ -155,6 +154,62 @@ Public Class FormDatosProyecto
         rgCCostos.DataBind()
 
         
+
+    End Sub
+
+    Protected Sub btnAddCCosto_Click(sender As Object, e As EventArgs) Handles btnAddCCosto.Click
+        Dim ccosto = New CCostoDto()
+
+        ccosto.IdCCosto = 0
+        ccosto.NomElemGasto = radcbElementoGasto.Entries(0).Text
+        ccosto.IdElemGasto = radcbElementoGasto.Entries(0).Value
+        ccosto.IdProyAct = hfIdProyAct.Value
+        ccosto.Unidad = rtxtUnidad.Text
+        ccosto.Porcentaje = rntxtPorcentaje.Text
+
+        Dim IdProycomp = rgComponentes.SelectedValue
+        Dim idConvProy = rgConvenios.SelectedValue
+        Dim IdProyAct = rgActividades.SelectedValue
+
+        Dim proyecto As ProyectoDto = Cache.Get("proyecto")
+
+        Dim convenio = (From p In proyecto.Convenios
+                       Where p.IdConvProy.Equals(idConvProy)
+                       Select p).SingleOrDefault()
+
+
+        Dim componente = (From c In convenio.Componentes
+                         Where c.IdProyComp.Equals(IdProycomp)
+                         Select c).SingleOrDefault()
+
+        Dim actividad = (From act In componente.Actividades
+                        Where act.IdProyAct.Equals(IdProyAct)
+                        Select act).SingleOrDefault()
+
+        Dim existe = actividad.CCostos.Where(Function(c) c.IdElemGasto.Equals(ccosto.IdElemGasto) And c.IdProyAct.Equals(ccosto.IdProyAct))
+
+        If existe.Any() Then
+            rwmMessages.RadAlert("El Elemento de Gasto ya esta asociado a esta Actividad", 450, 120, "Mensaje", "rbShowAddCCosto_OnClientClicked()")
+        Else
+
+            Dim pdisponible = 100 - actividad.CCostos.Sum(Function(c) c.Porcentaje)
+
+            If ccosto.Porcentaje <= pdisponible Then
+                actividad.CCostos.Add(ccosto)
+                Cache.Insert("proyecto", proyecto)
+
+                radcbElementoGasto.Entries.Clear()
+                rtxtUnidad.Text = String.Empty
+                rntxtPorcentaje.Text = String.Empty
+                ScriptManager.RegisterStartupScript(Me, Me.GetType(), "123", "CloseAddCCosto();", True)
+            Else
+                rwmMessages.RadAlert("El Porcentaje ingresado excede el % disponible", 450, 120, "Mensaje", "rbShowAddCCosto_OnClientClicked()")
+            End If
+            
+        End If
+
+        rgCCostos.DataSource = actividad.CCostos
+        rgCCostos.DataBind()
 
     End Sub
 End Class

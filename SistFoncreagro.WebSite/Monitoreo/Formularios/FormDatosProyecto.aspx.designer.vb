@@ -230,15 +230,6 @@ Partial Public Class FormDatosProyecto
     Protected WithEvents rgActividades As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
-    '''Control btnShowAddCCosto.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnShowAddCCosto As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''Control rfdAddCCosto.
     '''</summary>
     '''<remarks>
@@ -354,6 +345,15 @@ Partial Public Class FormDatosProyecto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents rapGridCCostos As Global.Telerik.Web.UI.RadAjaxPanel
+
+    '''<summary>
+    '''Control btnShowAddCCosto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnShowAddCCosto As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control rgCCostos.

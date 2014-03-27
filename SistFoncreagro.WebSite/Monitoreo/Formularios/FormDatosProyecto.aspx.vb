@@ -150,6 +150,7 @@ Public Class FormDatosProyecto
 
         Cache.Insert("proyecto", proyecto)
 
+        btnShowAddCCosto.Visible = True
         rgCCostos.DataSource = actividad.CCostos
         rgCCostos.DataBind()
 
@@ -158,18 +159,22 @@ Public Class FormDatosProyecto
     End Sub
 
     Protected Sub btnAddCCosto_Click(sender As Object, e As EventArgs) Handles btnAddCCosto.Click
+
+        If radcbElementoGasto.Entries.Count = 0 Then rwmMessages.RadAlert("Seleccione un Elemento de Gasto", 400, 150, "Error", "") : Exit Sub
+        If rntxtPorcentaje.Text = "" Then rwmMessages.RadAlert("Ingrese el Porcentaje de Participacion", 400, 150, "Error", "") : Exit Sub
+
         Dim ccosto = New CCostoDto()
+        Dim msg = New StringBuilder()
+        Dim idProycomp = rgComponentes.SelectedValue
+        Dim idConvProy = rgConvenios.SelectedValue
+        Dim idProyAct = rgActividades.SelectedValue
 
         ccosto.IdCCosto = 0
         ccosto.NomElemGasto = radcbElementoGasto.Entries(0).Text
         ccosto.IdElemGasto = radcbElementoGasto.Entries(0).Value
+        ccosto.Porcentaje = rntxtPorcentaje.Text
         ccosto.IdProyAct = hfIdProyAct.Value
         ccosto.Unidad = rtxtUnidad.Text
-        ccosto.Porcentaje = rntxtPorcentaje.Text
-
-        Dim IdProycomp = rgComponentes.SelectedValue
-        Dim idConvProy = rgConvenios.SelectedValue
-        Dim IdProyAct = rgActividades.SelectedValue
 
         Dim proyecto As ProyectoDto = Cache.Get("proyecto")
 
@@ -179,17 +184,17 @@ Public Class FormDatosProyecto
 
 
         Dim componente = (From c In convenio.Componentes
-                         Where c.IdProyComp.Equals(IdProycomp)
+                         Where c.IdProyComp.Equals(idProycomp)
                          Select c).SingleOrDefault()
 
         Dim actividad = (From act In componente.Actividades
-                        Where act.IdProyAct.Equals(IdProyAct)
+                        Where act.IdProyAct.Equals(idProyAct)
                         Select act).SingleOrDefault()
 
         Dim existe = actividad.CCostos.Where(Function(c) c.IdElemGasto.Equals(ccosto.IdElemGasto) And c.IdProyAct.Equals(ccosto.IdProyAct))
 
         If existe.Any() Then
-            rwmMessages.RadAlert("El Elemento de Gasto ya esta asociado a esta Actividad", 450, 120, "Mensaje", "rbShowAddCCosto_OnClientClicked()")
+            rwmMessages.RadAlert("El Elemento de Gasto ya esta asociado a esta Actividad", 450, 150, "Mensaje", "rbShowAddCCosto_OnClientClicked()")
         Else
 
             Dim pdisponible = 100 - actividad.CCostos.Sum(Function(c) c.Porcentaje)
@@ -205,11 +210,18 @@ Public Class FormDatosProyecto
             Else
                 rwmMessages.RadAlert("El Porcentaje ingresado excede el % disponible", 450, 120, "Mensaje", "rbShowAddCCosto_OnClientClicked()")
             End If
-            
+
         End If
 
         rgCCostos.DataSource = actividad.CCostos
         rgCCostos.DataBind()
+    End Sub
 
+    Protected Sub rgCCostos_ItemCommand(sender As Object, e As Telerik.Web.UI.GridCommandEventArgs) Handles rgCCostos.ItemCommand
+        If e.CommandName = "editar" Then
+
+            rtxtUnidad.Text = e.CommandArgument.ToString()
+            rapShowAddCCosto.ResponseScripts.Add("rbShowAddCCosto_OnClientClicked();")
+        End If
     End Sub
 End Class

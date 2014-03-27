@@ -22,6 +22,11 @@
                     <telerik:AjaxUpdatedControl ControlID="rwShowAddCCosto" LoadingPanelID="RadAjaxLoadingPanel1"/>
                 </UpdatedControls>
             </telerik:AjaxSetting>
+            <telerik:AjaxSetting AjaxControlID="rgCCostos" EventName="ItemCommand">
+                <UpdatedControls>
+                    <telerik:AjaxUpdatedControl ControlID="rwShowAddCCosto" LoadingPanelID="RadAjaxLoadingPanel1"/>
+                </UpdatedControls>
+            </telerik:AjaxSetting>
             <telerik:AjaxSetting AjaxControlID="btnAddCCosto">
                 <UpdatedControls>
                     <telerik:AjaxUpdatedControl ControlID="rapGridCCostos" LoadingPanelID="RadAjaxLoadingPanel1"/>
@@ -180,10 +185,6 @@
                 </fieldset>
                 <fieldset>
                     <legend>Centros de Costo</legend>
-                    <div style="padding-bottom: 8px;">
-                        <asp:Button ID="btnShowAddCCosto" runat="server" Text="Agregar Centro de Costo" CssClass="btn btn-success" 
-                            OnClientClick="rbShowAddCCosto_OnClientClicked(); return false;"/>
-                    </div>
                     <telerik:RadFormDecorator ID="rfdAddCCosto" DecorationZoneID="fsAddCCosto" DecoratedControls="All" runat="server"/>
                          <telerik:RadWindow ID="rwShowAddCCosto" runat="server" Modal="True" Behaviors="Close"  
                          AutoSize="True" AutoSizeBehaviors="Width" Height="450px" >
@@ -215,18 +216,22 @@
                                <label>Unidad:</label>
                                <telerik:RadTextBox ID="rtxtUnidad" runat="server" Width="200px"/>
                                <label>Porcentaje</label>
-                               <telerik:RadNumericTextBox ID="rntxtPorcentaje" runat="server" MaxValue="100" 
-                                   MinValue="0" ShowSpinButtons="True" Type="Percent">
+                               <telerik:RadNumericTextBox ID="rntxtPorcentaje" runat="server" MaxValue="100"
+                                   MinValue="1" ShowSpinButtons="True" Type="Percent">
                                    <NumberFormat ZeroPattern="n %" />
                                </telerik:RadNumericTextBox>
                                <br/> <br/>
-                               <asp:Button ID="btnAddCCosto" Text="Agregar" CssClass="btn btn-info" runat="server" OnClick="btnAddCCosto_Click"/>
+                               <asp:Button ID="btnAddCCosto" Text="Agregar" CssClass="btn btn-info" runat="server" CausesValidation="True" ValidationGroup="ccosto" OnClick="btnAddCCosto_Click"/>
                                <asp:Button  ID="btnCloseAddCCosto" Text="Terminar" CssClass="btn btn-warning" OnClientClick="CloseAddCCosto(); return false;" runat="server"/>
                            </fieldset>
                            </telerik:RadAjaxPanel>
                          </ContentTemplate>
                      </telerik:RadWindow>
                    <telerik:RadAjaxPanel ID="rapGridCCostos" runat="server">
+                       <div style="padding-bottom: 8px;">
+                            <asp:Button ID="btnShowAddCCosto" runat="server" Text="Agregar Centro de Costo" CssClass="btn btn-success" 
+                                OnClientClick="rbShowAddCCosto_OnClientClicked(); return false;" Visible="False"/>
+                        </div> 
                     <telerik:RadGrid ID="rgCCostos" AutoGenerateColumns="False" CellPadding="0" GridLines="none" ShowFooter="True" runat="server">
                         <MasterTableView ClientDataKeyNames="IdCCosto" DataKeyNames="IdCCosto">
                             <Columns>
@@ -234,6 +239,13 @@
                                 <telerik:GridBoundColumn HeaderText="Elemento de Gasto" DataField="NomElemGasto"/>
                                 <telerik:GridBoundColumn HeaderText="Unidad" DataField="Unidad" FooterText="TOTAL"/>
                                 <telerik:GridBoundColumn HeaderText="Porcentaje" DataField="Porcentaje" Aggregate="Sum" DataType="System.Decimal" DataFormatString="{0:0,0.00}"/>
+                                <telerik:GridTemplateColumn>
+                                    <ItemTemplate>
+                                        <asp:ImageButton ID="btnUpdCCosto" ImageUrl="~/img/edit.gif" runat="server" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem,"IdElemGasto") %>'/> | 
+                                        <asp:ImageButton ID="btnDeleCCosto" ImageUrl="~/img/delete.gif" runat="server" CommandName="quitar" CommandArgument='<%# DataBinder.Eval(Container.DataItem,"IdElemGasto") %>'/>
+                                    </ItemTemplate>
+                                    <HeaderStyle Width="10%"/>
+                                </telerik:GridTemplateColumn>
                             </Columns>
                         </MasterTableView>
                     </telerik:RadGrid>
